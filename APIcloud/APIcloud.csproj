@@ -191,24 +191,24 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CommandStatus.cs" />
-    <Compile Include="CreateDelivery.cs" />
-    <Compile Include="CreateOrder.cs" />
-    <Compile Include="Discounts.cs" />
+    <Compile Include="Classes\CommandStatus.cs" />
+    <Compile Include="Classes\CreateDelivery.cs" />
+    <Compile Include="Classes\CreateOrder.cs" />
+    <Compile Include="Classes\Discounts.cs" />
     <Compile Include="Main.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Main.Designer.cs">
       <DependentUpon>Main.cs</DependentUpon>
     </Compile>
-    <Compile Include="Menus.cs" />
-    <Compile Include="OrderTypes.cs" />
-    <Compile Include="Organizations.cs" />
-    <Compile Include="SQL_DB.cs" />
-    <Compile Include="Tables.cs" />
-    <Compile Include="TerminalGroups.cs" />
-    <Compile Include="TokenKey.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="Classes\Menus.cs" />
+    <Compile Include="Classes\OrderTypes.cs" />
+    <Compile Include="Classes\Organizations.cs" />
+    <Compile Include="Classes\SQL_DB.cs" />
+    <Compile Include="Classes\Tables.cs" />
+    <Compile Include="Classes\TerminalGroups.cs" />
+    <Compile Include="Classes\TokenKey.cs" />
+    <Compile Include="Classes\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Main.resx">
       <DependentUpon>Main.cs</DependentUpon>
