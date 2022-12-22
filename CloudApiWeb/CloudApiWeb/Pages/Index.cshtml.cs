@@ -7,7 +7,9 @@ namespace CloudApiWeb.Pages
 {
     public class IndexModel : PageModel
     {
-        private readonly ILogger<IndexModel> _logger;
+        public string apiKey;
+
+        private readonly ILogger<IndexModel> _logger;        
 
         public IndexModel(ILogger<IndexModel> logger)
         {
@@ -16,7 +18,7 @@ namespace CloudApiWeb.Pages
 
         public void OnGet()
         {
-
+            apiKey = "1f9487e9-f30";
         }
         static int i = 1;
         static public int GG(int x, int y)
@@ -59,8 +61,8 @@ namespace CloudApiWeb.Pages
             {
                 public Guid correlationId { get; set; }
                 public string token { get; set; }
-            }
-        
+            }        
+
     }
 }
        
