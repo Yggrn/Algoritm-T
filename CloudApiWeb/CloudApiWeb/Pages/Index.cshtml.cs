@@ -8,6 +8,7 @@ namespace CloudApiWeb.Pages
     public class IndexModel : PageModel
     {
         public string apiKey;
+        public string bearertoken = null;
 
         private readonly ILogger<IndexModel> _logger;        
 
@@ -18,8 +19,14 @@ namespace CloudApiWeb.Pages
 
         public void OnGet()
         {
-            apiKey = "1f9487e9-f30";
+            apiKey = "1f9487e9-f30";            
         }
+
+        public void Submit()
+        {           
+            bearertoken = Get(Request.Form["apiValue"].ToString());
+        }
+
         static int i = 1;
         static public int GG(int x, int y)
         {
@@ -45,7 +52,7 @@ namespace CloudApiWeb.Pages
                 var httpResponse = (HttpWebResponse)httpRequest.GetResponse();
                 using var streamReader = new StreamReader(httpResponse.GetResponseStream());
                 var result = streamReader.ReadToEndAsync();
-                Token tkn = JsonConvert.DeserializeObject<Token>(result.Result);
+                Token tkn = JsonConvert.DeserializeObject<Token>(result.Result);                
                 return tkn.token;
             }
             catch (Exception ex)
@@ -54,8 +61,8 @@ namespace CloudApiWeb.Pages
             }
         }
 
-       
-            static public string bearertoken = string.Empty;
+
+        
 
             public class Token
             {

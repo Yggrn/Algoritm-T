@@ -2,19 +2,32 @@
 @model IndexModel
 @{
     ViewData["Title"] = "Home page";
+    string bearerToken = RefreshToken();
 }
 
 <div class="text-center">
     <h1 class="display-5">TEST</h1>
     <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
     <p>Hello! The time on the server is @DateTime.Now @IndexModel.GG(5,7)</p>
-    <input type="text" value="@Model.apiKey" name="apiString">
-    <input type="button" name="apiConfirm" value="Confirm" asp-page="Index" asp-page-handler="OnClick">
+    <form id="form1" runat="server" method="post">
+        <input type="text" id="apiValue" value="@Model.apiKey" name="apiString">
+        <input type="submit" name="apiConfirm" value="Confirm" formtarget="_parent">
+    </form>
+
+</div>
+
+
+
+<div class="text-left">    
     
-   
-</div>
-
-<div class="text-left">
-      <p>TOKEN: @IndexModel.Get("1f9487e9-f30")<br /></p>
+    <p>TOKEN: @bearerToken;</p>
 
 </div>
+
+@{
+    
+    string RefreshToken()
+    {
+        return Model.bearertoken;
+    }
+}
