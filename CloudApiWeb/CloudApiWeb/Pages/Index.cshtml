@@ -1,17 +1,17 @@
-﻿@page
+﻿@page "{handler?}"
 @model IndexModel
+
 @{
     ViewData["Title"] = "Home page";
     string bearerToken = RefreshToken();
 }
 
 <div class="text-center">
-    <h1 class="display-5">TEST</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-    <p>Hello! The time on the server is @DateTime.Now @IndexModel.GG(5,7)</p>
+    <h1 class="display-4">TEST</h1>
+    <p>Hello! The time on the server is @DateTime.Now</p>
     <form id="form1" runat="server" method="post">
         <input type="text" id="apiValue" value="@Model.apiKey" name="apiString">
-        <input type="submit" name="apiConfirm" value="Confirm" formtarget="_parent">
+        <input type="submit" name="apiConfirm" value="Confirm" asp-page-handler="Submit">
     </form>
 
 </div>
@@ -20,7 +20,7 @@
 
 <div class="text-left">    
     
-    <p>TOKEN: @bearerToken;</p>
+    <p>TOKEN: @bearerToken</p>
 
 </div>
 

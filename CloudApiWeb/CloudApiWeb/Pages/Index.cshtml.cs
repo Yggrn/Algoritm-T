@@ -21,18 +21,15 @@ namespace CloudApiWeb.Pages
         {
             apiKey = "1f9487e9-f30";            
         }
-
+         
+        
         public void Submit()
         {           
-            bearertoken = Get(Request.Form["apiValue"].ToString());
+           
         }
-
-        static int i = 1;
-        static public int GG(int x, int y)
+        public void OnPostSubmit()
         {
-            ; //?????
-            i++;
-            return x+y+i;
+            bearertoken= Get("1f9487e9-f30");
         }
         public static string Get(string token)
         {

@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\CloudApiWeb",
+    "\\CloudApiWeb\\CloudApiWeb",
+    "\\CloudApiWeb\\CloudApiWeb\\Pages"
   ],
-  "SelectedNode": "\\CloudApiWeb.sln",
+  "SelectedNode": "\\CloudApiWeb\\CloudApiWeb\\Pages\\Index.cshtml.cs",
   "PreviewInSolutionExplorer": false
 }
