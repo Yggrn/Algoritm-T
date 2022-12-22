@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\New\\source\\repos\\CloudApiWeb\\CloudApiWeb\\CloudApiWeb.csproj": {}
+    "C:\\Users\\nikit\\source\\repos\\Yggrn\\Algoritm-T\\CloudApiWeb\\CloudApiWeb\\CloudApiWeb.csproj": {}
   },
   "projects": {
-    "C:\\Users\\New\\source\\repos\\CloudApiWeb\\CloudApiWeb\\CloudApiWeb.csproj": {
+    "C:\\Users\\nikit\\source\\repos\\Yggrn\\Algoritm-T\\CloudApiWeb\\CloudApiWeb\\CloudApiWeb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\New\\source\\repos\\CloudApiWeb\\CloudApiWeb\\CloudApiWeb.csproj",
+        "projectUniqueName": "C:\\Users\\nikit\\source\\repos\\Yggrn\\Algoritm-T\\CloudApiWeb\\CloudApiWeb\\CloudApiWeb.csproj",
         "projectName": "CloudApiWeb",
-        "projectPath": "C:\\Users\\New\\source\\repos\\CloudApiWeb\\CloudApiWeb\\CloudApiWeb.csproj",
-        "packagesPath": "C:\\Users\\New\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\New\\source\\repos\\CloudApiWeb\\CloudApiWeb\\obj\\",
+        "projectPath": "C:\\Users\\nikit\\source\\repos\\Yggrn\\Algoritm-T\\CloudApiWeb\\CloudApiWeb\\CloudApiWeb.csproj",
+        "packagesPath": "C:\\Users\\nikit\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nikit\\source\\repos\\Yggrn\\Algoritm-T\\CloudApiWeb\\CloudApiWeb\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\New\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\nikit\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -45,6 +40,16 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.2, )"
