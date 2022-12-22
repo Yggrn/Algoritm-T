@@ -23,7 +23,7 @@ namespace CloudApiWeb.Pages
         static int i = 1;
         static public int GG(int x, int y)
         {
-            ;
+            ; //?????
             i++;
             return x+y+i;
         }
