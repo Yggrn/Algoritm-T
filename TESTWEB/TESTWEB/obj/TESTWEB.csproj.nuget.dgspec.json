@@ -47,7 +47,11 @@
           "dependencies": {
             "Microsoft.jQuery.Unobtrusive.Ajax": {
               "target": "Package",
-              "version": "[3.2.6, )"
+              "version": "[3.0.0, )"
+            },
+            "jQuery": {
+              "target": "Package",
+              "version": "[3.6.1, )"
             }
           },
           "imports": [

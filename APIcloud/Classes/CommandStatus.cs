@@ -46,7 +46,7 @@ namespace APIcloud
             httpRequest.Method = "POST";
             httpRequest.Headers["Authorization"] = "Bearer " + TokenKey.bearertoken;
             httpRequest.ContentType = "application/json";
-            var data = $"{{\"organizationId\":{JsonConvert.SerializeObject(Organizations.orgId[0].id)}, \"correlationId\": \"{correlationId}\", \"timeout\": 15}}";
+            var data = $"{{\"organizationId\":{JsonConvert.SerializeObject(Organizations.orgId[0].id)}, \"correlationId\": \"{correlationId}\", \"timeout\": 10}}";
             using (StreamWriter streamWriter = new(httpRequest.GetRequestStream()))
             {
                 streamWriter.Write(data);
@@ -58,8 +58,8 @@ namespace APIcloud
                 using var streamReader = new StreamReader(httpResponse.GetResponseStream());
                 var result = streamReader.ReadToEnd();
                 var Info = JsonConvert.DeserializeObject<Error>(result);
-                if (Info.state == "Success" || Info.state == "InProgress") return Info.state + " OK!";
-                else return Info.state.ToUpper() + Environment.NewLine + Info.exception.description + Environment.NewLine;
+                if (Info.state == "Success" || Info.state == "InProgress") return $"{DateTime.Now.ToString()} {Info.state} OK! {Environment.NewLine}";
+                else return $"{DateTime.Now.ToString()} {Info.state.ToUpper()} {Environment.NewLine} {Info.exception.description}{Environment.NewLine}";
             }
             catch (Exception ex)
             {

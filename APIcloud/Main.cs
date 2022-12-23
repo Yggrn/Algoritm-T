@@ -136,6 +136,8 @@ namespace APIcloud
             tbViewData.Text = "";
             try
             {
+                Enabled = false;
+                progressBar1.Visible = true;
                 await Task.Run(() => { TokenKey.Get(textBox1.Text); }); // Получение токена
                 Organizations.Get();
                 await Task.Run(() => { insertDB.InsertToDB(); }); // Запись БД из JSON
@@ -145,6 +147,8 @@ namespace APIcloud
                 notParentGroupTreeView();
                 SelectOrderTypes();
                 SelectDiscounts();
+                progressBar1.Visible = false;
+                Enabled= true;
             }
             catch (Exception ex)
             {
@@ -217,7 +221,7 @@ namespace APIcloud
                 }
             }
             string CID = CreateOrder.Create(GenerateOrder(productID, currentPrice));
-            tbViewData.Text += await Task.Run(() => CommandStatus.Get(CID))+ Environment.NewLine;
+            tbViewData.AppendText(await Task.Run(() => CommandStatus.Get(CID))+ Environment.NewLine);
             conn.Close();
         } // Создание заказа на стол
         public string GenerateOrder(string product, double currentP)
@@ -485,7 +489,7 @@ namespace APIcloud
                 }
             }
             string CID = CreateDelivery.Create(GenerateDelivery(productID, currentPrice));
-            tbViewData.Text += await Task.Run(() => CommandStatus.Get(CID))+ Environment.NewLine;
+            tbViewData.AppendText(await Task.Run(() => CommandStatus.Get(CID))+ Environment.NewLine);
             conn.Close();
         } // Создание доставочного заказа
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)

@@ -45,6 +45,13 @@
             this.checkDiscount = new System.Windows.Forms.CheckBox();
             this.tbSum = new System.Windows.Forms.TextBox();
             this.sum = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.progressBar1 = new System.Windows.Forms.ProgressBar();
             this.SuspendLayout();
             // 
             // textBox1
@@ -66,12 +73,11 @@
             // 
             // twMenu
             // 
-            this.twMenu.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.twMenu.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.twMenu.Font = new System.Drawing.Font("Arial", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.twMenu.Location = new System.Drawing.Point(665, 32);
+            this.twMenu.Location = new System.Drawing.Point(314, 32);
             this.twMenu.Name = "twMenu";
-            this.twMenu.Size = new System.Drawing.Size(278, 587);
+            this.twMenu.Size = new System.Drawing.Size(617, 567);
             this.twMenu.TabIndex = 2;
             this.twMenu.DoubleClick += new System.EventHandler(this.twMenu_DoubleClick);
             // 
@@ -98,22 +104,20 @@
             // 
             // tbViewData
             // 
-            this.tbViewData.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.tbViewData.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.tbViewData.Font = new System.Drawing.Font("Arial", 11F, System.Drawing.FontStyle.Bold);
-            this.tbViewData.Location = new System.Drawing.Point(10, 32);
+            this.tbViewData.Location = new System.Drawing.Point(3, 605);
             this.tbViewData.Multiline = true;
             this.tbViewData.Name = "tbViewData";
             this.tbViewData.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-            this.tbViewData.Size = new System.Drawing.Size(432, 587);
+            this.tbViewData.Size = new System.Drawing.Size(928, 169);
             this.tbViewData.TabIndex = 5;
             // 
             // cbOrganizations
             // 
             this.cbOrganizations.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbOrganizations.FormattingEnabled = true;
-            this.cbOrganizations.Location = new System.Drawing.Point(449, 64);
+            this.cbOrganizations.Location = new System.Drawing.Point(97, 32);
             this.cbOrganizations.Name = "cbOrganizations";
             this.cbOrganizations.Size = new System.Drawing.Size(211, 21);
             this.cbOrganizations.TabIndex = 6;
@@ -122,7 +126,7 @@
             // 
             this.cbTGroups.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbTGroups.FormattingEnabled = true;
-            this.cbTGroups.Location = new System.Drawing.Point(449, 90);
+            this.cbTGroups.Location = new System.Drawing.Point(97, 59);
             this.cbTGroups.Name = "cbTGroups";
             this.cbTGroups.Size = new System.Drawing.Size(211, 21);
             this.cbTGroups.TabIndex = 7;
@@ -132,7 +136,7 @@
             // 
             this.cbOrderTypes.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbOrderTypes.FormattingEnabled = true;
-            this.cbOrderTypes.Location = new System.Drawing.Point(449, 116);
+            this.cbOrderTypes.Location = new System.Drawing.Point(97, 86);
             this.cbOrderTypes.Name = "cbOrderTypes";
             this.cbOrderTypes.Size = new System.Drawing.Size(211, 21);
             this.cbOrderTypes.TabIndex = 8;
@@ -140,7 +144,7 @@
             // cbTables
             // 
             this.cbTables.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cbTables.Location = new System.Drawing.Point(449, 167);
+            this.cbTables.Location = new System.Drawing.Point(97, 138);
             this.cbTables.Name = "cbTables";
             this.cbTables.Size = new System.Drawing.Size(211, 21);
             this.cbTables.TabIndex = 9;
@@ -171,7 +175,7 @@
             // 
             this.cbDiscounts.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbDiscounts.FormattingEnabled = true;
-            this.cbDiscounts.Location = new System.Drawing.Point(449, 141);
+            this.cbDiscounts.Location = new System.Drawing.Point(97, 112);
             this.cbDiscounts.Margin = new System.Windows.Forms.Padding(2);
             this.cbDiscounts.Name = "cbDiscounts";
             this.cbDiscounts.Size = new System.Drawing.Size(211, 21);
@@ -180,7 +184,7 @@
             // checkDiscount
             // 
             this.checkDiscount.AutoSize = true;
-            this.checkDiscount.Location = new System.Drawing.Point(449, 38);
+            this.checkDiscount.Location = new System.Drawing.Point(17, 218);
             this.checkDiscount.Name = "checkDiscount";
             this.checkDiscount.Size = new System.Drawing.Size(86, 17);
             this.checkDiscount.TabIndex = 13;
@@ -189,7 +193,7 @@
             // 
             // tbSum
             // 
-            this.tbSum.Location = new System.Drawing.Point(600, 35);
+            this.tbSum.Location = new System.Drawing.Point(144, 215);
             this.tbSum.Name = "tbSum";
             this.tbSum.Size = new System.Drawing.Size(59, 20);
             this.tbSum.TabIndex = 14;
@@ -198,17 +202,90 @@
             // sum
             // 
             this.sum.AutoSize = true;
-            this.sum.Location = new System.Drawing.Point(565, 38);
+            this.sum.Location = new System.Drawing.Point(109, 218);
             this.sum.Name = "sum";
             this.sum.Size = new System.Drawing.Size(29, 13);
             this.sum.TabIndex = 15;
             this.sum.Text = "sum:";
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(12, 35);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(74, 13);
+            this.label3.TabIndex = 16;
+            this.label3.Text = "Organizations:";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(12, 62);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(85, 13);
+            this.label4.TabIndex = 17;
+            this.label4.Text = "Terminal groups:";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(12, 89);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(64, 13);
+            this.label5.TabIndex = 18;
+            this.label5.Text = "Order types:";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(12, 115);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(57, 13);
+            this.label6.TabIndex = 19;
+            this.label6.Text = "Discounts:";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(12, 141);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(42, 13);
+            this.label7.TabIndex = 20;
+            this.label7.Text = "Tables:";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(8, 586);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(33, 13);
+            this.label8.TabIndex = 21;
+            this.label8.Text = "Logs:";
+            // 
+            // progressBar1
+            // 
+            this.progressBar1.Cursor = System.Windows.Forms.Cursors.WaitCursor;
+            this.progressBar1.Location = new System.Drawing.Point(3, 559);
+            this.progressBar1.MarqueeAnimationSpeed = 20;
+            this.progressBar1.Name = "progressBar1";
+            this.progressBar1.Size = new System.Drawing.Size(305, 24);
+            this.progressBar1.Style = System.Windows.Forms.ProgressBarStyle.Marquee;
+            this.progressBar1.TabIndex = 22;
+            this.progressBar1.UseWaitCursor = true;
+            this.progressBar1.Visible = false;
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(950, 624);
+            this.ClientSize = new System.Drawing.Size(939, 779);
+            this.Controls.Add(this.progressBar1);
+            this.Controls.Add(this.label8);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.sum);
             this.Controls.Add(this.tbSum);
             this.Controls.Add(this.checkDiscount);
@@ -255,6 +332,13 @@
         private System.Windows.Forms.CheckBox checkDiscount;
         private System.Windows.Forms.TextBox tbSum;
         private System.Windows.Forms.Label sum;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.ProgressBar progressBar1;
     }
 }
 
