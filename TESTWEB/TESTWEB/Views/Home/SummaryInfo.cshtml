@@ -1,0 +1,23 @@
+﻿
+@{
+    ViewData["Title"] = "SummaryInfo";
+}
+@using (@Ajax.BeginForm("AjaxTest", new AjaxOptions() { UpdateTargetId = "myDiv" }))
+{
+    <div id="myDiv"><h2>Let AJAX change this text</h2></div>
+    <button type="submit">Ajax request</button>
+}
+
+    <h2>SummaryInfo</h2>
+<div id="time"></div>
+
+<div class="text-center">
+    <h1 class="display-4">All information</h1>
+    <button type="submit" asp-route-data="foo" asp-page-handler="Way2">Way 2</button>
+  
+</div>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("#time").text(new Date().toString());
+    });
+</script> 
