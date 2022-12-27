@@ -1,4 +1,5 @@
-﻿using Newtonsoft.Json;
+﻿using APIcloud.Classes;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -124,6 +125,51 @@ namespace APIcloud
             {
             }
         } // Загрузка из БД скидок
+        private void ParseLoyaltyProgamm()
+        {
+            var ls = JsonConvert.DeserializeObject<LoyaltySystem.LoyaltyProgamm>(LoyaltySystem.Get());
+            for (int i = 0; i < ls.Programs.Count; i++)
+            {
+                if (ls.Programs[i].isActive)
+                {
+                    switch (ls.Programs[i].programType)
+                    {
+                        case 0:
+                            tbCard.AppendText($"{ls.Programs[i].name} [Депозит / кор. пит]" +Environment.NewLine);
+                            break;
+                        case 1:
+                            tbCard.AppendText($"{ls.Programs[i].name} [Бонусная]" +Environment.NewLine);
+                            break;
+                        case 2:
+                            tbCard.AppendText($"{ls.Programs[i].name} [Продуктовая]" +Environment.NewLine);
+                            break;
+                        case 3:
+                            tbCard.AppendText($"{ls.Programs[i].name} [Скидочная]" +Environment.NewLine);
+                            break;
+                        case 4:
+                            tbCard.AppendText($"{ls.Programs[i].name} [Сертификат]" +Environment.NewLine);
+                            break;
+                        default:
+                            break;
+                    }
+                    
+                    tbCard.AppendText($"Период действия: {ls.Programs[i].serviceFrom} - {ls.Programs[i].serviceTo}"+Environment.NewLine);
+                    if (ls.Programs[i].hasWelcomeBonus) tbCard.AppendText($"WelcomeBonus: {ls.Programs[i].welcomeBonusSum}"+Environment.NewLine);
+                    tbCard.AppendText("Маркетинговые акции:"+ Environment.NewLine);
+                    for (int j = 0; j < ls.Programs[i].marketingCampaigns.Count; j++)
+                    {
+                        if (ls.Programs[i].marketingCampaigns[j].isActive)
+                        {
+                            tbCard.AppendText($"        -{ls.Programs[i].marketingCampaigns[j].name}"+Environment.NewLine);
+                            tbCard.AppendText($"        -{ls.Programs[i].marketingCampaigns[j].periodFrom} - {ls.Programs[i].marketingCampaigns[j].periodTo}"+Environment.NewLine);
+                       //     tbCard.AppendText($"-{ls.Programs[i].marketingCampaigns[j].name}"+Environment.NewLine);
+                        }
+                        
+                    }
+                }
+              
+            }
+          }
         private async void button1_Click(object sender, EventArgs e) // Выполнение методов для заполнения формы
         {
             insertDB.DropTable();
@@ -133,7 +179,8 @@ namespace APIcloud
             cbDiscounts.Items.Clear();
             cbTables.Items.Clear();
             twMenu.Nodes.Clear();
-            tbViewData.Text = "";
+            tbViewData.Clear();
+            tbCard.Clear(); 
             try
             {
                 Enabled = false;
@@ -147,6 +194,7 @@ namespace APIcloud
                 notParentGroupTreeView();
                 SelectOrderTypes();
                 SelectDiscounts();
+                ParseLoyaltyProgamm();
                 progressBar1.Visible = false;
                 Enabled= true;
             }
@@ -519,7 +567,7 @@ namespace APIcloud
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message, "BLA BLA BLA");
+                MessageBox.Show(ex.Message, "Error");
             }
         }  // Присвоение ID стола в переменную для передачи в заказ
         private void cbTGroups_SelectionChangeCommitted(object sender, EventArgs e)

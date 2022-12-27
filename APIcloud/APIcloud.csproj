@@ -195,6 +195,7 @@
     <Compile Include="Classes\CreateDelivery.cs" />
     <Compile Include="Classes\CreateOrder.cs" />
     <Compile Include="Classes\Discounts.cs" />
+    <Compile Include="Classes\LoyaltySystem.cs" />
     <Compile Include="Interfaces\InterfaceTest.cs" />
     <Compile Include="Main.cs">
       <SubType>Form</SubType>

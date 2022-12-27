@@ -52,6 +52,7 @@
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.progressBar1 = new System.Windows.Forms.ProgressBar();
+            this.tbCard = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // textBox1
@@ -75,9 +76,9 @@
             // 
             this.twMenu.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.twMenu.Font = new System.Drawing.Font("Arial", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.twMenu.Location = new System.Drawing.Point(314, 32);
+            this.twMenu.Location = new System.Drawing.Point(314, 31);
             this.twMenu.Name = "twMenu";
-            this.twMenu.Size = new System.Drawing.Size(617, 567);
+            this.twMenu.Size = new System.Drawing.Size(370, 567);
             this.twMenu.TabIndex = 2;
             this.twMenu.DoubleClick += new System.EventHandler(this.twMenu_DoubleClick);
             // 
@@ -106,11 +107,11 @@
             // 
             this.tbViewData.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.tbViewData.Font = new System.Drawing.Font("Arial", 11F, System.Drawing.FontStyle.Bold);
-            this.tbViewData.Location = new System.Drawing.Point(3, 605);
+            this.tbViewData.Location = new System.Drawing.Point(3, 604);
             this.tbViewData.Multiline = true;
             this.tbViewData.Name = "tbViewData";
             this.tbViewData.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-            this.tbViewData.Size = new System.Drawing.Size(928, 169);
+            this.tbViewData.Size = new System.Drawing.Size(681, 169);
             this.tbViewData.TabIndex = 5;
             // 
             // cbOrganizations
@@ -184,7 +185,7 @@
             // checkDiscount
             // 
             this.checkDiscount.AutoSize = true;
-            this.checkDiscount.Location = new System.Drawing.Point(17, 218);
+            this.checkDiscount.Location = new System.Drawing.Point(3, 536);
             this.checkDiscount.Name = "checkDiscount";
             this.checkDiscount.Size = new System.Drawing.Size(86, 17);
             this.checkDiscount.TabIndex = 13;
@@ -193,7 +194,7 @@
             // 
             // tbSum
             // 
-            this.tbSum.Location = new System.Drawing.Point(144, 215);
+            this.tbSum.Location = new System.Drawing.Point(130, 533);
             this.tbSum.Name = "tbSum";
             this.tbSum.Size = new System.Drawing.Size(59, 20);
             this.tbSum.TabIndex = 14;
@@ -202,7 +203,7 @@
             // sum
             // 
             this.sum.AutoSize = true;
-            this.sum.Location = new System.Drawing.Point(109, 218);
+            this.sum.Location = new System.Drawing.Point(95, 536);
             this.sum.Name = "sum";
             this.sum.Size = new System.Drawing.Size(29, 13);
             this.sum.TabIndex = 15;
@@ -274,11 +275,20 @@
             this.progressBar1.UseWaitCursor = true;
             this.progressBar1.Visible = false;
             // 
+            // tbCard
+            // 
+            this.tbCard.Location = new System.Drawing.Point(3, 165);
+            this.tbCard.Multiline = true;
+            this.tbCard.Name = "tbCard";
+            this.tbCard.Size = new System.Drawing.Size(305, 362);
+            this.tbCard.TabIndex = 23;
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(939, 779);
+            this.ClientSize = new System.Drawing.Size(689, 779);
+            this.Controls.Add(this.tbCard);
             this.Controls.Add(this.progressBar1);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
@@ -339,6 +349,7 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.ProgressBar progressBar1;
+        private System.Windows.Forms.TextBox tbCard;
     }
 }
 

@@ -9,6 +9,7 @@ namespace APIcloud
 {
     internal class CommandStatus
     {
+        #region CommandClasses
         public class Status
         {
             public string organizationId { get; set; }
@@ -27,7 +28,7 @@ namespace APIcloud
             public object additionalData { get; set; }
         }
 
-        public class Error
+        public class Request
         {
             public string state { get; set; }
             public Except exception { get; set; }
@@ -38,7 +39,7 @@ namespace APIcloud
             public string id { get; set; }
             public string name { get; set; }
         }
-
+        #endregion
         public static async Task<string> Get(string correlationId)
         {
             var url = "https://api-ru.iiko.services/api/1/commands/status";
@@ -46,7 +47,7 @@ namespace APIcloud
             httpRequest.Method = "POST";
             httpRequest.Headers["Authorization"] = "Bearer " + TokenKey.bearertoken;
             httpRequest.ContentType = "application/json";
-            var data = $"{{\"organizationId\":{JsonConvert.SerializeObject(Organizations.orgId[0].id)}, \"correlationId\": \"{correlationId}\", \"timeout\": 10}}";
+            var data = $"{{\"organizationId\":{JsonConvert.SerializeObject(Organizations.orgId[0].id)}, \"correlationId\": \"{correlationId}\"}}";
             using (StreamWriter streamWriter = new(httpRequest.GetRequestStream()))
             {
                 streamWriter.Write(data);
@@ -57,9 +58,9 @@ namespace APIcloud
                 var httpResponse = (HttpWebResponse)httpRequest.GetResponse();
                 using var streamReader = new StreamReader(httpResponse.GetResponseStream());
                 var result = streamReader.ReadToEnd();
-                var Info = JsonConvert.DeserializeObject<Error>(result);
-                if (Info.state == "Success" || Info.state == "InProgress") return $"{DateTime.Now.ToString()} {Info.state} OK! {Environment.NewLine}";
-                else return $"{DateTime.Now.ToString()} {Info.state.ToUpper()} {Environment.NewLine} {Info.exception.description}{Environment.NewLine}";
+                var Info = JsonConvert.DeserializeObject<Request>(result);
+                if (Info.state == "Success" || Info.state == "InProgress") return $"{DateTime.Now} {Info.state} OK! {Environment.NewLine}";
+                else return $"{DateTime.Now} {Info.state.ToUpper()} {Environment.NewLine} {Info.exception.description}{Environment.NewLine}";
             }
             catch (Exception ex)
             {
