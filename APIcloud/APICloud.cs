@@ -10,14 +10,17 @@ using System.Windows.Forms;
 
 namespace APIcloud
 {
-    public partial class Main : Form
+    public partial class APICloud : Form
     {
+        const string nullableSeqchildc = "SELECT * FROM orderTypes";
+        const string TID = "SELECT * FROM terminalGroups";
+        const string oID = "SELECT * FROM organizations";
         string tableID; // ID стола
         string productID; // ID блюда
         double currentPrice; // Цена выбранного блюда
         public string dataorder;
         readonly SQL_DB insertDB = new(); // Общий экземпляр класса для всех методов
-        public Main() => InitializeComponent();
+        public APICloud() => InitializeComponent();
         private void SelectGroups()
         {
             try
@@ -40,18 +43,32 @@ namespace APIcloud
             {
             }
         } // Заполнение дерева группами блюд, вызов метода PopulateTreeView для заполнениея блюдами в качестве дочерних элемнтов дерева
-        private void SelectTerminalGroups()
+        private void SelectTerminalGroups(string OrgID)
         {
             try
             {
                 var conn = new SQLiteConnection("Data Source=" + insertDB.dbName + ";Version=3;");
-                string getTerm = "SELECT * FROM terminalGroups";
-                SQLiteDataAdapter da2 = new(getTerm, conn);
-                DataTable dt2 = new();
-                da2.Fill(dt2);
-                foreach (DataRow dr in dt2.Rows)
+                string oID = "";
+                string tablesName = "SELECT * FROM organizations WHERE name=" + "'" + OrgID + "'";
+                SQLiteDataAdapter daTableName = new(tablesName, conn);
+                DataTable dtTableName = new();
+                daTableName.Fill(dtTableName);
+                foreach (DataRow item in dtTableName.Rows)
                 {
-                    cbTGroups.Items.Add(dr["name"].ToString());
+                    oID = item["id"].ToString();
+                }
+                string orgId = "SELECT * FROM terminalGroups WHERE organizationID=" + "'" + oID + "'";
+                SQLiteDataAdapter daTableId = new(orgId, conn);
+                DataTable dtTableId = new();
+                daTableId.Fill(dtTableId);
+
+                foreach (DataRow dr in dtTableId.Rows)
+                {
+                    cbTGroups.Items.Add($"{dr["name"]}");
+                }
+                if (cbTables.Items.Count != 0)
+                {
+                    cbTGroups.Text = cbTGroups.Items[0].ToString();
                 }
                 cbTGroups.Text = cbTGroups.Items[0].ToString();
                 SelectTables(cbTGroups.Text);
@@ -75,6 +92,7 @@ namespace APIcloud
                     cbOrganizations.Items.Add(dr["name"].ToString());
                 }
                 cbOrganizations.Text = cbOrganizations.Items[0].ToString();
+                SelectTerminalGroups(cbOrganizations.Text);
                 conn.Close();
             }
             catch (Exception)
@@ -127,49 +145,48 @@ namespace APIcloud
         } // Загрузка из БД скидок
         private void ParseLoyaltyProgamm()
         {
-            var ls = JsonConvert.DeserializeObject<LoyaltySystem.LoyaltyProgamm>(LoyaltySystem.Get());
-            for (int i = 0; i < ls.Programs.Count; i++)
+            var loyalty = JsonConvert.DeserializeObject<LoyaltySystem.LoyaltyProgamm>(LoyaltySystem.Get());
+            for (int i = 0; i < loyalty.Programs.Count; i++)
             {
-                if (ls.Programs[i].isActive)
+                if (loyalty.Programs[i].isActive)
                 {
-                    switch (ls.Programs[i].programType)
+                    switch (loyalty.Programs[i].programType)
                     {
                         case 0:
-                            tbCard.AppendText($"{ls.Programs[i].name} [Депозит / кор. пит]" +Environment.NewLine);
+                            tbCard.AppendText($"{loyalty.Programs[i].name} [Депозит / кор. пит]" +Environment.NewLine);
                             break;
                         case 1:
-                            tbCard.AppendText($"{ls.Programs[i].name} [Бонусная]" +Environment.NewLine);
+                            tbCard.AppendText($"{loyalty.Programs[i].name} [Бонусная]" +Environment.NewLine);
                             break;
                         case 2:
-                            tbCard.AppendText($"{ls.Programs[i].name} [Продуктовая]" +Environment.NewLine);
+                            tbCard.AppendText($"{loyalty.Programs[i].name} [Продуктовая]" +Environment.NewLine);
                             break;
                         case 3:
-                            tbCard.AppendText($"{ls.Programs[i].name} [Скидочная]" +Environment.NewLine);
+                            tbCard.AppendText($"{loyalty.Programs[i].name} [Скидочная]" +Environment.NewLine);
                             break;
                         case 4:
-                            tbCard.AppendText($"{ls.Programs[i].name} [Сертификат]" +Environment.NewLine);
+                            tbCard.AppendText($"{loyalty.Programs[i].name} [Сертификат]" +Environment.NewLine);
                             break;
                         default:
                             break;
                     }
-                    
-                    tbCard.AppendText($"Период действия: {ls.Programs[i].serviceFrom} - {ls.Programs[i].serviceTo}"+Environment.NewLine);
-                    if (ls.Programs[i].hasWelcomeBonus) tbCard.AppendText($"WelcomeBonus: {ls.Programs[i].welcomeBonusSum}"+Environment.NewLine);
+
+                    tbCard.AppendText($"Период действия: {loyalty.Programs[i].serviceFrom} - {loyalty.Programs[i].serviceTo}"+Environment.NewLine);
+                    if (loyalty.Programs[i].hasWelcomeBonus) tbCard.AppendText($"WelcomeBonus: {loyalty.Programs[i].welcomeBonusSum}"+Environment.NewLine);
                     tbCard.AppendText("Маркетинговые акции:"+ Environment.NewLine);
-                    for (int j = 0; j < ls.Programs[i].marketingCampaigns.Count; j++)
+                    for (int j = 0; j < loyalty.Programs[i].marketingCampaigns.Count; j++)
                     {
-                        if (ls.Programs[i].marketingCampaigns[j].isActive)
+                        if (loyalty.Programs[i].marketingCampaigns[j].isActive)
                         {
-                            tbCard.AppendText($"        -{ls.Programs[i].marketingCampaigns[j].name}"+Environment.NewLine);
-                            tbCard.AppendText($"        -{ls.Programs[i].marketingCampaigns[j].periodFrom} - {ls.Programs[i].marketingCampaigns[j].periodTo}"+Environment.NewLine);
-                       //     tbCard.AppendText($"-{ls.Programs[i].marketingCampaigns[j].name}"+Environment.NewLine);
+                            tbCard.AppendText($"        -{loyalty.Programs[i].marketingCampaigns[j].name}"+Environment.NewLine);
+                            tbCard.AppendText($"        -{loyalty.Programs[i].marketingCampaigns[j].periodFrom} - {loyalty.Programs[i].marketingCampaigns[j].periodTo}"+Environment.NewLine);
                         }
-                        
+
                     }
                 }
-              
+
             }
-          }
+        }
         private async void button1_Click(object sender, EventArgs e) // Выполнение методов для заполнения формы
         {
             insertDB.DropTable();
@@ -180,17 +197,16 @@ namespace APIcloud
             cbTables.Items.Clear();
             twMenu.Nodes.Clear();
             tbViewData.Clear();
-            tbCard.Clear(); 
+            tbCard.Clear();
             try
             {
                 Enabled = false;
                 progressBar1.Visible = true;
-                await Task.Run(() => { TokenKey.Get(textBox1.Text); }); // Получение токена
+                await Task.Run(() => { TokenKey.Get(token.Text); }); // Получение токена
                 Organizations.Get();
                 await Task.Run(() => { insertDB.InsertToDB(); }); // Запись БД из JSON
                 SelectOrganization();
                 SelectGroups();
-                SelectTerminalGroups();
                 notParentGroupTreeView();
                 SelectOrderTypes();
                 SelectDiscounts();
@@ -204,7 +220,7 @@ namespace APIcloud
             }
             btnCreateOrder.Enabled = true;
             btnCreateDelivery.Enabled = true;
-        } 
+        }
         private void PopulateTreeView(string parentId, TreeNode parentNode)
         {
             var conn = new SQLiteConnection("Data Source=" + insertDB.dbName + ";Version=3;");
@@ -272,36 +288,26 @@ namespace APIcloud
             tbViewData.AppendText(await Task.Run(() => CommandStatus.Get(CID))+ Environment.NewLine);
             conn.Close();
         } // Создание заказа на стол
-        public string GenerateOrder(string product, double currentP)
+        private string GetIdfromDB(string data, string cb)
         {
             var conn = new SQLiteConnection("Data Source=" + insertDB.dbName + ";Version=3;");
             conn.Open();
-            string nullableSeqchildc = "SELECT * FROM orderTypes";
-            SQLiteDataAdapter dachildmnuc2 = new(nullableSeqchildc, conn);
-            DataTable dtchildc2 = new();
-            dachildmnuc2.Fill(dtchildc2);
-            string str = null;
-            foreach (DataRow dr in dtchildc2.Rows)
+            SQLiteDataAdapter dachildmnuc3 = new(data, conn);
+            DataTable dtchildc3 = new();
+            dachildmnuc3.Fill(dtchildc3);
+            string ID = null;
+            foreach (DataRow dr in dtchildc3.Rows)
             {
-                for (int i = 0; i < dtchildc2.Rows.Count; i++)
-                {
-                    if (dr["name"].ToString() == cbOrderTypes.Text) str = dr["id"].ToString();
-                }
+                if (dr["name"].ToString() == cb) ID = dr["id"].ToString();
             }
-            string TID = "SELECT * FROM terminalGroups";
 
-            SQLiteDataAdapter daTID = new(TID, conn);
-            DataTable dtTID = new();
-            daTID.Fill(dtTID);
-            string strID = null;
-            foreach (DataRow dr in dtTID.Rows)
-            {
-                for (int i = 0; i < dtchildc2.Rows.Count; i++)
-                {
-                    if (dr["name"].ToString() == cbTGroups.Text) strID = dr["id"].ToString();
-                }
-            }
-            conn.Close();
+            return ID;
+        }
+        private string GenerateOrder(string product, double currentP)
+        {
+            string strID = GetIdfromDB(TID, cbTGroups.Text);
+            string str = GetIdfromDB(nullableSeqchildc, cbOrderTypes.Text);
+            string strOrgId = GetIdfromDB(oID, cbOrganizations.Text);
             List<CreateOrder.Item> item1 = new()
             {
                 new CreateOrder.Item
@@ -322,7 +328,7 @@ namespace APIcloud
             };
             CreateOrder.Item.OrderCreate newOrder = new()
             {
-                organizationId = Organizations.orgId[0].id.ToString(),
+                organizationId = strOrgId,
                 terminalGroupId = strID,
                 order = new CreateOrder.Item.Order
                 {
@@ -364,34 +370,16 @@ namespace APIcloud
         {
             try
             {
-                var conn = new SQLiteConnection("Data Source=" + insertDB.dbName + ";Version=3;");
-                conn.Open();
-                string nullableSeqchildc = "SELECT * FROM orderTypes";
-                SQLiteDataAdapter dachildmnuc2 = new(nullableSeqchildc, conn);
-                DataTable dtchildc2 = new();
-                dachildmnuc2.Fill(dtchildc2);
-                string str = null;
-                foreach (DataRow dr in dtchildc2.Rows)
-                {
-                    if (dr["name"].ToString() == cbOrderTypes.Text) str = dr["id"].ToString();
-                }
-                string TID = "SELECT * FROM terminalGroups";
 
-                SQLiteDataAdapter daTID = new(TID, conn);
-                DataTable dtTID = new();
-                daTID.Fill(dtTID);
-                string strID = null;
-                foreach (DataRow dr in dtTID.Rows)
-                {
-                    for (int i = 0; i < dtchildc2.Rows.Count; i++)
-                    {
-                        if (dr["name"].ToString() == cbTGroups.Text) strID = dr["id"].ToString();
-                    }
-                }
+                string strID = GetIdfromDB(TID, cbTGroups.Text);
+                string str = GetIdfromDB(nullableSeqchildc, cbOrderTypes.Text);
+                string strOrgId = GetIdfromDB(oID, cbOrganizations.Text);
                 List<CreateDelivery.Discount> DC = new();
                 string strDC = null;
                 if (checkDiscount.Checked)
                 {
+                    var conn = new SQLiteConnection("Data Source=" + insertDB.dbName + ";Version=3;");
+                    conn.Open();
                     string DCuont = "SELECT * FROM discounts";
                     SQLiteDataAdapter daDC = new(DCuont, conn);
                     DataTable dtDC = new();
@@ -411,9 +399,11 @@ namespace APIcloud
                         sum = Convert.ToDouble(tbSum.Text),
                         type = "RMS"
                     }
+
                 };
+                    conn.Close();
                 }
-                conn.Close();
+
                 List<CreateDelivery.Item> item1 = new()
                 {
                     new CreateDelivery.Item
@@ -430,7 +420,7 @@ namespace APIcloud
 
                 CreateDelivery.DeliveryCreate newOrder = new()
                 {
-                    organizationId = Organizations.orgId[0].id.ToString(),
+                    organizationId = strOrgId,
                     terminalGroupId = strID,
                     createOrderSettings = null,
                     order = new CreateDelivery.Order
@@ -470,6 +460,7 @@ namespace APIcloud
         } // Заполнение доставочного заказа
         private void SelectTables(string TName)
         {
+            cbTables.Items.Clear();
             var conn = new SQLiteConnection("Data Source=" + insertDB.dbName + ";Version=3;");
             string TID = "";
             string tablesName = "SELECT * FROM terminalGroups WHERE name=" + "'" + TName + "'";
@@ -487,7 +478,7 @@ namespace APIcloud
 
             foreach (DataRow dr in dtTableId.Rows)
             {
-                cbTables.Items.Add($"Table: {dr["tablenumber"].ToString()}  [{dr["sectionname"].ToString()}]");
+                cbTables.Items.Add($"Table: {dr["tablenumber"]}  [{dr["sectionname"]}]");
             }
             if (cbTables.Items.Count != 0)
             {
@@ -575,5 +566,10 @@ namespace APIcloud
             cbTables.Items.Clear();
             SelectTables(cbTGroups.Text);
         } // Обновление списка столов
+        private void cbOrganizations_SelectionChangeCommitted(object sender, EventArgs e)
+        {
+            cbTGroups.Items.Clear();
+            SelectTerminalGroups(cbOrganizations.Text);
+        } // Обновление списка Терминалов
     }
 }

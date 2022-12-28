@@ -197,11 +197,11 @@
     <Compile Include="Classes\Discounts.cs" />
     <Compile Include="Classes\LoyaltySystem.cs" />
     <Compile Include="Interfaces\InterfaceTest.cs" />
-    <Compile Include="Main.cs">
+    <Compile Include="APICloud.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Main.Designer.cs">
-      <DependentUpon>Main.cs</DependentUpon>
+    <Compile Include="APICloud.Designer.cs">
+      <DependentUpon>APICloud.cs</DependentUpon>
     </Compile>
     <Compile Include="Classes\Menus.cs" />
     <Compile Include="Classes\OrderTypes.cs" />
@@ -212,8 +212,8 @@
     <Compile Include="Classes\TokenKey.cs" />
     <Compile Include="Classes\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Main.resx">
-      <DependentUpon>Main.cs</DependentUpon>
+    <EmbeddedResource Include="APICloud.resx">
+      <DependentUpon>APICloud.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

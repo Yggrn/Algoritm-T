@@ -1,6 +1,6 @@
 ﻿namespace APIcloud
 {
-    partial class Main
+    partial class APICloud
     {
         /// <summary>
         /// Обязательная переменная конструктора.
@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Main));
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(APICloud));
+            this.token = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.twMenu = new System.Windows.Forms.TreeView();
             this.btnGetData = new System.Windows.Forms.Button();
@@ -55,13 +55,13 @@
             this.tbCard = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
-            // textBox1
+            // token
             // 
-            this.textBox1.Location = new System.Drawing.Point(76, 6);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(95, 20);
-            this.textBox1.TabIndex = 0;
-            this.textBox1.Text = "1f9487e9-f30";
+            this.token.Location = new System.Drawing.Point(76, 6);
+            this.token.Name = "token";
+            this.token.Size = new System.Drawing.Size(95, 20);
+            this.token.TabIndex = 0;
+            this.token.Text = "1f9487e9-f30";
             // 
             // label1
             // 
@@ -122,6 +122,7 @@
             this.cbOrganizations.Name = "cbOrganizations";
             this.cbOrganizations.Size = new System.Drawing.Size(211, 21);
             this.cbOrganizations.TabIndex = 6;
+            this.cbOrganizations.SelectionChangeCommitted += new System.EventHandler(this.cbOrganizations_SelectionChangeCommitted);
             // 
             // cbTGroups
             // 
@@ -277,13 +278,15 @@
             // 
             // tbCard
             // 
+            this.tbCard.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.tbCard.Location = new System.Drawing.Point(3, 165);
             this.tbCard.Multiline = true;
             this.tbCard.Name = "tbCard";
+            this.tbCard.ScrollBars = System.Windows.Forms.ScrollBars.Both;
             this.tbCard.Size = new System.Drawing.Size(305, 362);
             this.tbCard.TabIndex = 23;
             // 
-            // Main
+            // APICloud
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -311,10 +314,10 @@
             this.Controls.Add(this.btnGetData);
             this.Controls.Add(this.twMenu);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.token);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "Main";
+            this.Name = "APICloud";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "API Cloud";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
@@ -326,7 +329,7 @@
 
         #endregion
 
-        public System.Windows.Forms.TextBox textBox1;
+        public System.Windows.Forms.TextBox token;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TreeView twMenu;
         private System.Windows.Forms.Button btnGetData;

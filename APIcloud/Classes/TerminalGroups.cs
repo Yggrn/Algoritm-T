@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using System.Net;
 using System.Windows.Forms;
 
@@ -28,6 +29,13 @@ namespace APIcloud
             public string organizationId { get; set; }
         }
         #endregion
+        
+        private static List<string> GetDataOrg ()
+        {
+            List<string> str = new List<string>();
+            str = Organizations.orgId.Select(x => x.id).ToList();
+            return str;
+        }
         public static string Get()
         {
             var url = "https://api-ru.iiko.services/api/1/terminal_groups";
@@ -35,7 +43,7 @@ namespace APIcloud
             httpRequest.Method = "POST";
             httpRequest.Headers["Authorization"] = "Bearer " + TokenKey.bearertoken;
             httpRequest.ContentType = "application/json";
-            var data = $"{{\"organizationIds\":[{JsonConvert.SerializeObject(Organizations.orgId[0].id)}], \"includeDisabled\": true}}";
+            var data = $"{{\"organizationIds\":{JsonConvert.SerializeObject(GetDataOrg())}, \"includeDisabled\": true}}";
             using (StreamWriter streamWriter = new(httpRequest.GetRequestStream()))
             {
                 streamWriter.Write(data);

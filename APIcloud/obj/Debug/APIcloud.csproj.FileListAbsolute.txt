@@ -54,7 +54,6 @@ C:\Users\New\source\repos\Yggrn\Algoritm-T\APIcloud\bin\Debug\System.Data.SQLite
 C:\Users\New\source\repos\Yggrn\Algoritm-T\APIcloud\bin\Debug\System.Diagnostics.DiagnosticSource.xml
 C:\Users\New\source\repos\Yggrn\Algoritm-T\APIcloud\obj\Debug\APIcloud.csproj.AssemblyReference.cache
 C:\Users\New\source\repos\Yggrn\Algoritm-T\APIcloud\obj\Debug\APIcloud.csproj.SuggestedBindingRedirects.cache
-C:\Users\New\source\repos\Yggrn\Algoritm-T\APIcloud\obj\Debug\APIcloud.Main.resources
 C:\Users\New\source\repos\Yggrn\Algoritm-T\APIcloud\obj\Debug\APIcloud.Properties.Resources.resources
 C:\Users\New\source\repos\Yggrn\Algoritm-T\APIcloud\obj\Debug\APIcloud.csproj.GenerateResource.cache
 C:\Users\New\source\repos\Yggrn\Algoritm-T\APIcloud\obj\Debug\APIcloud.csproj.CoreCompileInputs.cache
@@ -62,3 +61,4 @@ C:\Users\New\source\repos\Yggrn\Algoritm-T\APIcloud\obj\Debug\APIcloud.csproj.Fo
 C:\Users\New\source\repos\Yggrn\Algoritm-T\APIcloud\obj\Debug\APIcloud.csproj.CopyComplete
 C:\Users\New\source\repos\Yggrn\Algoritm-T\APIcloud\obj\Debug\APIcloud.exe
 C:\Users\New\source\repos\Yggrn\Algoritm-T\APIcloud\obj\Debug\APIcloud.pdb
+C:\Users\New\source\repos\Yggrn\Algoritm-T\APIcloud\obj\Debug\APIcloud.APICloud.resources
