@@ -32,12 +32,8 @@ namespace APIcloud
                 conn.Open();
                 da.Fill(dt);
                 twMenu.Nodes.Clear();
-                
-                //TreeNode childNode1;
                 foreach (DataRow dr in dt.Rows)
                 {
-
-                    
                     if (dr["parentGroup"].ToString() == "NULL")
                     {
                         var parentNode = twMenu.Nodes.Add(dr["name"].ToString());
@@ -220,7 +216,7 @@ namespace APIcloud
                 await Task.Run(() => { insertDB.InsertToDB(); }); // Запись БД из JSON
                 SelectOrganization();
                 SelectGroups();
-                //notParentGroupTreeView();
+                notParentGroupTreeView();
                 SelectOrderTypes();
                 SelectDiscounts();
                 ParseLoyaltyProgamm();
@@ -237,90 +233,66 @@ namespace APIcloud
         private void PopulateTreeView(string parentId, TreeNode parentNode)
         {
             var conn = new SQLiteConnection("Data Source=" + insertDB.dbName + ";Version=3;");
-            //string Seqchildc = "SELECT id,name, parentGroup FROM products WHERE parentGroup=" + "'" + parentId + "'" + "";
             string Seqchildc = "SELECT id,name, parentGroup FROM products";
             string Groups = "SELECT id,name, parentGroup FROM groups";
-
-            SQLiteDataAdapter dachildmnuc2 = new(Groups, conn);
-            DataTable dtchildc2 = new();
-            SQLiteDataAdapter dachildmnuc = new(Seqchildc, conn);
-            DataTable dtchildc = new();
-            //conn.Open();
-            dachildmnuc.Fill(dtchildc);
-            TreeNode childNode;
-
             conn.Open();
-            dachildmnuc2.Fill(dtchildc2);
+            SQLiteDataAdapter groups = new(Groups, conn);
+            DataTable dtGroups = new();
+            SQLiteDataAdapter products = new(Seqchildc, conn);
+            DataTable dtProducts = new();
+            groups.Fill(dtGroups);
+            products.Fill(dtProducts);
             TreeNode childNode1;
             TreeNode childNode2;
-            foreach (DataRow dr in dtchildc2.Rows)
+            foreach (DataRow dr in dtGroups.Rows)
             {
                 if (parentId == dr["parentGroup"].ToString())
                 {
                     childNode1 = parentNode.Nodes.Add(dr["name"].ToString());
                     PopulateTreeView(dr["name"].ToString(), childNode1);
-                    foreach (DataRow dr2 in dtchildc.Rows)
+                    foreach (DataRow dr2 in dtProducts.Rows)
                     {
                         if (dr2["parentGroup"].ToString() == dr["id"].ToString())
                         {
                             childNode2 = childNode1.Nodes.Add(dr2["name"].ToString());
                             PopulateTreeView(dr2["name"].ToString(), childNode2);
                         }
-
                     }
-                    
-                }
-                else
-                {
-                    foreach (DataRow dr2 in dtchildc.Rows)
-                    {
-                        if (dr2["parentGroup"].ToString() == dr["id"].ToString())
-                        {
-                            childNode = parentNode.Nodes.Add(dr2["name"].ToString());
-                            PopulateTreeView(dr2["name"].ToString(), childNode);
-                        }
-                        //if (parentNode == null)
-                        //    childNode = twMenu.Nodes.Add(dr["name"].ToString());
-                        //else
-                    }
-                }
-
+                 }
              }
-
-
-            //else 
-            //    childNode1 = parentNode.Nodes.Add(dr["name"].ToString());
-            //PopulateTreeView(dr["name"].ToString(), childNode1);
-
-
-
-
-
+            foreach (DataRow dr in dtProducts.Rows)
+            {
+                if (parentId == dr["parentGroup"].ToString())
+                {
+                    childNode1 = parentNode.Nodes.Add(dr["name"].ToString());
+                    PopulateTreeView(dr["name"].ToString(), childNode1);
+                }
+            }
             conn.Close();
         }
-        //private void notParentGroupTreeView()
-        //{
-        //    try
-        //    {
-        //        var conn = new SQLiteConnection("Data Source=" + insertDB.dbName + ";Version=3;");
-        //        string nullableSeqchildc = "SELECT * FROM products WHERE parentGroup='NULL'";
-        //        conn.Open();
-        //        SQLiteDataAdapter dachildmnuc2 = new(nullableSeqchildc, conn);
-        //        DataTable dtchildc2 = new();
-        //        dachildmnuc2.Fill(dtchildc2);
-        //        foreach (DataRow dr in dtchildc2.Rows)
-        //        {
-        //            if (!twMenu.Nodes.Equals(dr["name"]))
-        //            {
-        //                twMenu.Nodes.Add(dr["name"].ToString());
-        //            }
-        //        }
-        //        conn.Close();
-        //    }
-        //    catch (Exception)
-        //    {
-        //    }
-        //}
+        private void notParentGroupTreeView()
+        {
+            try
+            {
+                var conn = new SQLiteConnection("Data Source=" + insertDB.dbName + ";Version=3;");
+                string nullableSeqchildc = "SELECT * FROM products WHERE parentGroup='NULL'";
+                conn.Open();
+                SQLiteDataAdapter dachildmnuc2 = new(nullableSeqchildc, conn);
+                DataTable dtchildc2 = new();
+                dachildmnuc2.Fill(dtchildc2);
+                foreach (DataRow dr in dtchildc2.Rows)
+                {
+                    if (!twMenu.Nodes.Equals(dr["name"]))
+                    {
+                        twMenu.Nodes.Add(dr["name"].ToString());
+                    }
+                }
+                conn.Close();
+            }
+            catch (Exception)
+            {
+            }
+        }
         private async void btnCreateOrder_Click(object sender, EventArgs e)
         {
             var conn = new SQLiteConnection("Data Source=" + insertDB.dbName + ";Version=3;");
