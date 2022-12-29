@@ -76,7 +76,7 @@
             // 
             this.twMenu.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.twMenu.Font = new System.Drawing.Font("Arial", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.twMenu.Location = new System.Drawing.Point(314, 31);
+            this.twMenu.Location = new System.Drawing.Point(316, 32);
             this.twMenu.Name = "twMenu";
             this.twMenu.Size = new System.Drawing.Size(370, 567);
             this.twMenu.TabIndex = 2;
@@ -107,7 +107,7 @@
             // 
             this.tbViewData.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.tbViewData.Font = new System.Drawing.Font("Arial", 11F, System.Drawing.FontStyle.Bold);
-            this.tbViewData.Location = new System.Drawing.Point(3, 604);
+            this.tbViewData.Location = new System.Drawing.Point(5, 605);
             this.tbViewData.Multiline = true;
             this.tbViewData.Name = "tbViewData";
             this.tbViewData.ScrollBars = System.Windows.Forms.ScrollBars.Both;
@@ -290,7 +290,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(689, 779);
+            this.ClientSize = new System.Drawing.Size(693, 779);
             this.Controls.Add(this.tbCard);
             this.Controls.Add(this.progressBar1);
             this.Controls.Add(this.label8);

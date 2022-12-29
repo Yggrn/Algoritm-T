@@ -65,7 +65,7 @@ namespace APIcloud
                 "name TEXT, persent TEXT)";
                 command.ExecuteNonQuery();
                 command.CommandText = $"CREATE TABLE IF NOT EXISTS groups (id TEXT PRIMARY KEY, " +
-                "name TEXT, isDeleted TEXT, isGroupModifier TEXT)";
+                "name TEXT, isDeleted TEXT, isGroupModifier TEXT, parentGroup TEXT)";
                 command.ExecuteNonQuery();
                 command.CommandText = "CREATE TABLE IF NOT EXISTS productCategories (id TEXT PRIMARY KEY, " +
                 "name TEXT)";
@@ -102,13 +102,15 @@ namespace APIcloud
                 var orderTypes = JsonConvert.DeserializeObject<Menus.RootOrderTypes>(OrderTypes.Get());
                 try
                 {
-                    SQLiteCommand sqlgroups = new(@"INSERT INTO groups('id', 'name', 'isDeleted', 'isGroupModifier') values (@id, @name, @isDeleted, @isGroupModifier)", db);
+                    SQLiteCommand sqlgroups = new(@"INSERT INTO groups('id', 'name', 'isDeleted', 'isGroupModifier', 'parentGroup') values (@id, @name, @isDeleted, @isGroupModifier, @parentGroup)", db);
                     foreach (var grp in menu.groups)
                     {
                         sqlgroups.Parameters.AddWithValue("@id", grp.id);
                         sqlgroups.Parameters.Add("@name", DbType.String).Value = grp.name;
                         sqlgroups.Parameters.Add("@isDeleted", DbType.String).Value = grp.isDeleted.ToString();
                         sqlgroups.Parameters.Add("@isGroupModifier", DbType.String).Value = grp.isGroupModifier.ToString();
+                        if (grp.parentGroup != null) sqlgroups.Parameters.Add("@parentGroup", DbType.String).Value = grp.parentGroup.ToString(); 
+                        else sqlgroups.Parameters.Add("@parentGroup", DbType.String).Value = "NULL";
                         sqlgroups.ExecuteNonQuery();
                     }
                     SQLiteCommand sqlproductCategories = new(@"INSERT INTO productCategories ('id', 'name') values (@id, @name)", db);

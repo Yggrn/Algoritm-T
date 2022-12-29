@@ -114,7 +114,7 @@ namespace APIcloud.Classes
                 var httpResponse = (HttpWebResponse)httpRequest.GetResponse();
                 using var streamReader = new StreamReader(httpResponse.GetResponseStream());
                 var result = streamReader.ReadToEnd();
-                return result;
+               return result;
             }
             catch (Exception ex)
             {
