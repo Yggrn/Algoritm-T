@@ -57,20 +57,18 @@
             // 
             // token
             // 
-            this.token.Location = new System.Drawing.Point(101, 7);
-            this.token.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.token.Location = new System.Drawing.Point(76, 6);
             this.token.Name = "token";
-            this.token.Size = new System.Drawing.Size(125, 22);
+            this.token.Size = new System.Drawing.Size(95, 20);
             this.token.TabIndex = 0;
             this.token.Text = "1f9487e9-f30";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(16, 11);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(12, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(73, 16);
+            this.label1.Size = new System.Drawing.Size(61, 13);
             this.label1.TabIndex = 1;
             this.label1.Text = "API Token:";
             // 
@@ -78,19 +76,17 @@
             // 
             this.twMenu.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.twMenu.Font = new System.Drawing.Font("Arial", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.twMenu.Location = new System.Drawing.Point(425, 39);
-            this.twMenu.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.twMenu.Location = new System.Drawing.Point(319, 32);
             this.twMenu.Name = "twMenu";
-            this.twMenu.Size = new System.Drawing.Size(706, 697);
+            this.twMenu.Size = new System.Drawing.Size(530, 567);
             this.twMenu.TabIndex = 2;
             this.twMenu.DoubleClick += new System.EventHandler(this.twMenu_DoubleClick);
             // 
             // btnGetData
             // 
-            this.btnGetData.Location = new System.Drawing.Point(235, 7);
-            this.btnGetData.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnGetData.Location = new System.Drawing.Point(176, 6);
             this.btnGetData.Name = "btnGetData";
-            this.btnGetData.Size = new System.Drawing.Size(100, 25);
+            this.btnGetData.Size = new System.Drawing.Size(75, 20);
             this.btnGetData.TabIndex = 3;
             this.btnGetData.Text = "GET";
             this.btnGetData.UseVisualStyleBackColor = true;
@@ -99,10 +95,9 @@
             // btnCreateOrder
             // 
             this.btnCreateOrder.Enabled = false;
-            this.btnCreateOrder.Location = new System.Drawing.Point(341, 7);
-            this.btnCreateOrder.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnCreateOrder.Location = new System.Drawing.Point(256, 6);
             this.btnCreateOrder.Name = "btnCreateOrder";
-            this.btnCreateOrder.Size = new System.Drawing.Size(100, 25);
+            this.btnCreateOrder.Size = new System.Drawing.Size(75, 20);
             this.btnCreateOrder.TabIndex = 4;
             this.btnCreateOrder.Text = "Create Order";
             this.btnCreateOrder.UseVisualStyleBackColor = true;
@@ -112,22 +107,20 @@
             // 
             this.tbViewData.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.tbViewData.Font = new System.Drawing.Font("Arial", 11F, System.Drawing.FontStyle.Bold);
-            this.tbViewData.Location = new System.Drawing.Point(16, 744);
-            this.tbViewData.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tbViewData.Location = new System.Drawing.Point(12, 604);
             this.tbViewData.Multiline = true;
             this.tbViewData.Name = "tbViewData";
             this.tbViewData.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-            this.tbViewData.Size = new System.Drawing.Size(1115, 207);
+            this.tbViewData.Size = new System.Drawing.Size(837, 169);
             this.tbViewData.TabIndex = 5;
             // 
             // cbOrganizations
             // 
             this.cbOrganizations.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbOrganizations.FormattingEnabled = true;
-            this.cbOrganizations.Location = new System.Drawing.Point(129, 39);
-            this.cbOrganizations.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cbOrganizations.Location = new System.Drawing.Point(97, 32);
             this.cbOrganizations.Name = "cbOrganizations";
-            this.cbOrganizations.Size = new System.Drawing.Size(280, 24);
+            this.cbOrganizations.Size = new System.Drawing.Size(211, 21);
             this.cbOrganizations.TabIndex = 6;
             this.cbOrganizations.SelectionChangeCommitted += new System.EventHandler(this.cbOrganizations_SelectionChangeCommitted);
             // 
@@ -135,10 +128,9 @@
             // 
             this.cbTGroups.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbTGroups.FormattingEnabled = true;
-            this.cbTGroups.Location = new System.Drawing.Point(129, 73);
-            this.cbTGroups.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cbTGroups.Location = new System.Drawing.Point(97, 59);
             this.cbTGroups.Name = "cbTGroups";
-            this.cbTGroups.Size = new System.Drawing.Size(280, 24);
+            this.cbTGroups.Size = new System.Drawing.Size(211, 21);
             this.cbTGroups.TabIndex = 7;
             this.cbTGroups.SelectionChangeCommitted += new System.EventHandler(this.cbTGroups_SelectionChangeCommitted);
             // 
@@ -146,37 +138,37 @@
             // 
             this.cbOrderTypes.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbOrderTypes.FormattingEnabled = true;
-            this.cbOrderTypes.Location = new System.Drawing.Point(129, 106);
-            this.cbOrderTypes.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cbOrderTypes.Location = new System.Drawing.Point(97, 86);
             this.cbOrderTypes.Name = "cbOrderTypes";
-            this.cbOrderTypes.Size = new System.Drawing.Size(280, 24);
+            this.cbOrderTypes.Size = new System.Drawing.Size(211, 21);
             this.cbOrderTypes.TabIndex = 8;
             // 
             // cbTables
             // 
             this.cbTables.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cbTables.Location = new System.Drawing.Point(129, 170);
-            this.cbTables.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cbTables.Location = new System.Drawing.Point(97, 138);
             this.cbTables.Name = "cbTables";
-            this.cbTables.Size = new System.Drawing.Size(280, 24);
+            this.cbTables.Size = new System.Drawing.Size(211, 21);
             this.cbTables.TabIndex = 9;
             this.cbTables.SelectionChangeCommitted += new System.EventHandler(this.cbTables_SelectionChangeCommitted);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(595, 10);
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label2.Location = new System.Drawing.Point(446, 8);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(0, 16);
+            this.label2.Size = new System.Drawing.Size(0, 15);
             this.label2.TabIndex = 10;
             // 
             // btnCreateDelivery
             // 
             this.btnCreateDelivery.Enabled = false;
-            this.btnCreateDelivery.Location = new System.Drawing.Point(449, 7);
-            this.btnCreateDelivery.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnCreateDelivery.Location = new System.Drawing.Point(337, 6);
+            this.btnCreateDelivery.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnCreateDelivery.Name = "btnCreateDelivery";
-            this.btnCreateDelivery.Size = new System.Drawing.Size(140, 25);
+            this.btnCreateDelivery.Size = new System.Drawing.Size(105, 20);
             this.btnCreateDelivery.TabIndex = 11;
             this.btnCreateDelivery.Text = "Create Delivery";
             this.btnCreateDelivery.UseVisualStyleBackColor = true;
@@ -186,110 +178,100 @@
             // 
             this.cbDiscounts.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbDiscounts.FormattingEnabled = true;
-            this.cbDiscounts.Location = new System.Drawing.Point(129, 138);
-            this.cbDiscounts.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.cbDiscounts.Location = new System.Drawing.Point(97, 112);
+            this.cbDiscounts.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.cbDiscounts.Name = "cbDiscounts";
-            this.cbDiscounts.Size = new System.Drawing.Size(280, 24);
+            this.cbDiscounts.Size = new System.Drawing.Size(211, 21);
             this.cbDiscounts.TabIndex = 12;
             // 
             // checkDiscount
             // 
             this.checkDiscount.AutoSize = true;
-            this.checkDiscount.Location = new System.Drawing.Point(4, 660);
-            this.checkDiscount.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkDiscount.Location = new System.Drawing.Point(3, 536);
             this.checkDiscount.Name = "checkDiscount";
-            this.checkDiscount.Size = new System.Drawing.Size(104, 20);
+            this.checkDiscount.Size = new System.Drawing.Size(86, 17);
             this.checkDiscount.TabIndex = 13;
             this.checkDiscount.Text = "use discount";
             this.checkDiscount.UseVisualStyleBackColor = true;
             // 
             // tbSum
             // 
-            this.tbSum.Location = new System.Drawing.Point(173, 656);
-            this.tbSum.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tbSum.Location = new System.Drawing.Point(130, 533);
             this.tbSum.Name = "tbSum";
-            this.tbSum.Size = new System.Drawing.Size(77, 22);
+            this.tbSum.Size = new System.Drawing.Size(59, 20);
             this.tbSum.TabIndex = 14;
             this.tbSum.Text = "0";
             // 
             // sum
             // 
             this.sum.AutoSize = true;
-            this.sum.Location = new System.Drawing.Point(127, 660);
-            this.sum.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.sum.Location = new System.Drawing.Point(95, 536);
             this.sum.Name = "sum";
-            this.sum.Size = new System.Drawing.Size(35, 16);
+            this.sum.Size = new System.Drawing.Size(29, 13);
             this.sum.TabIndex = 15;
             this.sum.Text = "sum:";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(16, 43);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Location = new System.Drawing.Point(12, 35);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(92, 16);
+            this.label3.Size = new System.Drawing.Size(74, 13);
             this.label3.TabIndex = 16;
             this.label3.Text = "Organizations:";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(16, 76);
-            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label4.Location = new System.Drawing.Point(12, 62);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(108, 16);
+            this.label4.Size = new System.Drawing.Size(85, 13);
             this.label4.TabIndex = 17;
             this.label4.Text = "Terminal groups:";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(16, 110);
-            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label5.Location = new System.Drawing.Point(12, 89);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(80, 16);
+            this.label5.Size = new System.Drawing.Size(64, 13);
             this.label5.TabIndex = 18;
             this.label5.Text = "Order types:";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(16, 142);
-            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label6.Location = new System.Drawing.Point(12, 115);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(69, 16);
+            this.label6.Size = new System.Drawing.Size(57, 13);
             this.label6.TabIndex = 19;
             this.label6.Text = "Discounts:";
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(16, 174);
-            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label7.Location = new System.Drawing.Point(12, 141);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(53, 16);
+            this.label7.Size = new System.Drawing.Size(42, 13);
             this.label7.TabIndex = 20;
             this.label7.Text = "Tables:";
             // 
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(11, 721);
-            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label8.Location = new System.Drawing.Point(8, 586);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(40, 16);
+            this.label8.Size = new System.Drawing.Size(33, 13);
             this.label8.TabIndex = 21;
             this.label8.Text = "Logs:";
             // 
             // progressBar1
             // 
             this.progressBar1.Cursor = System.Windows.Forms.Cursors.WaitCursor;
-            this.progressBar1.Location = new System.Drawing.Point(4, 688);
-            this.progressBar1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.progressBar1.Location = new System.Drawing.Point(3, 559);
             this.progressBar1.MarqueeAnimationSpeed = 20;
             this.progressBar1.Name = "progressBar1";
-            this.progressBar1.Size = new System.Drawing.Size(407, 30);
+            this.progressBar1.Size = new System.Drawing.Size(305, 24);
             this.progressBar1.Style = System.Windows.Forms.ProgressBarStyle.Marquee;
             this.progressBar1.TabIndex = 22;
             this.progressBar1.UseWaitCursor = true;
@@ -298,19 +280,18 @@
             // tbCard
             // 
             this.tbCard.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.tbCard.Location = new System.Drawing.Point(13, 203);
-            this.tbCard.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tbCard.Location = new System.Drawing.Point(10, 165);
             this.tbCard.Multiline = true;
             this.tbCard.Name = "tbCard";
             this.tbCard.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-            this.tbCard.Size = new System.Drawing.Size(396, 445);
+            this.tbCard.Size = new System.Drawing.Size(298, 362);
             this.tbCard.TabIndex = 23;
             // 
             // APICloud
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1144, 959);
+            this.ClientSize = new System.Drawing.Size(858, 779);
             this.Controls.Add(this.tbCard);
             this.Controls.Add(this.progressBar1);
             this.Controls.Add(this.label8);
@@ -337,7 +318,6 @@
             this.Controls.Add(this.token);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "APICloud";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "API Cloud";

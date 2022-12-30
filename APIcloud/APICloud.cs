@@ -36,15 +36,9 @@ namespace APIcloud
                 {
                     if (dr["parentGroup"].ToString() == "NULL")
                     {
-                        var parentNode = twMenu.Nodes.Add(dr["name"].ToString());
-                        PopulateTreeView(dr["id"].ToString(), parentNode);
+                       var parentNode = twMenu.Nodes.Add(dr["name"].ToString());
+                       PopulateTreeView(dr["id"].ToString(), parentNode);
                     }
-                    //else if (dr["parentGroup"].ToString() != "NULL")
-                    //{
-                    //      childNode1 = twMenu.Nodes.Add(dr["name"].ToString());
-                    //      PopulateTreeView(dr["parentGroup"].ToString(), childNode1);
-                    //}
-
                 }
                 conn.Close();
             }
@@ -233,39 +227,39 @@ namespace APIcloud
         private void PopulateTreeView(string parentId, TreeNode parentNode)
         {
             var conn = new SQLiteConnection("Data Source=" + insertDB.dbName + ";Version=3;");
-            string Seqchildc = "SELECT id,name, parentGroup FROM products";
+            string Products = "SELECT id,name, parentGroup FROM products";
             string Groups = "SELECT id,name, parentGroup FROM groups";
             conn.Open();
-            SQLiteDataAdapter groups = new(Groups, conn);
+            SQLiteDataAdapter daGroups = new(Groups, conn);
             DataTable dtGroups = new();
-            SQLiteDataAdapter products = new(Seqchildc, conn);
+            SQLiteDataAdapter products = new(Products, conn);
             DataTable dtProducts = new();
-            groups.Fill(dtGroups);
+            daGroups.Fill(dtGroups);
             products.Fill(dtProducts);
-            TreeNode childNode1;
-            TreeNode childNode2;
-            foreach (DataRow dr in dtGroups.Rows)
+            TreeNode childProductNode;
+            TreeNode childProductNodeLevel2;
+            foreach (DataRow drGroups in dtGroups.Rows)
             {
-                if (parentId == dr["parentGroup"].ToString())
+                if (parentId == drGroups["parentGroup"].ToString())
                 {
-                    childNode1 = parentNode.Nodes.Add(dr["name"].ToString());
-                    PopulateTreeView(dr["name"].ToString(), childNode1);
-                    foreach (DataRow dr2 in dtProducts.Rows)
+                    childProductNode = parentNode.Nodes.Add(drGroups["name"].ToString());
+                    PopulateTreeView(drGroups["name"].ToString(), childProductNode);
+                    foreach (DataRow drProducts in dtProducts.Rows)
                     {
-                        if (dr2["parentGroup"].ToString() == dr["id"].ToString())
+                        if (drProducts["parentGroup"].ToString() == drGroups["id"].ToString())
                         {
-                            childNode2 = childNode1.Nodes.Add(dr2["name"].ToString());
-                            PopulateTreeView(dr2["name"].ToString(), childNode2);
+                            childProductNodeLevel2 = childProductNode.Nodes.Add(drProducts["name"].ToString());
+                            PopulateTreeView(drProducts["name"].ToString(), childProductNodeLevel2);
                         }
                     }
                  }
              }
-            foreach (DataRow dr in dtProducts.Rows)
+            foreach (DataRow drProducts in dtProducts.Rows)
             {
-                if (parentId == dr["parentGroup"].ToString())
+                if (parentId == drProducts["parentGroup"].ToString())
                 {
-                    childNode1 = parentNode.Nodes.Add(dr["name"].ToString());
-                    PopulateTreeView(dr["name"].ToString(), childNode1);
+                    childProductNode = parentNode.Nodes.Add(drProducts["name"].ToString());
+                    PopulateTreeView(drProducts["name"].ToString(), childProductNode);
                 }
             }
             conn.Close();
@@ -336,7 +330,35 @@ namespace APIcloud
             string strID = GetIdfromDB(TID, cbTGroups.Text);
             string str = GetIdfromDB(nullableSeqchildc, cbOrderTypes.Text);
             string strOrgId = GetIdfromDB(oID, cbOrganizations.Text);
-            List<CreateOrder.Item> item1 = new()
+            List<CreateOrder.Discount> DC = new();
+            string strDC = null;
+            if (checkDiscount.Checked)
+            {
+                var conn = new SQLiteConnection("Data Source=" + insertDB.dbName + ";Version=3;");
+                conn.Open();
+                string DCuont = "SELECT * FROM discounts";
+                SQLiteDataAdapter daDC = new(DCuont, conn);
+                DataTable dtDC = new();
+                daDC.Fill(dtDC);
+                foreach (DataRow dr in dtDC.Rows)
+                {
+                    for (int i = 0; i < dtDC.Rows.Count; i++)
+                    {
+                        if (dr["name"].ToString() == cbDiscounts.Text) strDC = dr["id"].ToString();
+                    }
+                }
+                DC = new()
+                {
+                    new CreateOrder.Discount
+                    {
+                        discountTypeId = strDC,
+                        sum = Convert.ToDouble(tbSum.Text),
+                        type = "RMS"
+                    }
+
+                };
+            }
+                List<CreateOrder.Item> item1 = new()
             {
                 new CreateOrder.Item
                 {
@@ -349,6 +371,7 @@ namespace APIcloud
                     price = currentP
                 }
             };
+
 
             List<string> tablesid = new()
             {
@@ -386,7 +409,7 @@ namespace APIcloud
                     payments = null,
                     tips = null,
                     sourceKey = null,
-                    discountsInfo = null,
+                    discountsInfo = strDC != null ? new CreateOrder.DiscountsInfo { discounts = DC, card = null } : null,
                     iikoCard5Info = null,
                     orderTypeId = str
                 },

@@ -54,6 +54,8 @@ namespace APIcloud
         public class Discount
         {
             public string type { get; set; }
+            public string discountTypeId { get; set; }
+            public double sum { get; set; }
         }
 
         public class DiscountsInfo
