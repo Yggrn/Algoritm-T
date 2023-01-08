@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\New\\source\\repos\\Yggrn\\Algoritm-T\\TESTWEB\\TESTWEB\\TESTWEB.csproj": {}
+    "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\TESTWEB\\TESTWEB\\TESTWEB.csproj": {}
   },
   "projects": {
-    "C:\\Users\\New\\source\\repos\\Yggrn\\Algoritm-T\\TESTWEB\\TESTWEB\\TESTWEB.csproj": {
+    "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\TESTWEB\\TESTWEB\\TESTWEB.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\New\\source\\repos\\Yggrn\\Algoritm-T\\TESTWEB\\TESTWEB\\TESTWEB.csproj",
+        "projectUniqueName": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\TESTWEB\\TESTWEB\\TESTWEB.csproj",
         "projectName": "TESTWEB",
-        "projectPath": "C:\\Users\\New\\source\\repos\\Yggrn\\Algoritm-T\\TESTWEB\\TESTWEB\\TESTWEB.csproj",
-        "packagesPath": "C:\\Users\\New\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\New\\source\\repos\\Yggrn\\Algoritm-T\\TESTWEB\\TESTWEB\\obj\\",
+        "projectPath": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\TESTWEB\\TESTWEB\\TESTWEB.csproj",
+        "packagesPath": "C:\\Users\\home\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\TESTWEB\\TESTWEB\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\New\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\home\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -73,7 +73,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

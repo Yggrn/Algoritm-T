@@ -7,8 +7,18 @@
   "targets": {
     ".NETCoreApp,Version=v6.0": {
       "TESTWEB/1.0.0": {
+        "dependencies": {
+          "Microsoft.jQuery.Unobtrusive.Ajax": "3.0.0",
+          "jQuery": "3.6.1"
+        },
         "runtime": {
           "TESTWEB.dll": {}
+        }
+      },
+      "jQuery/3.6.1": {},
+      "Microsoft.jQuery.Unobtrusive.Ajax/3.0.0": {
+        "dependencies": {
+          "jQuery": "3.6.1"
         }
       }
     }
@@ -18,6 +28,20 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "jQuery/3.6.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qkG79nkEvz6Oeabe5+qTB0O/FZagMmzpaafeAJZIppYTfrJim75VWNYuR26MLQCx8FWoqarqjpaDZ0/YubKmWg==",
+      "path": "jquery/3.6.1",
+      "hashPath": "jquery.3.6.1.nupkg.sha512"
+    },
+    "Microsoft.jQuery.Unobtrusive.Ajax/3.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3jk3IysMmuz41Q3rU7JACsruyRhHfDTNeqUPrDTjbXATB6H/po3ZABk/wke4o9PiwnCrL5AjHDzztDNL8l1XUw==",
+      "path": "microsoft.jquery.unobtrusive.ajax/3.0.0",
+      "hashPath": "microsoft.jquery.unobtrusive.ajax.3.0.0.nupkg.sha512"
     }
   }
 }

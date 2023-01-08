@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "CxQhiKwVvcG7AkwDFpg8es2EYIHjhNw64Q8NJvNAl2DgQyTfMHq9Btj5MONQ8mvkq8IcjbMbLaFawvAA5k8Z8g==",
+  "dgSpecHash": "A8cWugTNB6Wi2u1rL/fXxWkAl8VlHMkbSuTln9Kd7Yxjn59evWE77pHJNmrvq8FwulaZbWWtwHgE2lb1rUkIaQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\New\\source\\repos\\Yggrn\\Algoritm-T\\TESTWEB\\TESTWEB\\TESTWEB.csproj",
+  "projectFilePath": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\TESTWEB\\TESTWEB\\TESTWEB.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\New\\.nuget\\packages\\jquery\\3.6.1\\jquery.3.6.1.nupkg.sha512",
-    "C:\\Users\\New\\.nuget\\packages\\microsoft.jquery.unobtrusive.ajax\\3.0.0\\microsoft.jquery.unobtrusive.ajax.3.0.0.nupkg.sha512"
+    "C:\\Users\\home\\.nuget\\packages\\jquery\\3.6.1\\jquery.3.6.1.nupkg.sha512",
+    "C:\\Users\\home\\.nuget\\packages\\microsoft.jquery.unobtrusive.ajax\\3.0.0\\microsoft.jquery.unobtrusive.ajax.3.0.0.nupkg.sha512"
   ],
   "logs": []
 }

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>D:\api.web.local</_PublishTargetUrl>
+    <History>True|2023-01-08T07:02:32.3033286Z;True|2023-01-08T11:36:59.7043262+05:00;True|2023-01-08T11:08:02.0618688+05:00;True|2023-01-08T11:05:20.3366720+05:00;False|2023-01-08T11:03:40.9100658+05:00;False|2023-01-08T11:03:16.0670493+05:00;True|2023-01-08T11:00:46.7477150+05:00;False|2023-01-08T10:59:18.5189216+05:00;True|2023-01-08T10:41:37.2811370+05:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+</Project>

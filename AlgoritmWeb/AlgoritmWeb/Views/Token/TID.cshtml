@@ -1,0 +1,13 @@
+﻿@if (WorkSpaceController.terminal != string.Empty)
+{
+<h6><label for="TerminalId">Терминал:</label></h6>
+<select name="TerminalId">
+    @foreach (var item in WorkSpaceController.db.terminalGroups)
+    {
+        @if (item.organizationId == WorkSpaceController.terminal)
+        {
+            <option value="@item.id">@item.name</option>
+        }
+    }
+</select>
+}
