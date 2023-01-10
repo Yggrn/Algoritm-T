@@ -1,0 +1,28 @@
+﻿@if (WorkSpaceController.db.organizations != null)
+{
+    <form method="post" asp-controller="WorkSpace" asp-action="TID">
+
+        <p>
+            <h6><label for="Organization">Организация:</label></h6>
+            <select name="Organization">
+                @foreach (var org in WorkSpaceController.db.organizations)
+                {
+                    if (WorkSpaceController.terminal == org.id)
+                    {
+                        <option selected value="@org">@org.name</option>
+                    }
+                    else
+                    {
+                        <option value="@org.id">@org.name</option>
+                    }
+                   
+                }
+            </select>
+        </p>
+        <p>
+            <h6> <input type="submit" value="Получить данные"/></h6>
+        </p>
+    </form>
+}
+
+

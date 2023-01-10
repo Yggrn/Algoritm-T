@@ -1,0 +1,77 @@
+﻿<!DOCTYPE html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] Algoritm WEB</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/AlgoritmWeb.styles.css" asp-append-version="true" />
+
+</head>
+<body>
+    <table style="float: left" width="59%">
+        <tr><th>Параметры</th><th>Информация</th></tr>
+   <tr border="1">
+            <td width="30%">
+                <h5><label for="Data">Добавить организацию по API token </label></h5>
+            <form method="post" asp-controller="WorkSpace" asp-action="Data">
+                <input id="Data" name="key" type="text" />
+                <input type="submit" value="Добавить" />
+            </form>
+            @{
+                if (!WorkSpaceController.err)
+                {
+                    await Html.RenderPartialAsync("/Views/Token/Data.cshtml");
+                    await Html.RenderPartialAsync("/Views/Token/TID.cshtml");
+                }
+                else await Html.RenderPartialAsync("ErrorToken");
+                WorkSpaceController.err = false;
+            }
+        </td>
+            <td width="20%">
+@if (WorkSpaceController.terminal != string.Empty)
+                {
+                    foreach (var orgItem in WorkSpaceController.db.organizations)
+                    {
+
+                        if (orgItem.id == WorkSpaceController.terminal)
+                        {
+                            <p>@orgItem.id</p>
+                            <p>@orgItem.version</p>
+                            <p>@orgItem.inn</p>
+                            <p>@orgItem.isCloud</p>
+                            <p>@orgItem.useUaeAddressingSystem</p>
+                            <p>@orgItem.latitude</p>
+                            <p>@orgItem.longitude</p>
+
+                        }
+                      
+                    }
+                }
+            </td>
+   </tr>
+</table>
+
+    <table style="float: right" width="40%">
+        <tr><th>Внешенее меню</th></tr>
+   <tr>
+        <td> 
+            <div class="prokrutka">
+            @{
+                await Html.RenderPartialAsync("/Views/WorkSpace/TreeView.cshtml");
+            }
+            </div>
+            </td>
+   </tr>
+</table>
+</body>
+
+<style>
+    .prokrutka {
+        height: 95vh; /* высота нашего блока */
+        width: 40vw; /* ширина нашего блока */
+        background: #fff; /* цвет фона, белый */
+        overflow-x: scroll; /* прокрутка по горизонтали */
+        overflow-y: auto; /* прокрутка по вертикали */
+    }
+</style>
