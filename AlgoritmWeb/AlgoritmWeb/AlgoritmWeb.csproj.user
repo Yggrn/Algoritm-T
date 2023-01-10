@@ -6,7 +6,7 @@
     <View_SelectedScaffolderID>RazorViewEmptyScaffolder</View_SelectedScaffolderID>
     <View_SelectedScaffolderCategoryPath>root/Common/MVC/View</View_SelectedScaffolderCategoryPath>
     <IsLinterEnabled>True</IsLinterEnabled>
-    <NameOfLastUsedPublishProfile>C:\Users\home\source\repos\AlgoritmWeb\AlgoritmWeb\Properties\PublishProfiles\FolderProfile.pubxml</NameOfLastUsedPublishProfile>
+    <NameOfLastUsedPublishProfile>C:\Users\New\Source\Repos\Yggrn\Algoritm-T\AlgoritmWeb\AlgoritmWeb\Properties\PublishProfiles\FolderProfile1.pubxml</NameOfLastUsedPublishProfile>
     <ActiveDebugProfile>AlgoritmWeb</ActiveDebugProfile>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">

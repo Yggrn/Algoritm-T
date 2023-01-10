@@ -11,7 +11,7 @@ namespace AlgoritmWeb.Controllers
 {
     public class WorkSpaceController : Controller
     {
-        public static ApplicationContext db;
+        public static ApplicationContext? db;
         public static string terminal = string.Empty;
         public WorkSpaceController(ApplicationContext context)
         {
@@ -81,7 +81,7 @@ namespace AlgoritmWeb.Controllers
                 {
                     orgId = org.organizations;
                     org.organizations[i].apiToken = key;
-                    db.organizations.Add(org.organizations[i]);
+                    db?.organizations.Add(org.organizations[i]);
                 }
 
                 await db.SaveChangesAsync();
@@ -95,7 +95,7 @@ namespace AlgoritmWeb.Controllers
         private static List<string> GetDataOrg()
         {
 
-            List<string> str = new List<string>();
+            List<string>? str = new List<string>();
             try
             {
                 str = orgId!.Select(x => x.id!).ToList();
@@ -121,8 +121,8 @@ namespace AlgoritmWeb.Controllers
                 {
                     for (int j = 0; j < term!.terminalGroups[i]!.items!.Count; j++)
                     {
-                        if (db.terminalGroups.Any(o => o.id == term!.terminalGroups[i]!.items[j].id)) return;
-                        db.terminalGroups!.Add(term!.terminalGroups[i]!.items[j]);
+                        if (db.terminalGroups.Any(o => o.id! == term!.terminalGroups[i]!.items[j].id)) return;
+                        db?.terminalGroups!.Add(term!.terminalGroups[i]!.items[j]);
                     }
                 }
                 await db.SaveChangesAsync();
@@ -152,6 +152,7 @@ namespace AlgoritmWeb.Controllers
                 foreach (var item in root.products)
                 {
                     item.organizationId = orgId[0].id;
+                    item.price= Convert.ToDouble(item.sizePrices.Select(x => x.price.currentPrice));
                     db.menusProducts.Add(item);
                 }
 
