@@ -7,12 +7,35 @@
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/AlgoritmWeb.styles.css" asp-append-version="true" />
 
+    <nav>
+        <ul class="topmenu">
+            <li>
+                <a href="" class="active">Главная<span class="fa fa-angle-down"></span></a>
+                <ul class="submenu">
+                  
+                    <li>
+                        <a href="">меню второго уровня<span class="fa fa-angle-down"></span></a>
+                        <ul class="submenu">
+                            <li><a href="">меню третьего уровня</a></li>
+
+                        </ul>
+                    </li>
+                  
+                </ul>
+            </li>
+            <li><a href="">Компания</a></li>
+            <li><a href="">Блог</a></li>
+            <li><a href="">Контакты</a></li>
+        </ul>
+    </nav>
+
 </head>
+
 <body>
-    <table style="float: left" width="59%">
+    <table style="float: left" width="35%">
         <tr><th>Параметры</th><th>Информация</th></tr>
    <tr border="1">
-            <td width="30%">
+            <td>
                 <h5><label for="Data">Добавить организацию по API token </label></h5>
             <form method="post" asp-controller="WorkSpace" asp-action="Data">
                 <input id="Data" name="key" type="text" />
@@ -28,7 +51,7 @@
                 WorkSpaceController.err = false;
             }
         </td>
-            <td width="20%">
+            <td align="left">
 @if (WorkSpaceController.terminal != string.Empty)
                 {
                     foreach (var orgItem in WorkSpaceController.db.organizations)
@@ -36,13 +59,12 @@
 
                         if (orgItem.id == WorkSpaceController.terminal)
                         {
-                            <p>@orgItem.id</p>
-                            <p>@orgItem.version</p>
-                            <p>@orgItem.inn</p>
-                            <p>@orgItem.isCloud</p>
-                            <p>@orgItem.useUaeAddressingSystem</p>
-                            <p>@orgItem.latitude</p>
-                            <p>@orgItem.longitude</p>
+                            <p>ID организации: @orgItem.id</p>
+                            <p>Версия iiko: @orgItem.version</p>
+                            <p>ИНН: @orgItem.inn</p>
+                            <p>В облаке iiko: @orgItem.isCloud</p>
+                            <p>Широта: @orgItem.latitude</p>
+                            <p>Долгота: @orgItem.longitude</p>
 
                         }
                       
@@ -51,27 +73,8 @@
             </td>
    </tr>
 </table>
-
-    <table style="float: right" width="40%">
-        <tr><th>Внешенее меню</th></tr>
-   <tr>
-        <td> 
-            <div class="prokrutka">
-            @{
-                await Html.RenderPartialAsync("/Views/WorkSpace/TreeView.cshtml");
-            }
-            </div>
-            </td>
-   </tr>
-</table>
-</body>
-
-<style>
-    .prokrutka {
-        height: 95vh; /* высота нашего блока */
-        width: 40vw; /* ширина нашего блока */
-        background: #fff; /* цвет фона, белый */
-        overflow-x: scroll; /* прокрутка по горизонтали */
-        overflow-y: auto; /* прокрутка по вертикали */
+    @{
+        await Html.RenderPartialAsync("/Views/WorkSpace/TreeView.cshtml");
     }
-</style>
+</body>
+ 

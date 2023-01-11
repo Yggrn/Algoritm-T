@@ -1,4 +1,4 @@
-﻿    <div id="jstree"></div>
+﻿   
 <link rel="stylesheet" href="~/lib/jsTree/dist/themes/default/style.min.css" />
 <script type="text/javascript" src="~/lib/jquery/dist/jquery.min.js"></script>
 <script type="text/javascript" src="~/lib/jsTree/dist/jstree.min.js"></script>
@@ -20,8 +20,7 @@
                     //Add the Node to the JSON Array.
                     selectedItems.push({
                         text: data.instance.get_node(data.selected[i]).text,
-                        id: id,
-                        parent: data.node.parents[0]
+                        id: id                        
                     });
                 }
 
@@ -32,7 +31,29 @@
                 "themes": { "stripes": true },
                 "data": @Html.Raw(ViewBag.Json)},
                 "checkbox": {"keep_selected_style": false},
-                "plugins": ["wholerow"],
+            "plugins": ["wholerow", "checkbox"],
             });
         });
     </script>
+<table board="1" style="float: right" width="50%">
+    <tr><th>Заказ</th><th>Внешенее меню</th></tr>
+    <tr>
+        <td valign ="top">
+            <textarea style="width:450px; height:15vw;" name="selectedItems" id="selectedItems" readonly></textarea>
+        </td>
+        <td>
+                <div class="prokrutka" id="jstree"></div>
+        </td>
+    </tr>
+</table>
+
+
+<style>
+    .prokrutka {
+        height: 90vh; /* высота нашего блока */
+        width: 40vw; /* ширина нашего блока */
+        background: #fff; /* цвет фона, белый */
+        overflow-x: scroll; /* прокрутка по горизонтали */
+        overflow-y: auto; /* прокрутка по вертикали */
+    }
+</style>

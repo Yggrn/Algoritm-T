@@ -246,11 +246,11 @@ namespace AlgoritmWeb.Controllers
                 err = true;
             }
         }
-        //[HttpPost]
-        //public IActionResult Index(string selectedItems)
-        //{
-        //    List<TreeViewNode> items = JsonConvert.DeserializeObject<List<TreeViewNode>>(selectedItems);
-        //    return RedirectToAction("Index");
-        //}
+        [HttpPost]
+        public IActionResult Index(string selectedItems)
+        {
+            List<TreeViewNode> items = JsonConvert.DeserializeObject<List<TreeViewNode>>(selectedItems);
+            return RedirectToAction("Index");
+        }
     }
 }
