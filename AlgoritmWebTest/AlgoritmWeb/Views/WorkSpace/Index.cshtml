@@ -1,4 +1,23 @@
 ﻿<!DOCTYPE html>
+<nav>
+    <ul class="topmenu">
+        <li>
+            <a href="" class="active">Главная<span class="fa fa-angle-down"></span></a>
+            <ul class="submenu">
+
+                <li>
+                    <a href="">меню второго уровня<span class="fa fa-angle-down"></span></a>
+                    <ul class="submenu">
+                        <li><a href="">меню третьего уровня</a></li>
+
+                    </ul>
+                </li>
+
+            </ul>
+        </li>
+        <li><a href="">Компания</a></li>
+    </ul>
+</nav>
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -7,27 +26,7 @@
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/AlgoritmWeb.styles.css" asp-append-version="true" />
 
-    <nav>
-        <ul class="topmenu">
-            <li>
-                <a href="" class="active">Главная<span class="fa fa-angle-down"></span></a>
-                <ul class="submenu">
-                  
-                    <li>
-                        <a href="">меню второго уровня<span class="fa fa-angle-down"></span></a>
-                        <ul class="submenu">
-                            <li><a href="">меню третьего уровня</a></li>
-
-                        </ul>
-                    </li>
-                  
-                </ul>
-            </li>
-            <li><a href="">Компания</a></li>
-            <li><a href="">Блог</a></li>
-            <li><a href="">Контакты</a></li>
-        </ul>
-    </nav>
+    
 
 </head>
 
@@ -56,7 +55,6 @@
                 {
                     foreach (var orgItem in WorkSpaceController.db.organizations)
                     {
-
                         if (orgItem.id == WorkSpaceController.terminal)
                         {
                             <p>ID организации: @orgItem.id</p>
@@ -65,9 +63,7 @@
                             <p>В облаке iiko: @orgItem.isCloud</p>
                             <p>Широта: @orgItem.latitude</p>
                             <p>Долгота: @orgItem.longitude</p>
-
                         }
-                      
                     }
                 }
             </td>

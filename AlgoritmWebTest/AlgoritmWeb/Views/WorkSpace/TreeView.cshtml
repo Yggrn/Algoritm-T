@@ -31,7 +31,13 @@
                 "themes": { "stripes": true },
                 "data": @Html.Raw(ViewBag.Json)},
                 "checkbox": {"keep_selected_style": false},
-            "plugins": ["wholerow", "checkbox"],
+                "plugins": ["wholerow", "checkbox", "types", "state"],
+                "types": {
+                "file": {
+                    "icon": "jstree-file",
+                    "valid_children": []
+                }
+            }
             });
         });
     </script>

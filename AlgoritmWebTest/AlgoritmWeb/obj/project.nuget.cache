@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+7xPtVjdnfyiF356rzn1ni3YF3kT8mVF1H/z5p7unIHTMJkYVVgC2R71sfUaXO7qfXW3qfJU2Yb02XYAVrl2mA==",
+  "dgSpecHash": "re2T8x/VBwCBfkTjjKutmNbqGjmxPdyjaK2KXde4NCklGHe900m31AFymmFe21PBUk4r+BsirMmL+jvliiGWoQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\New\\Source\\Repos\\Yggrn\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\AlgoritmWeb.csproj",
+  "projectFilePath": "C:\\Users\\New\\source\\repos\\Yggrn\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\AlgoritmWeb.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\New\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\New\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
