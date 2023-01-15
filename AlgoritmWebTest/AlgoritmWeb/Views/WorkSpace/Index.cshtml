@@ -1,59 +1,31 @@
-﻿<!DOCTYPE html>
-<nav>
-    <ul class="topmenu">
-        <li>
-            <a href="" class="active">Главная<span class="fa fa-angle-down"></span></a>
-            <ul class="submenu">
+﻿@using AlgoritmWeb.Controllers
 
-                <li>
-                    <a href="">меню второго уровня<span class="fa fa-angle-down"></span></a>
-                    <ul class="submenu">
-                        <li><a href="">меню третьего уровня</a></li>
-
-                    </ul>
-                </li>
-
-            </ul>
-        </li>
-        <li><a href="">Компания</a></li>
-    </ul>
-</nav>
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] Algoritm WEB</title>
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/AlgoritmWeb.styles.css" asp-append-version="true" />
-
-    
-
-</head>
-
-<body>
-    <table style="float: left" width="35%">
+    <table style="float: left" width="40%">
         <tr><th>Параметры</th><th>Информация</th></tr>
    <tr border="1">
-            <td>
-                <h5><label for="Data">Добавить организацию по API token </label></h5>
-            <form method="post" asp-controller="WorkSpace" asp-action="Data">
-                <input id="Data" name="key" type="text" />
-                <input type="submit" value="Добавить" />
-            </form>
+            <td valign="top">
             @{
-                if (!WorkSpaceController.err)
+                if (AddOrganization.OrganizationsList.Count != 0 && !AddOrganization.err)
                 {
                     await Html.RenderPartialAsync("/Views/Token/Data.cshtml");
                     await Html.RenderPartialAsync("/Views/Token/TID.cshtml");
                 }
-                else await Html.RenderPartialAsync("ErrorToken");
-                WorkSpaceController.err = false;
+                else if (AddOrganization.err)
+                {
+                    await Html.RenderPartialAsync("/Views/WorkSpace/ErrorToken.cshtml");
+                }
+                else if (AddOrganization.OrganizationsList.Count == 0 && !AddOrganization.err)
+                {
+                    <p>В базе данных нет организаций, добавьте через главное меню</p>
+                }
+                
+                AddOrganization.err = false;
             }
         </td>
             <td align="left">
 @if (WorkSpaceController.terminal != string.Empty)
                 {
-                    foreach (var orgItem in WorkSpaceController.db.organizations)
+                foreach (var orgItem in AddOrganization.OrganizationsList)
                     {
                         if (orgItem.id == WorkSpaceController.terminal)
                         {
@@ -72,5 +44,5 @@
     @{
         await Html.RenderPartialAsync("/Views/WorkSpace/TreeView.cshtml");
     }
-</body>
+
  

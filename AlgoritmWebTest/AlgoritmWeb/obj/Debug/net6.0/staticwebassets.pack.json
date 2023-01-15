@@ -1,519 +1,519 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\New\\Source\\Repos\\Yggrn\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\AlgoritmWeb.bundle.scp.css",
+      "Id": "C:\\Users\\home\\source\\repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\AlgoritmWeb.bundle.scp.css",
       "PackagePath": "staticwebassets\\AlgoritmWeb.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\New\\Source\\Repos\\Yggrn\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\css\\site.css",
+      "Id": "C:\\Users\\home\\source\\repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\New\\Source\\Repos\\Yggrn\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\home\\source\\repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\New\\Source\\Repos\\Yggrn\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\js\\site.js",
+      "Id": "C:\\Users\\home\\source\\repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\Users\\New\\Source\\Repos\\Yggrn\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "C:\\Users\\home\\source\\repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "C:\\Users\\New\\Source\\Repos\\Yggrn\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "C:\\Users\\home\\source\\repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\New\\Source\\Repos\\Yggrn\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\Users\\home\\source\\repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Users\\New\\Source\\Repos\\Yggrn\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\Users\\home\\source\\repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\New\\Source\\Repos\\Yggrn\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\Users\\home\\source\\repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Users\\New\\Source\\Repos\\Yggrn\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\Users\\home\\source\\repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Users\\New\\Source\\Repos\\Yggrn\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\Users\\home\\source\\repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\New\\Source\\Repos\\Yggrn\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\Users\\home\\source\\repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\New\\Source\\Repos\\Yggrn\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\Users\\home\\source\\repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\New\\Source\\Repos\\Yggrn\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Users\\home\\source\\repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\New\\Source\\Repos\\Yggrn\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\Users\\home\\source\\repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Users\\New\\Source\\Repos\\Yggrn\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\Users\\home\\source\\repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\New\\Source\\Repos\\Yggrn\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\Users\\home\\source\\repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Users\\New\\Source\\Repos\\Yggrn\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\Users\\home\\source\\repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Users\\New\\Source\\Repos\\Yggrn\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\Users\\home\\source\\repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\New\\Source\\Repos\\Yggrn\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\Users\\home\\source\\repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\New\\Source\\Repos\\Yggrn\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\Users\\home\\source\\repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\New\\Source\\Repos\\Yggrn\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "C:\\Users\\home\\source\\repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\Users\\New\\Source\\Repos\\Yggrn\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\Users\\home\\source\\repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\Users\\New\\Source\\Repos\\Yggrn\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\Users\\home\\source\\repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\Users\\New\\Source\\Repos\\Yggrn\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\Users\\home\\source\\repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\Users\\New\\Source\\Repos\\Yggrn\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\Users\\home\\source\\repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\Users\\New\\Source\\Repos\\Yggrn\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\Users\\home\\source\\repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\New\\Source\\Repos\\Yggrn\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\Users\\home\\source\\repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\New\\Source\\Repos\\Yggrn\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\Users\\home\\source\\repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\New\\Source\\Repos\\Yggrn\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "C:\\Users\\home\\source\\repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\New\\Source\\Repos\\Yggrn\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "C:\\Users\\home\\source\\repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\New\\Source\\Repos\\Yggrn\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\home\\source\\repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\New\\Source\\Repos\\Yggrn\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\home\\source\\repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\New\\Source\\Repos\\Yggrn\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "C:\\Users\\home\\source\\repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\Users\\New\\Source\\Repos\\Yggrn\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\Users\\home\\source\\repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\New\\Source\\Repos\\Yggrn\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\Users\\home\\source\\repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\New\\Source\\Repos\\Yggrn\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\Users\\home\\source\\repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\New\\Source\\Repos\\Yggrn\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "C:\\Users\\home\\source\\repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Users\\New\\Source\\Repos\\Yggrn\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\Users\\home\\source\\repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\Users\\New\\Source\\Repos\\Yggrn\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\home\\source\\repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\New\\Source\\Repos\\Yggrn\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\Users\\home\\source\\repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Users\\New\\Source\\Repos\\Yggrn\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "C:\\Users\\home\\source\\repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\Users\\New\\Source\\Repos\\Yggrn\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\Users\\home\\source\\repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\Users\\New\\Source\\Repos\\Yggrn\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\Users\\home\\source\\repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\Users\\New\\Source\\Repos\\Yggrn\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\Users\\home\\source\\repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\Users\\New\\Source\\Repos\\Yggrn\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "C:\\Users\\home\\source\\repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\New\\Source\\Repos\\Yggrn\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "C:\\Users\\home\\source\\repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\Users\\New\\Source\\Repos\\Yggrn\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\home\\source\\repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\New\\Source\\Repos\\Yggrn\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "C:\\Users\\home\\source\\repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\New\\Source\\Repos\\Yggrn\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\Users\\home\\source\\repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\New\\Source\\Repos\\Yggrn\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Users\\home\\source\\repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\New\\Source\\Repos\\Yggrn\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\home\\source\\repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\New\\Source\\Repos\\Yggrn\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Users\\home\\source\\repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\New\\Source\\Repos\\Yggrn\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\Users\\home\\source\\repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Users\\New\\Source\\Repos\\Yggrn\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\Users\\home\\source\\repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Users\\New\\Source\\Repos\\Yggrn\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\Users\\home\\source\\repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\New\\Source\\Repos\\Yggrn\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\Users\\home\\source\\repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\New\\Source\\Repos\\Yggrn\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\Users\\home\\source\\repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\New\\Source\\Repos\\Yggrn\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\Users\\home\\source\\repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\New\\Source\\Repos\\Yggrn\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\Users\\home\\source\\repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\New\\Source\\Repos\\Yggrn\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\Users\\home\\source\\repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "C:\\Users\\New\\Source\\Repos\\Yggrn\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\.gitignore",
+      "Id": "C:\\Users\\home\\source\\repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\.gitignore",
       "PackagePath": "staticwebassets\\lib\\jsTree\\.gitignore"
     },
     {
-      "Id": "C:\\Users\\New\\Source\\Repos\\Yggrn\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\LICENSE-MIT",
+      "Id": "C:\\Users\\home\\source\\repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\LICENSE-MIT",
       "PackagePath": "staticwebassets\\lib\\jsTree"
     },
     {
-      "Id": "C:\\Users\\New\\Source\\Repos\\Yggrn\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\README.md",
+      "Id": "C:\\Users\\home\\source\\repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\README.md",
       "PackagePath": "staticwebassets\\lib\\jsTree\\README.md"
     },
     {
-      "Id": "C:\\Users\\New\\Source\\Repos\\Yggrn\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\bower.json",
+      "Id": "C:\\Users\\home\\source\\repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\bower.json",
       "PackagePath": "staticwebassets\\lib\\jsTree\\bower.json"
     },
     {
-      "Id": "C:\\Users\\New\\Source\\Repos\\Yggrn\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\component.json",
+      "Id": "C:\\Users\\home\\source\\repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\component.json",
       "PackagePath": "staticwebassets\\lib\\jsTree\\component.json"
     },
     {
-      "Id": "C:\\Users\\New\\Source\\Repos\\Yggrn\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\composer.json",
+      "Id": "C:\\Users\\home\\source\\repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\composer.json",
       "PackagePath": "staticwebassets\\lib\\jsTree\\composer.json"
     },
     {
-      "Id": "C:\\Users\\New\\Source\\Repos\\Yggrn\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\demo\\README.md",
+      "Id": "C:\\Users\\home\\source\\repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\demo\\README.md",
       "PackagePath": "staticwebassets\\lib\\jsTree\\demo\\README.md"
     },
     {
-      "Id": "C:\\Users\\New\\Source\\Repos\\Yggrn\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\demo\\basic\\index.html",
+      "Id": "C:\\Users\\home\\source\\repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\demo\\basic\\index.html",
       "PackagePath": "staticwebassets\\lib\\jsTree\\demo\\basic\\index.html"
     },
     {
-      "Id": "C:\\Users\\New\\Source\\Repos\\Yggrn\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\demo\\basic\\root.json",
+      "Id": "C:\\Users\\home\\source\\repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\demo\\basic\\root.json",
       "PackagePath": "staticwebassets\\lib\\jsTree\\demo\\basic\\root.json"
     },
     {
-      "Id": "C:\\Users\\New\\Source\\Repos\\Yggrn\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\dist\\jstree.js",
+      "Id": "C:\\Users\\home\\source\\repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\dist\\jstree.js",
       "PackagePath": "staticwebassets\\lib\\jsTree\\dist\\jstree.js"
     },
     {
-      "Id": "C:\\Users\\New\\Source\\Repos\\Yggrn\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\dist\\jstree.min.js",
+      "Id": "C:\\Users\\home\\source\\repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\dist\\jstree.min.js",
       "PackagePath": "staticwebassets\\lib\\jsTree\\dist\\jstree.min.js"
     },
     {
-      "Id": "C:\\Users\\New\\Source\\Repos\\Yggrn\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\dist\\themes\\default-dark\\32px.png",
+      "Id": "C:\\Users\\home\\source\\repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\dist\\themes\\default-dark\\32px.png",
       "PackagePath": "staticwebassets\\lib\\jsTree\\dist\\themes\\default-dark\\32px.png"
     },
     {
-      "Id": "C:\\Users\\New\\Source\\Repos\\Yggrn\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\dist\\themes\\default-dark\\40px.png",
+      "Id": "C:\\Users\\home\\source\\repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\dist\\themes\\default-dark\\40px.png",
       "PackagePath": "staticwebassets\\lib\\jsTree\\dist\\themes\\default-dark\\40px.png"
     },
     {
-      "Id": "C:\\Users\\New\\Source\\Repos\\Yggrn\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\dist\\themes\\default-dark\\style.css",
+      "Id": "C:\\Users\\home\\source\\repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\dist\\themes\\default-dark\\style.css",
       "PackagePath": "staticwebassets\\lib\\jsTree\\dist\\themes\\default-dark\\style.css"
     },
     {
-      "Id": "C:\\Users\\New\\Source\\Repos\\Yggrn\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\dist\\themes\\default-dark\\style.min.css",
+      "Id": "C:\\Users\\home\\source\\repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\dist\\themes\\default-dark\\style.min.css",
       "PackagePath": "staticwebassets\\lib\\jsTree\\dist\\themes\\default-dark\\style.min.css"
     },
     {
-      "Id": "C:\\Users\\New\\Source\\Repos\\Yggrn\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\dist\\themes\\default-dark\\throbber.gif",
+      "Id": "C:\\Users\\home\\source\\repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\dist\\themes\\default-dark\\throbber.gif",
       "PackagePath": "staticwebassets\\lib\\jsTree\\dist\\themes\\default-dark\\throbber.gif"
     },
     {
-      "Id": "C:\\Users\\New\\Source\\Repos\\Yggrn\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\dist\\themes\\default\\32px.png",
+      "Id": "C:\\Users\\home\\source\\repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\dist\\themes\\default\\32px.png",
       "PackagePath": "staticwebassets\\lib\\jsTree\\dist\\themes\\default\\32px.png"
     },
     {
-      "Id": "C:\\Users\\New\\Source\\Repos\\Yggrn\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\dist\\themes\\default\\40px.png",
+      "Id": "C:\\Users\\home\\source\\repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\dist\\themes\\default\\40px.png",
       "PackagePath": "staticwebassets\\lib\\jsTree\\dist\\themes\\default\\40px.png"
     },
     {
-      "Id": "C:\\Users\\New\\Source\\Repos\\Yggrn\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\dist\\themes\\default\\style.css",
+      "Id": "C:\\Users\\home\\source\\repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\dist\\themes\\default\\style.css",
       "PackagePath": "staticwebassets\\lib\\jsTree\\dist\\themes\\default\\style.css"
     },
     {
-      "Id": "C:\\Users\\New\\Source\\Repos\\Yggrn\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\dist\\themes\\default\\style.min.css",
+      "Id": "C:\\Users\\home\\source\\repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\dist\\themes\\default\\style.min.css",
       "PackagePath": "staticwebassets\\lib\\jsTree\\dist\\themes\\default\\style.min.css"
     },
     {
-      "Id": "C:\\Users\\New\\Source\\Repos\\Yggrn\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\dist\\themes\\default\\throbber.gif",
+      "Id": "C:\\Users\\home\\source\\repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\dist\\themes\\default\\throbber.gif",
       "PackagePath": "staticwebassets\\lib\\jsTree\\dist\\themes\\default\\throbber.gif"
     },
     {
-      "Id": "C:\\Users\\New\\Source\\Repos\\Yggrn\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\gruntfile.js",
+      "Id": "C:\\Users\\home\\source\\repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\gruntfile.js",
       "PackagePath": "staticwebassets\\lib\\jsTree\\gruntfile.js"
     },
     {
-      "Id": "C:\\Users\\New\\Source\\Repos\\Yggrn\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\jstree.jquery.json",
+      "Id": "C:\\Users\\home\\source\\repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\jstree.jquery.json",
       "PackagePath": "staticwebassets\\lib\\jsTree\\jstree.jquery.json"
     },
     {
-      "Id": "C:\\Users\\New\\Source\\Repos\\Yggrn\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\package.json",
+      "Id": "C:\\Users\\home\\source\\repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\package.json",
       "PackagePath": "staticwebassets\\lib\\jsTree\\package.json"
     },
     {
-      "Id": "C:\\Users\\New\\Source\\Repos\\Yggrn\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\src\\intro.js",
+      "Id": "C:\\Users\\home\\source\\repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\src\\intro.js",
       "PackagePath": "staticwebassets\\lib\\jsTree\\src\\intro.js"
     },
     {
-      "Id": "C:\\Users\\New\\Source\\Repos\\Yggrn\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\src\\jstree.changed.js",
+      "Id": "C:\\Users\\home\\source\\repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\src\\jstree.changed.js",
       "PackagePath": "staticwebassets\\lib\\jsTree\\src\\jstree.changed.js"
     },
     {
-      "Id": "C:\\Users\\New\\Source\\Repos\\Yggrn\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\src\\jstree.checkbox.js",
+      "Id": "C:\\Users\\home\\source\\repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\src\\jstree.checkbox.js",
       "PackagePath": "staticwebassets\\lib\\jsTree\\src\\jstree.checkbox.js"
     },
     {
-      "Id": "C:\\Users\\New\\Source\\Repos\\Yggrn\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\src\\jstree.conditionalselect.js",
+      "Id": "C:\\Users\\home\\source\\repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\src\\jstree.conditionalselect.js",
       "PackagePath": "staticwebassets\\lib\\jsTree\\src\\jstree.conditionalselect.js"
     },
     {
-      "Id": "C:\\Users\\New\\Source\\Repos\\Yggrn\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\src\\jstree.contextmenu.js",
+      "Id": "C:\\Users\\home\\source\\repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\src\\jstree.contextmenu.js",
       "PackagePath": "staticwebassets\\lib\\jsTree\\src\\jstree.contextmenu.js"
     },
     {
-      "Id": "C:\\Users\\New\\Source\\Repos\\Yggrn\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\src\\jstree.dnd.js",
+      "Id": "C:\\Users\\home\\source\\repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\src\\jstree.dnd.js",
       "PackagePath": "staticwebassets\\lib\\jsTree\\src\\jstree.dnd.js"
     },
     {
-      "Id": "C:\\Users\\New\\Source\\Repos\\Yggrn\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\src\\jstree.js",
+      "Id": "C:\\Users\\home\\source\\repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\src\\jstree.js",
       "PackagePath": "staticwebassets\\lib\\jsTree\\src\\jstree.js"
     },
     {
-      "Id": "C:\\Users\\New\\Source\\Repos\\Yggrn\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\src\\jstree.massload.js",
+      "Id": "C:\\Users\\home\\source\\repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\src\\jstree.massload.js",
       "PackagePath": "staticwebassets\\lib\\jsTree\\src\\jstree.massload.js"
     },
     {
-      "Id": "C:\\Users\\New\\Source\\Repos\\Yggrn\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\src\\jstree.search.js",
+      "Id": "C:\\Users\\home\\source\\repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\src\\jstree.search.js",
       "PackagePath": "staticwebassets\\lib\\jsTree\\src\\jstree.search.js"
     },
     {
-      "Id": "C:\\Users\\New\\Source\\Repos\\Yggrn\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\src\\jstree.sort.js",
+      "Id": "C:\\Users\\home\\source\\repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\src\\jstree.sort.js",
       "PackagePath": "staticwebassets\\lib\\jsTree\\src\\jstree.sort.js"
     },
     {
-      "Id": "C:\\Users\\New\\Source\\Repos\\Yggrn\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\src\\jstree.state.js",
+      "Id": "C:\\Users\\home\\source\\repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\src\\jstree.state.js",
       "PackagePath": "staticwebassets\\lib\\jsTree\\src\\jstree.state.js"
     },
     {
-      "Id": "C:\\Users\\New\\Source\\Repos\\Yggrn\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\src\\jstree.types.js",
+      "Id": "C:\\Users\\home\\source\\repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\src\\jstree.types.js",
       "PackagePath": "staticwebassets\\lib\\jsTree\\src\\jstree.types.js"
     },
     {
-      "Id": "C:\\Users\\New\\Source\\Repos\\Yggrn\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\src\\jstree.unique.js",
+      "Id": "C:\\Users\\home\\source\\repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\src\\jstree.unique.js",
       "PackagePath": "staticwebassets\\lib\\jsTree\\src\\jstree.unique.js"
     },
     {
-      "Id": "C:\\Users\\New\\Source\\Repos\\Yggrn\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\src\\jstree.wholerow.js",
+      "Id": "C:\\Users\\home\\source\\repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\src\\jstree.wholerow.js",
       "PackagePath": "staticwebassets\\lib\\jsTree\\src\\jstree.wholerow.js"
     },
     {
-      "Id": "C:\\Users\\New\\Source\\Repos\\Yggrn\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\src\\misc.js",
+      "Id": "C:\\Users\\home\\source\\repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\src\\misc.js",
       "PackagePath": "staticwebassets\\lib\\jsTree\\src\\misc.js"
     },
     {
-      "Id": "C:\\Users\\New\\Source\\Repos\\Yggrn\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\src\\outro.js",
+      "Id": "C:\\Users\\home\\source\\repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\src\\outro.js",
       "PackagePath": "staticwebassets\\lib\\jsTree\\src\\outro.js"
     },
     {
-      "Id": "C:\\Users\\New\\Source\\Repos\\Yggrn\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\src\\sample.js",
+      "Id": "C:\\Users\\home\\source\\repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\src\\sample.js",
       "PackagePath": "staticwebassets\\lib\\jsTree\\src\\sample.js"
     },
     {
-      "Id": "C:\\Users\\New\\Source\\Repos\\Yggrn\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\src\\themes\\base.less",
+      "Id": "C:\\Users\\home\\source\\repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\src\\themes\\base.less",
       "PackagePath": "staticwebassets\\lib\\jsTree\\src\\themes\\base.less"
     },
     {
-      "Id": "C:\\Users\\New\\Source\\Repos\\Yggrn\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\src\\themes\\default-dark\\32px.png",
+      "Id": "C:\\Users\\home\\source\\repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\src\\themes\\default-dark\\32px.png",
       "PackagePath": "staticwebassets\\lib\\jsTree\\src\\themes\\default-dark\\32px.png"
     },
     {
-      "Id": "C:\\Users\\New\\Source\\Repos\\Yggrn\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\src\\themes\\default-dark\\40px.png",
+      "Id": "C:\\Users\\home\\source\\repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\src\\themes\\default-dark\\40px.png",
       "PackagePath": "staticwebassets\\lib\\jsTree\\src\\themes\\default-dark\\40px.png"
     },
     {
-      "Id": "C:\\Users\\New\\Source\\Repos\\Yggrn\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\src\\themes\\default-dark\\style.css",
+      "Id": "C:\\Users\\home\\source\\repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\src\\themes\\default-dark\\style.css",
       "PackagePath": "staticwebassets\\lib\\jsTree\\src\\themes\\default-dark\\style.css"
     },
     {
-      "Id": "C:\\Users\\New\\Source\\Repos\\Yggrn\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\src\\themes\\default-dark\\style.less",
+      "Id": "C:\\Users\\home\\source\\repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\src\\themes\\default-dark\\style.less",
       "PackagePath": "staticwebassets\\lib\\jsTree\\src\\themes\\default-dark\\style.less"
     },
     {
-      "Id": "C:\\Users\\New\\Source\\Repos\\Yggrn\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\src\\themes\\default-dark\\throbber.gif",
+      "Id": "C:\\Users\\home\\source\\repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\src\\themes\\default-dark\\throbber.gif",
       "PackagePath": "staticwebassets\\lib\\jsTree\\src\\themes\\default-dark\\throbber.gif"
     },
     {
-      "Id": "C:\\Users\\New\\Source\\Repos\\Yggrn\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\src\\themes\\default\\32px.png",
+      "Id": "C:\\Users\\home\\source\\repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\src\\themes\\default\\32px.png",
       "PackagePath": "staticwebassets\\lib\\jsTree\\src\\themes\\default\\32px.png"
     },
     {
-      "Id": "C:\\Users\\New\\Source\\Repos\\Yggrn\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\src\\themes\\default\\40px.png",
+      "Id": "C:\\Users\\home\\source\\repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\src\\themes\\default\\40px.png",
       "PackagePath": "staticwebassets\\lib\\jsTree\\src\\themes\\default\\40px.png"
     },
     {
-      "Id": "C:\\Users\\New\\Source\\Repos\\Yggrn\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\src\\themes\\default\\style.css",
+      "Id": "C:\\Users\\home\\source\\repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\src\\themes\\default\\style.css",
       "PackagePath": "staticwebassets\\lib\\jsTree\\src\\themes\\default\\style.css"
     },
     {
-      "Id": "C:\\Users\\New\\Source\\Repos\\Yggrn\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\src\\themes\\default\\style.less",
+      "Id": "C:\\Users\\home\\source\\repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\src\\themes\\default\\style.less",
       "PackagePath": "staticwebassets\\lib\\jsTree\\src\\themes\\default\\style.less"
     },
     {
-      "Id": "C:\\Users\\New\\Source\\Repos\\Yggrn\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\src\\themes\\default\\throbber.gif",
+      "Id": "C:\\Users\\home\\source\\repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\src\\themes\\default\\throbber.gif",
       "PackagePath": "staticwebassets\\lib\\jsTree\\src\\themes\\default\\throbber.gif"
     },
     {
-      "Id": "C:\\Users\\New\\Source\\Repos\\Yggrn\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\src\\themes\\main.less",
+      "Id": "C:\\Users\\home\\source\\repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\src\\themes\\main.less",
       "PackagePath": "staticwebassets\\lib\\jsTree\\src\\themes\\main.less"
     },
     {
-      "Id": "C:\\Users\\New\\Source\\Repos\\Yggrn\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\src\\themes\\mixins.less",
+      "Id": "C:\\Users\\home\\source\\repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\src\\themes\\mixins.less",
       "PackagePath": "staticwebassets\\lib\\jsTree\\src\\themes\\mixins.less"
     },
     {
-      "Id": "C:\\Users\\New\\Source\\Repos\\Yggrn\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\src\\themes\\responsive.less",
+      "Id": "C:\\Users\\home\\source\\repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\src\\themes\\responsive.less",
       "PackagePath": "staticwebassets\\lib\\jsTree\\src\\themes\\responsive.less"
     },
     {
-      "Id": "C:\\Users\\New\\Source\\Repos\\Yggrn\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\src\\vakata-jstree.js",
+      "Id": "C:\\Users\\home\\source\\repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\src\\vakata-jstree.js",
       "PackagePath": "staticwebassets\\lib\\jsTree\\src\\vakata-jstree.js"
     },
     {
-      "Id": "C:\\Users\\New\\Source\\Repos\\Yggrn\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\test\\unit\\index.html",
+      "Id": "C:\\Users\\home\\source\\repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\test\\unit\\index.html",
       "PackagePath": "staticwebassets\\lib\\jsTree\\test\\unit\\index.html"
     },
     {
-      "Id": "C:\\Users\\New\\Source\\Repos\\Yggrn\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\test\\unit\\libs\\qunit.css",
+      "Id": "C:\\Users\\home\\source\\repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\test\\unit\\libs\\qunit.css",
       "PackagePath": "staticwebassets\\lib\\jsTree\\test\\unit\\libs\\qunit.css"
     },
     {
-      "Id": "C:\\Users\\New\\Source\\Repos\\Yggrn\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\test\\unit\\libs\\qunit.js",
+      "Id": "C:\\Users\\home\\source\\repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\test\\unit\\libs\\qunit.js",
       "PackagePath": "staticwebassets\\lib\\jsTree\\test\\unit\\libs\\qunit.js"
     },
     {
-      "Id": "C:\\Users\\New\\Source\\Repos\\Yggrn\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\test\\unit\\test.js",
+      "Id": "C:\\Users\\home\\source\\repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\test\\unit\\test.js",
       "PackagePath": "staticwebassets\\lib\\jsTree\\test\\unit\\test.js"
     },
     {
-      "Id": "C:\\Users\\New\\Source\\Repos\\Yggrn\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\test\\visual\\desktop\\index.html",
+      "Id": "C:\\Users\\home\\source\\repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\test\\visual\\desktop\\index.html",
       "PackagePath": "staticwebassets\\lib\\jsTree\\test\\visual\\desktop\\index.html"
     },
     {
-      "Id": "C:\\Users\\New\\Source\\Repos\\Yggrn\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\test\\visual\\mobile\\index.html",
+      "Id": "C:\\Users\\home\\source\\repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\test\\visual\\mobile\\index.html",
       "PackagePath": "staticwebassets\\lib\\jsTree\\test\\visual\\mobile\\index.html"
     },
     {
-      "Id": "C:\\Users\\New\\Source\\Repos\\Yggrn\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\test\\visual\\screenshots\\desktop\\.png",
+      "Id": "C:\\Users\\home\\source\\repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\test\\visual\\screenshots\\desktop\\.png",
       "PackagePath": "staticwebassets\\lib\\jsTree\\test\\visual\\screenshots\\desktop\\.png"
     },
     {
-      "Id": "C:\\Users\\New\\Source\\Repos\\Yggrn\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\test\\visual\\screenshots\\desktop\\desktop.png",
+      "Id": "C:\\Users\\home\\source\\repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\test\\visual\\screenshots\\desktop\\desktop.png",
       "PackagePath": "staticwebassets\\lib\\jsTree\\test\\visual\\screenshots\\desktop\\desktop.png"
     },
     {
-      "Id": "C:\\Users\\New\\Source\\Repos\\Yggrn\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\test\\visual\\screenshots\\desktop\\home.png",
+      "Id": "C:\\Users\\home\\source\\repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\test\\visual\\screenshots\\desktop\\home.png",
       "PackagePath": "staticwebassets\\lib\\jsTree\\test\\visual\\screenshots\\desktop\\home.png"
     },
     {
-      "Id": "C:\\Users\\New\\Source\\Repos\\Yggrn\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\test\\visual\\screenshots\\mobile\\.png",
+      "Id": "C:\\Users\\home\\source\\repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\test\\visual\\screenshots\\mobile\\.png",
       "PackagePath": "staticwebassets\\lib\\jsTree\\test\\visual\\screenshots\\mobile\\.png"
     },
     {
-      "Id": "C:\\Users\\New\\Source\\Repos\\Yggrn\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\test\\visual\\screenshots\\mobile\\home.png",
+      "Id": "C:\\Users\\home\\source\\repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\test\\visual\\screenshots\\mobile\\home.png",
       "PackagePath": "staticwebassets\\lib\\jsTree\\test\\visual\\screenshots\\mobile\\home.png"
     },
     {
-      "Id": "C:\\Users\\New\\Source\\Repos\\Yggrn\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\test\\visual\\screenshots\\mobile\\mobile.png",
+      "Id": "C:\\Users\\home\\source\\repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\test\\visual\\screenshots\\mobile\\mobile.png",
       "PackagePath": "staticwebassets\\lib\\jsTree\\test\\visual\\screenshots\\mobile\\mobile.png"
     },
     {

@@ -1,8 +1,10 @@
-﻿@if (WorkSpaceController.terminal != string.Empty)
+﻿@using AlgoritmWeb.Controllers
+@if (WorkSpaceController.terminal != string.Empty)
 {
-<h6><label for="TerminalId">Терминал:</label></h6>
+  
+<h6><label for="TerminalId">Терминальная группа:</label></h6>
 <select name="TerminalId">
-    @foreach (var item in WorkSpaceController.db.terminalGroups)
+    @foreach (var item in AddOrganization.terminals)
     {
         @if (item.organizationId == WorkSpaceController.terminal)
         {
@@ -10,17 +12,16 @@
         }
     }
 </select>
-}
+
 
 <h6><label for="OrderTypes">Тип заказа:</label></h6>
 <select name="OrderTypes">
-    @foreach (var item in WorkSpaceController.db.ItemOrders)
+        @foreach (var item in AddOrganization.orderTypes)
     {
         @if (item.OID == WorkSpaceController.terminal)
         {
-           
                 <option value="@item.id">@item.name</option>
- 
         }
     }
 </select>
+}

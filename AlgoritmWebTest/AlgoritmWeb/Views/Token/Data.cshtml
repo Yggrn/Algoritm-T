@@ -1,22 +1,23 @@
-﻿@if (WorkSpaceController.db.organizations != null)
+﻿@using AlgoritmWeb.Controllers
+
+@if (AddOrganization.OrganizationsList.Count != 0)
 {
     <form method="post" asp-controller="WorkSpace" asp-action="TID">
 
         <p>
             <h6><label for="Organization">Организация:</label></h6>
             <select name="Organization">
-                @foreach (var org in WorkSpaceController.db.organizations)
+                @foreach (var org in AddOrganization.OrganizationsList)
                 {
                     if (WorkSpaceController.terminal == org.id)
                     {
-                        <option selected value="@org">@org.name</option>
+                        <option selected value="@org.id">@org.name</option>
                     }
                     else
                     {
                         <option value="@org.id">@org.name</option>
                     }
-                   
-                }
+                 }
             </select>
         </p>
         <p>

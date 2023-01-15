@@ -1,5 +1,4 @@
-﻿   
-<link rel="stylesheet" href="~/lib/jsTree/dist/themes/default/style.min.css" />
+﻿<link rel="stylesheet" href="~/lib/jsTree/dist/themes/default/style.min.css" />
 <script type="text/javascript" src="~/lib/jquery/dist/jquery.min.js"></script>
 <script type="text/javascript" src="~/lib/jsTree/dist/jstree.min.js"></script>
     <script type="text/javascript">
@@ -41,14 +40,31 @@
             });
         });
     </script>
-<table board="1" style="float: right" width="50%">
+<table board="1" style="float: right" width="40%">
     <tr><th>Заказ</th><th>Внешенее меню</th></tr>
     <tr>
         <td valign ="top">
-            <textarea style="width:450px; height:15vw;" name="selectedItems" id="selectedItems" readonly></textarea>
+          @* <textarea style="width:350px; height:15vw;" name="selectedItems" id="selectedItems" readonly></textarea>*@
+            <P style="width:350px; height:15vw;">
+               <component>
+          @if (WorkSpaceController.items !=null)
+            {
+              
+                    foreach (var itemMenu in WorkSpaceController.items)
+            {
+                        @itemMenu.text <br />
+                    }  
+            
+            }
+                </component>
+            </P>
         </td>
         <td>
                 <div class="prokrutka" id="jstree"></div>
+            <form method="post" asp-controller="WorkSpace" asp-action="CreateOrder">
+                <input type="hidden" name="selectedItems" id="selectedItems" />
+                <input type="submit" value="Добавить в заказ" />
+            </form>
         </td>
     </tr>
 </table>
@@ -56,8 +72,8 @@
 
 <style>
     .prokrutka {
-        height: 90vh; /* высота нашего блока */
-        width: 40vw; /* ширина нашего блока */
+        height: 85vh; /* высота нашего блока */
+        width: 30vw; /* ширина нашего блока */
         background: #fff; /* цвет фона, белый */
         overflow-x: scroll; /* прокрутка по горизонтали */
         overflow-y: auto; /* прокрутка по вертикали */
