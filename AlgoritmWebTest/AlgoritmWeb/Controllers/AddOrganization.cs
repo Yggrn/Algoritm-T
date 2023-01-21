@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Newtonsoft.Json;
+using System.Linq;
 using static AlgoritmWeb.Models.Menus;
 using static AlgoritmWeb.Models.Organizations;
 
@@ -19,7 +20,7 @@ namespace AlgoritmWeb.Controllers
         ApplicationContext? db;
         public AddOrganization(ApplicationContext context)
         {
-            
+
             db = context;
             dataToken = new();
             httpClient = new();
@@ -28,7 +29,6 @@ namespace AlgoritmWeb.Controllers
         async Task GetOrderTypes()
         {
             var url = "https://api-ru.iiko.services/api/1/deliveries/order_types";
-            //  httpClient.DefaultRequestHeaders.Add("Authorization", "Bearer " + token);
             try
             {
                 var data = $"{{\"organizationIds\":{JsonConvert.SerializeObject(GetDataOrg())}}}";
@@ -96,14 +96,30 @@ namespace AlgoritmWeb.Controllers
                 {
                     orgId = org.organizations;
                     org.organizations[i].apiToken = key;
-                    db.organizations.Add(org.organizations[i]);
-                    
+                    if (db.organizations.Any(x => x.id == org.organizations[i].id))
+                    {
+                        db.organizations.Where(x => x.id == org.organizations[i].id).ToList().ForEach(x =>
+                        {
+                            x.version = org.organizations[i].version;
+                            x.name = org.organizations[i].name;
+                            x.isCloud = org.organizations[i].isCloud;
+                            x.inn = org.organizations[i].inn;
+                            x.latitude = org.organizations[i].latitude;
+                            x.currencyIsoName = org.organizations[i].currencyIsoName;
+                            x.longitude = org.organizations[i].longitude;
+                            x.restaurantAddress = org.organizations[i].restaurantAddress;
+                            x.useUaeAddressingSystem = org.organizations[i].useUaeAddressingSystem;
+                            x.responseType = org.organizations[i].responseType;
+                        });
+
+                        await db.SaveChangesAsync();
+                    }
+
+                    else db.organizations.Add(org.organizations[i]);
                 }
-
                 await db.SaveChangesAsync();
-
             }
-            catch (Exception)
+            catch (Exception ex)
             {
                 if (orgId == null) err = true;
             }
@@ -137,8 +153,18 @@ namespace AlgoritmWeb.Controllers
                 {
                     for (int j = 0; j < term!.terminalGroups[i]!.items!.Count; j++)
                     {
-                        if (db.terminalGroups.Any(o => o.id == term!.terminalGroups[i]!.items[j].id)) return;
-                        db.terminalGroups!.Add(term!.terminalGroups[i]!.items[j]);
+                        if (db.terminalGroups.Any(o => o.id == term!.terminalGroups[i]!.items[j].id))
+                        {
+                            db.terminalGroups.Where(x => x.id == term!.terminalGroups[i]!.items[j].id).ToList().ForEach(x =>
+                            {
+                                x.address = term!.terminalGroups[i]!.items[j].address;
+                                x.name = term!.terminalGroups[i]!.items[j].name;
+                                x.timeZone = term!.terminalGroups[i]!.items[j].timeZone;
+                                x.organizationId = term!.terminalGroups[i]!.items[j].organizationId;
+                            });
+                            await db.SaveChangesAsync();
+                        }
+                        else db.terminalGroups!.Add(term!.terminalGroups[i]!.items[j]);
                     }
                 }
                 await db.SaveChangesAsync();
@@ -160,19 +186,60 @@ namespace AlgoritmWeb.Controllers
                 Menus.Root? root = JsonConvert.DeserializeObject<Menus.Root>(result);
                 foreach (var item in root.groups)
                 {
-                    item.organizationId = orgId[0].id;
-                    db.menusGroups.Add(item);
+                    if (db.menusGroups.Any(o => o.id == item.id))
+                    {
+                        db.menusGroups.Where(x => x.id == item.id).ToList().ForEach(x =>
+                        {
+                            x.code = item.code;
+                            x.name = item.name;
+                            x.isDeleted = item.isDeleted;
+                            x.parentGroup = item.parentGroup;
+                            x.isIncludedInMenu = item.isIncludedInMenu;
+                            x.isGroupModifier = item.isGroupModifier;
+                            x.organizationId = orgId[0].id;
+                        });
+
+                        await db.SaveChangesAsync();
+                    }
+                    else
+                    {
+                        item.organizationId = orgId[0].id;
+                        db.menusGroups.Add(item);
+                    }
                 }
                 foreach (var item in root.products)
                 {
-                    item.organizationId = orgId[0].id;
-                    item.price = item.sizePrices[0].price.currentPrice;
-                    db.menusProducts.Add(item);
+                    if (db.menusProducts.Any(o => o.id == item.id))
+                    {
+                        db.menusProducts.Where(x => x.id == item.id).ToList().ForEach(x =>
+                        {
+                            x.code = item.code;
+                            x.name = item.name;
+                            x.isDeleted = item.isDeleted;
+                            x.parentGroup = item.parentGroup;
+                            x.groupId = item.groupId;
+                            x.productCategoryId = item.productCategoryId;
+                            x.price = item.sizePrices[0].price.currentPrice;
+                            x.type = item.type;
+                            x.measureUnit = item.measureUnit;
+                            x.canSetOpenPrice = item.canSetOpenPrice;
+                            x.description = item.description;
+                            x.organizationId = orgId[0].id;
+                        });
+
+                        await db.SaveChangesAsync();
+                    }
+                    else
+                    {
+                        item.organizationId = orgId[0].id;
+                        item.price = item.sizePrices[0].price.currentPrice;
+                        db.menusProducts.Add(item);
+                    }
                 }
                 await db.SaveChangesAsync();
                 db.Database.CloseConnection();
             }
-            catch
+            catch (Exception ex)
             {
 
             }
@@ -198,6 +265,6 @@ namespace AlgoritmWeb.Controllers
             return View("/Views/WorkSpace/Index.cshtml");
         }
     }
-    
+
 
 }

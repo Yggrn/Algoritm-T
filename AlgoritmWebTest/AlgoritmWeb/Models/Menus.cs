@@ -31,7 +31,7 @@ namespace AlgoritmWeb.Models
             public string? code { get; set; }
             public string? name { get; set; }
             public bool isDeleted { get; set; }
-            [Key] public Guid groupNumber { get; set; }
+         //   [Key] public Guid groupNumber { get; set; }
             public string? parentGroup { get; set; }
             public bool isIncludedInMenu { get; set; }
             public bool isGroupModifier { get; set; }
