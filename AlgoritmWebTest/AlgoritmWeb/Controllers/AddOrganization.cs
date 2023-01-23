@@ -2,7 +2,6 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Newtonsoft.Json;
-using System.Linq;
 using static AlgoritmWeb.Models.Menus;
 using static AlgoritmWeb.Models.Organizations;
 
@@ -26,8 +25,61 @@ namespace AlgoritmWeb.Controllers
             httpClient = new();
             httpClient.DefaultRequestHeaders.UserAgent.TryParseAdd("MessageService/3.1");
         }
+        async Task GetDiscounts()
+        {
+            var url = "https://api-ru.iiko.services/api/1/discounts";
+            try
+            {
+             //   var data = $"{{\"organizationIds\":[{JsonConvert.SerializeObject(Organizations.orgId[0].id)}]}}";
+                var data = $"{{\"organizationIds\":{JsonConvert.SerializeObject(GetDataOrg())}}}";
+                var response = await httpClient.PostAsync(url, new StringContent(data, encoding: System.Text.Encoding.UTF8, "application/json"));
+                response.EnsureSuccessStatusCode();
+                var result = await response.Content.ReadAsStringAsync();
+                Discounts.Discount? discounts = JsonConvert.DeserializeObject<Discounts.Discount>(result);
+                for (int i = 0; i < discounts!.items.Count; i++)
+                {
+                        if (db.discountItems.Any(x => x.id == discounts!.items[i].id && x.OID == discounts.organizationId.ToString()))
+                        {
+                            db.discountItems.Where(x => x.id == discounts!.items[i].id && x.OID == discounts.organizationId.ToString()).ToList().ForEach(x =>
+                            {
+                                x.name = discounts!.items[i].name;
+                                x.percent = discounts!.items[i].percent;
+                                x.isCategorisedDiscount = discounts!.items[i].isCategorisedDiscount;
+                                x.OID = discounts.organizationId.ToString();
+                                //x.productCategoryDiscounts = new List<Discounts.ProductCategoryDiscount>
+                                //{
+                                   
+                                //};
+                                x.comment = discounts!.items[i].comment;
+                                x.canBeAppliedSelectively = discounts!.items[i].canBeAppliedSelectively;
+                                x.canApplyByCardNumber = discounts!.items[i].canApplyByCardNumber;
+                                x.minOrderSum = discounts!.items[i].minOrderSum;
+                                x.mode = discounts!.items[i].mode;
+                                x.sum = discounts!.items[i].sum;
+                                x.isManual = discounts!.items[i].isManual;
+                                x.isCard = discounts!.items[i].isCard;
+                                x.isDeleted = discounts!.items[i].isDeleted; 
+                                x.isAutomatic = discounts!.items[i].isAutomatic;
+
+                            });
+                            await db!.SaveChangesAsync();
+                        }
+                        else
+                        {
+                        discounts!.items[i].OID = discounts.organizationId.ToString();
+                            db!.discountItems.Add(discounts!.items[i]);
+                        }
+                    }
+                
+                await db!.SaveChangesAsync();
+            }
+            catch
+            {
+                err = true;
+            }
+        }
         async Task GetOrderTypes()
-        { 
+        {
             var url = "https://api-ru.iiko.services/api/1/deliveries/order_types";
             try
             {

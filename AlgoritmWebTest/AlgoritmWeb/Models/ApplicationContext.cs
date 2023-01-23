@@ -12,6 +12,7 @@ namespace AlgoritmWeb.Models
         public DbSet<Menus.SizePrice> menusSizePrices { get; set; } = null!;
         public DbSet<Menus.OrderType> OrderTypes { get; set; }= null!;
         public DbSet<Menus.ItemOrder> ItemOrders { get; set; }= null!;
+        public DbSet<Discounts.Item> discountItems { get; set; } = null!;
         public ApplicationContext(DbContextOptions<ApplicationContext> options)
             : base(options)
         {

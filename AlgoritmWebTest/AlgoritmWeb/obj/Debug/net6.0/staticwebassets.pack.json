@@ -5,6 +5,14 @@
       "PackagePath": "staticwebassets\\AlgoritmWeb.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\22.png",
+      "PackagePath": "staticwebassets\\22.png"
+    },
+    {
+      "Id": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\897770.png",
+      "PackagePath": "staticwebassets\\897770.png"
+    },
+    {
       "Id": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
@@ -515,6 +523,10 @@
     {
       "Id": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\test\\visual\\screenshots\\mobile\\mobile.png",
       "PackagePath": "staticwebassets\\lib\\jsTree\\test\\visual\\screenshots\\mobile\\mobile.png"
+    },
+    {
+      "Id": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\png-transparent-comput.png",
+      "PackagePath": "staticwebassets\\png-transparent-comput.png"
     },
     {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.AlgoritmWeb.Microsoft.AspNetCore.StaticWebAssets.props",

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "hdI4IA3oqfetmzlkuhT4LOP9zmsz5xlm4wSomoYeErY=",
+  "Hash": "C7tY3qZ1njh8WRBM/jMi/IJTXtquZQBZrTNLpMOt4Dk=",
   "Source": "AlgoritmWeb",
   "BasePath": "_content/AlgoritmWeb",
   "Mode": "Default",
@@ -49,6 +49,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\AlgoritmWeb.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\22.png",
+      "SourceId": "AlgoritmWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "BasePath": "_content/AlgoritmWeb",
+      "RelativePath": "22.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\22.png"
+    },
+    {
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\897770.png",
+      "SourceId": "AlgoritmWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "BasePath": "_content/AlgoritmWeb",
+      "RelativePath": "897770.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\897770.png"
     },
     {
       "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\css\\site.css",
@@ -2225,6 +2259,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jsTree\\test\\visual\\screenshots\\mobile\\mobile.png"
+    },
+    {
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\png-transparent-comput.png",
+      "SourceId": "AlgoritmWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "BasePath": "_content/AlgoritmWeb",
+      "RelativePath": "png-transparent-comput.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\png-transparent-comput.png"
     }
   ]
 }
