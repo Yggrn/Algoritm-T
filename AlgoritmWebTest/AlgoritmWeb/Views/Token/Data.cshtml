@@ -2,11 +2,44 @@
 
 @if (AddOrganization.OrganizationsList.Count != 0)
 {
-    <form method="post" asp-controller="WorkSpace" asp-action="TID">
+    <style>
+        .box {
+            width: 40vh;
+            height: 30px;
+            border: 1px solid #ccc;
+            font-size: 18px;
+            color: #f7a602;
+            background-color: #413F3C;
+            border-radius: 5px;
+            box-shadow: 2px 2px #ccc;
+        }
+    </style>
+    <style>
+        .label {
+            width: 40vh;
+            height: 30px;
+            font-size: 18px;
+            color: #ccc;
+            background-color: #413F3C;
+        }
+    </style>
 
-        <p>
-            <h6><label for="Organization">Организация:</label></h6>
-            <select name="Organization">
+    <style>
+        .btn {
+   @*         border: 1px solid #ccc;
+            color: #ccc;*@
+            background-color: #413F3C;
+            margin-left: 5px;
+            position: relative;
+            top: -1px; 
+            left: 0px;
+        }
+    </style>
+    <p></p>
+    <form method="post" asp-controller="WorkSpace" asp-action="TID">
+        <h6><label class="label" for="Organization">Организация:</label></h6>
+        <div class="input-group">
+            <select class="box" name="Organization">
                 @foreach (var org in AddOrganization.OrganizationsList)
                 {
                     if (WorkSpaceController.terminal == org.id)
@@ -19,10 +52,8 @@
                     }
                  }
             </select>
-        </p>
-        <p>
-            <h6> <input type="submit" value="Получить данные"/></h6>
-        </p>
+            <h6><input class="btn" type="image" src="~/897770.png" style="height: 35px; width= 35px" value="" /> </h6>
+        </div>
     </form>
 }
 

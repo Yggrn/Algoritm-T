@@ -1,9 +1,29 @@
 ﻿@using AlgoritmWeb.Controllers
 @if (WorkSpaceController.terminal != string.Empty)
 {
-  
-<h6><label for="TerminalId">Терминальная группа:</label></h6>
-<select name="TerminalId">
+    <style>
+        .box {
+            width: 40vh;
+            height: 30px;
+            border: 1px solid #ccc;
+            font-size: 18px;
+            color: #f7a602;
+            background-color: #413F3C;
+            border-radius: 5px;
+            box-shadow: 2px 2px #ccc;
+        }
+    </style>
+    <style>
+        .label {
+            width: 40vh;
+            height: 30px;
+            font-size: 18px;
+            color: #ccc;
+            background-color: #413F3C;
+        }
+    </style>
+<h6><label class="label" for="TerminalId">Терминальная группа:</label></h6>
+<select class="box" name="TerminalId">
     @foreach (var item in AddOrganization.terminals)
     {
         @if (item.organizationId == WorkSpaceController.terminal)
@@ -13,9 +33,9 @@
     }
 </select>
 
-
-<h6><label for="OrderTypes">Тип заказа:</label></h6>
-<select name="OrderTypes">
+<p></p>
+<h6><label class="label" for="OrderTypes">Тип заказа:</label></h6>
+<select class="box" name="OrderTypes">
         @foreach (var item in AddOrganization.orderTypes)
     {
         @if (item.OID == WorkSpaceController.terminal)

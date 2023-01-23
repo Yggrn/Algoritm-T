@@ -14,7 +14,8 @@ html {
 }
 
 body {
-  margin-bottom: 200px;
+    margin-bottom: 200px;
+    background: #413F3C;
 }
 td {
     height: 50px;
@@ -126,3 +127,5 @@ nav li:hover > .submenu {
     visibility: visible;
     opacity: 1;
 }
+
+

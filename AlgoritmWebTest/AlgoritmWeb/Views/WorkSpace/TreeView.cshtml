@@ -40,10 +40,11 @@
             });
         });
     </script>
-<table board="1" style="float: right" width="40%">
+<table class="tt" board="1" style="float: right" width="40%">
     <tr><th>Заказ</th><th>Внешенее меню</th></tr>
     <tr>
         <td valign ="top">
+            <p></p>
           @* <textarea style="width:350px; height:15vw;" name="selectedItems" id="selectedItems" readonly></textarea>*@
             <P style="width:350px; height:15vw;">
                <component>
@@ -60,6 +61,7 @@
             </P>
         </td>
         <td>
+            <p></p>
                 <div class="prokrutka" id="jstree"></div>
             <form method="post" asp-controller="WorkSpace" asp-action="CreateOrder">
                 <input type="hidden" name="selectedItems" id="selectedItems" />
@@ -69,13 +71,19 @@
     </tr>
 </table>
 
+<style>
+    .tt {
+         color: #ccc;
+    }
+</style>
 
 <style>
     .prokrutka {
         height: 85vh; /* высота нашего блока */
         width: 30vw; /* ширина нашего блока */
-        background: #fff; /* цвет фона, белый */
+        background: #413F3C; /* цвет фона, белый */
         overflow-x: scroll; /* прокрутка по горизонтали */
         overflow-y: auto; /* прокрутка по вертикали */
+        color: #f7a602;
     }
 </style>

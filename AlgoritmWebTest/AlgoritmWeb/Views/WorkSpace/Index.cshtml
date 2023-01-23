@@ -1,6 +1,6 @@
 ﻿@using AlgoritmWeb.Controllers
 
-    <table style="float: left" width="40%">
+    <table class="tt" style="float: left" width="35%">
         <tr><th>Параметры</th><th>Информация</th></tr>
    <tr border="1">
             <td valign="top">
@@ -23,6 +23,7 @@
             }
         </td>
             <td align="left">
+                <p></p>
 @if (WorkSpaceController.terminal != string.Empty)
                 {
                 foreach (var orgItem in AddOrganization.OrganizationsList)
@@ -42,6 +43,11 @@
             </td>
    </tr>
 </table>
+<style>
+    .tt {
+         color: #ccc;
+    }
+</style>
     @{
         await Html.RenderPartialAsync("/Views/WorkSpace/TreeView.cshtml");
     }

@@ -27,7 +27,7 @@ namespace AlgoritmWeb.Controllers
             httpClient.DefaultRequestHeaders.UserAgent.TryParseAdd("MessageService/3.1");
         }
         async Task GetOrderTypes()
-        {
+        { 
             var url = "https://api-ru.iiko.services/api/1/deliveries/order_types";
             try
             {
@@ -35,13 +35,28 @@ namespace AlgoritmWeb.Controllers
                 var response = await httpClient.PostAsync(url, new StringContent(data, encoding: System.Text.Encoding.UTF8, "application/json"));
                 response.EnsureSuccessStatusCode();
                 var result = await response.Content.ReadAsStringAsync();
-                Menus.RootOrderTypes? orderTypes = JsonConvert.DeserializeObject<Menus.RootOrderTypes>(result);
+                RootOrderTypes? orderTypes = JsonConvert.DeserializeObject<RootOrderTypes>(result);
                 for (int i = 0; i < orderTypes!.orderTypes.Count; i++)
                 {
                     for (int j = 0; j < orderTypes.orderTypes[i].items.Count; j++)
                     {
-                        orderTypes.orderTypes[i].items[j].OID = orderTypes.orderTypes[i].organizationId.ToString();
-                        db!.OrderTypes.Add(orderTypes.orderTypes[i]);
+                        if (db.ItemOrders.Any(x => x.id == orderTypes.orderTypes[i].items[j].id && x.OID == orderTypes.orderTypes[i].organizationId.ToString()))
+                        {
+                            db.ItemOrders.Where(x => x.id == orderTypes.orderTypes[i].items[j].id && x.OID == orderTypes.orderTypes[i].organizationId.ToString()).ToList().ForEach(x =>
+                            {
+                                x.externalRevision = orderTypes.orderTypes[i].items[j].externalRevision;
+                                x.isDeleted = orderTypes.orderTypes[i].items[j].isDeleted;
+                                x.orderServiceType = orderTypes.orderTypes[i].items[j].orderServiceType;
+                                x.OID = orderTypes.orderTypes[i].organizationId.ToString();
+                                x.name = orderTypes.orderTypes[i].items[j].name;
+                            });
+                            await db!.SaveChangesAsync();
+                        }
+                        else
+                        {
+                            orderTypes.orderTypes[i].items[j].OID = orderTypes.orderTypes[i].organizationId.ToString();
+                            db!.OrderTypes.Add(orderTypes.orderTypes[i]);
+                        }
                     }
                 }
                 await db!.SaveChangesAsync();
