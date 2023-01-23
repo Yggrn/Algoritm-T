@@ -16,6 +16,7 @@ namespace AlgoritmWeb.Controllers
         public static List<OrganizationsArray> OrganizationsList { get; set; } = new List<OrganizationsArray>();
         public static List<ItemsArray> terminals { get; set; } = new List<ItemsArray>();
         public static List<ItemOrder> orderTypes { get; set; } = new List<ItemOrder>();
+        public static List<Discounts.Item> _Discounts { get; set; } = new List<Discounts.Item>();
         ApplicationContext? db;
         public AddOrganization(ApplicationContext context)
         {
@@ -35,45 +36,50 @@ namespace AlgoritmWeb.Controllers
                 var response = await httpClient.PostAsync(url, new StringContent(data, encoding: System.Text.Encoding.UTF8, "application/json"));
                 response.EnsureSuccessStatusCode();
                 var result = await response.Content.ReadAsStringAsync();
-                Discounts.Discount? discounts = JsonConvert.DeserializeObject<Discounts.Discount>(result);
-                for (int i = 0; i < discounts!.items.Count; i++)
+                Discounts.Root? discounts = JsonConvert.DeserializeObject<Discounts.Root>(result);
+                for (int i = 0; i < discounts!.discounts.Count; i++)
                 {
-                        if (db.discountItems.Any(x => x.id == discounts!.items[i].id && x.OID == discounts.organizationId.ToString()))
-                        {
-                            db.discountItems.Where(x => x.id == discounts!.items[i].id && x.OID == discounts.organizationId.ToString()).ToList().ForEach(x =>
-                            {
-                                x.name = discounts!.items[i].name;
-                                x.percent = discounts!.items[i].percent;
-                                x.isCategorisedDiscount = discounts!.items[i].isCategorisedDiscount;
-                                x.OID = discounts.organizationId.ToString();
-                                //x.productCategoryDiscounts = new List<Discounts.ProductCategoryDiscount>
-                                //{
-                                   
-                                //};
-                                x.comment = discounts!.items[i].comment;
-                                x.canBeAppliedSelectively = discounts!.items[i].canBeAppliedSelectively;
-                                x.canApplyByCardNumber = discounts!.items[i].canApplyByCardNumber;
-                                x.minOrderSum = discounts!.items[i].minOrderSum;
-                                x.mode = discounts!.items[i].mode;
-                                x.sum = discounts!.items[i].sum;
-                                x.isManual = discounts!.items[i].isManual;
-                                x.isCard = discounts!.items[i].isCard;
-                                x.isDeleted = discounts!.items[i].isDeleted; 
-                                x.isAutomatic = discounts!.items[i].isAutomatic;
+                    for (int j = 0; j < discounts.discounts[i].items.Count; j++)
+                    {
 
-                            });
-                            await db!.SaveChangesAsync();
-                        }
-                        else
+                    
+                    if (db.discountItems.Any(x => x.id == discounts!.discounts[i].items[j].id && x.OID == discounts.discounts[i].organizationId.ToString()))
+                    {
+                        db.discountItems.Where(x => x.id == discounts!.discounts[i].items[j].id && x.OID == discounts.discounts[i].organizationId.ToString()).ToList().ForEach(x =>
                         {
-                        discounts!.items[i].OID = discounts.organizationId.ToString();
-                            db!.discountItems.Add(discounts!.items[i]);
-                        }
+                            x.name = discounts!.discounts[i].items[j].name;
+                            x.percent = discounts!.discounts[i].items[j].percent;
+                            x.isCategorisedDiscount = discounts!.discounts[i].items[j].isCategorisedDiscount;
+                            x.OID = discounts.discounts[i].organizationId.ToString();
+                            //x.productCategoryDiscounts = new List<Discounts.ProductCategoryDiscount>
+                            //{
+
+                            //};
+                            x.comment = discounts!.discounts[i].items[j].comment;
+                            x.canBeAppliedSelectively = discounts!.discounts[i].items[j].canBeAppliedSelectively;
+                            x.canApplyByCardNumber = discounts!.discounts[i].items[j].canApplyByCardNumber;
+                            x.minOrderSum = discounts!.discounts[i].items[j].minOrderSum;
+                            x.mode = discounts!.discounts[i].items[j].mode;
+                            x.sum = discounts!.discounts[i].items[j].sum;
+                            x.isManual = discounts!.discounts[i].items[j].isManual;
+                            x.isCard = discounts!.discounts[i].items[j].isCard;
+                            x.isDeleted = discounts!.discounts[i].items[j].isDeleted;
+                            x.isAutomatic = discounts!.discounts[i].items[j].isAutomatic;
+
+                        });
+                        await db!.SaveChangesAsync();
                     }
+                    else
+                    {
+                        discounts!.discounts[i].items[j].OID = discounts.discounts[i].organizationId.ToString();
+                        db!.discountItems.Add(discounts!.discounts[i].items[j]);
+                    }
+                    }
+                }
                 
                 await db!.SaveChangesAsync();
             }
-            catch
+            catch (Exception e)
             {
                 err = true;
             }
@@ -138,6 +144,7 @@ namespace AlgoritmWeb.Controllers
                     await Task.WhenAll(GetTerminalGroups());
                     await Task.WhenAll(GetMenus());
                     await Task.WhenAll(GetOrderTypes());
+                    await Task.WhenAll(GetDiscounts());
                 }
                 catch
                 {
@@ -318,6 +325,7 @@ namespace AlgoritmWeb.Controllers
             OrganizationsList = db.organizations.ToList();
             terminals = db.terminalGroups.ToList();
             orderTypes = db.ItemOrders.ToList();
+            _Discounts =db.discountItems.ToList();
             return View("/Views/WorkSpace/Index.cshtml");
         }
 
@@ -329,6 +337,7 @@ namespace AlgoritmWeb.Controllers
             OrganizationsList = db.organizations.ToList();
             terminals = db.terminalGroups.ToList();
             orderTypes = db.ItemOrders.ToList();
+            _Discounts = db.discountItems.ToList();
             return View("/Views/WorkSpace/Index.cshtml");
         }
     }

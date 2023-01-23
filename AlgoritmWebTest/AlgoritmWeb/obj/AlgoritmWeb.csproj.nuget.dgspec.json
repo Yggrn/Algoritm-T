@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\AlgoritmWeb.csproj": {}
+    "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\AlgoritmWeb.csproj": {}
   },
   "projects": {
-    "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\AlgoritmWeb.csproj": {
+    "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\AlgoritmWeb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\AlgoritmWeb.csproj",
+        "projectUniqueName": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\AlgoritmWeb.csproj",
         "projectName": "AlgoritmWeb",
-        "projectPath": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\AlgoritmWeb.csproj",
-        "packagesPath": "C:\\Users\\New\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\obj\\",
+        "projectPath": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\AlgoritmWeb.csproj",
+        "packagesPath": "C:\\Users\\home\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\New\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\home\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

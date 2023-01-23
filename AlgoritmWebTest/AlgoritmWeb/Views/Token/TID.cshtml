@@ -44,4 +44,15 @@
         }
     }
 </select>
+    <p></p>
+    <h6><label class="label" for="Discounts">Скидки:</label></h6>
+    <select class="box" name="Discounts">
+        @foreach (var item in AddOrganization._Discounts)
+        {
+            @if (item.OID == WorkSpaceController.terminal)
+            {
+                <option value="@item.id">@item.name</option>
+            }
+        }
+    </select>
 }
