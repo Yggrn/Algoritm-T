@@ -22,7 +22,9 @@
             background-color: #413F3C;
         }
     </style>
+<form method="post" asp-controller="AddOrganization" asp-action="GetTab">
 <h6><label class="label" for="TerminalId">Терминальная группа:</label></h6>
+        <div class="input-group">
 <select class="box" name="TerminalId">
     @foreach (var item in AddOrganization.terminals)
     {
@@ -32,7 +34,9 @@
         }
     }
 </select>
-
+        <h6><input class="btn" type="image" src="~/897770.png" style="height: 35px; width= 35px" value="" /> </h6>
+        </div>
+</form>
 <p></p>
 <h6><label class="label" for="OrderTypes">Тип заказа:</label></h6>
 <select class="box" name="OrderTypes">
@@ -56,3 +60,12 @@
         }
     </select>
 }
+<style>
+    .btn {
+    @* border: 1px solid #ccc; color: #ccc;*@ background-color: #413F3C;
+        margin-left: 5px;
+        position: relative;
+        top: -1px;
+        left: 0px;
+    }
+</style>

@@ -26,12 +26,66 @@ namespace AlgoritmWeb.Controllers
             httpClient = new();
             httpClient.DefaultRequestHeaders.UserAgent.TryParseAdd("MessageService/3.1");
         }
-        async Task GetDiscounts()
+        public async Task<IActionResult> GetTab(string TerminalId)
+        {
+            List<string> list = new List<string>();
+            list.Add(TerminalId);
+            await Task.WhenAll(GetTables(list));
+            return View("/Views/WorkSpace/Index.cshtml");
+        }
+        async Task GetTables(List<string> terminalIds)
+        {
+            var url = "https://api-ru.iiko.services/api/1/reserve/available_restaurant_sections";
+            try
+            {
+                httpClient.DefaultRequestHeaders.Add("Authorization", "Bearer " + token);
+                var data = $"{{\"terminalGroupIds\":{JsonConvert.SerializeObject( terminalIds)}, \"returnSchema\":false, \"revision\":0}}";
+                var response = await httpClient.PostAsync(url, new StringContent(data, encoding: System.Text.Encoding.UTF8, "application/json"));
+                response.EnsureSuccessStatusCode();
+                var result = await response.Content.ReadAsStringAsync();
+                Tables.GetTable? _tab = JsonConvert.DeserializeObject<Tables.GetTable>(result);
+                for (int i = 0; i < _tab.restaurantSections.Count; i++)
+                {
+                    for (int j = 0; j < _tab.restaurantSections[i].tables.Count; j++)
+                    {
+
+
+                        if (db.tables.Any(x => x.id == _tab.restaurantSections[i].tables[j].id && x.tID == _tab.restaurantSections[i].terminalGroupId.ToString()))
+                        {
+                            db.tables.Where(x => x.id == _tab.restaurantSections[i].tables[j].id && x.tID == _tab.restaurantSections[i].terminalGroupId.ToString()).ToList().ForEach(x =>
+                            {
+                                x.name = _tab.restaurantSections[i].tables[j].name;
+                                x.isDeleted = _tab.restaurantSections[i].tables[j].isDeleted;
+                                x.number = _tab.restaurantSections[i].tables[j].number;
+                                x.tID = _tab.restaurantSections[i].terminalGroupId.ToString();
+                                //x.productCategoryDiscounts = new List<Discounts.ProductCategoryDiscount>
+                                //{
+
+                                //};
+                                x.revision =_tab.restaurantSections[i].tables[j].revision;
+                                x.seatingCapacity = _tab.restaurantSections[i].tables[j].seatingCapacity;
+                            });
+                            await db!.SaveChangesAsync();
+                        }
+                        else
+                        {
+                            _tab.restaurantSections[i].tables[j].tID = _tab.restaurantSections[i].terminalGroupId.ToString();
+                            db!.tables.Add(_tab.restaurantSections[i].tables[j]);
+                        }
+                    }
+                    await db!.SaveChangesAsync();
+                }
+            }
+            catch (Exception e)
+            {
+                err = true;
+            }
+        }
+                async Task GetDiscounts()
         {
             var url = "https://api-ru.iiko.services/api/1/discounts";
             try
             {
-             //   var data = $"{{\"organizationIds\":[{JsonConvert.SerializeObject(Organizations.orgId[0].id)}]}}";
                 var data = $"{{\"organizationIds\":{JsonConvert.SerializeObject(GetDataOrg())}}}";
                 var response = await httpClient.PostAsync(url, new StringContent(data, encoding: System.Text.Encoding.UTF8, "application/json"));
                 response.EnsureSuccessStatusCode();

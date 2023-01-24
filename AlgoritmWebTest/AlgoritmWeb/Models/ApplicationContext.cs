@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
 
 namespace AlgoritmWeb.Models
 {
@@ -13,6 +14,7 @@ namespace AlgoritmWeb.Models
         public DbSet<Menus.OrderType> OrderTypes { get; set; }= null!;
         public DbSet<Menus.ItemOrder> ItemOrders { get; set; }= null!;
         public DbSet<Discounts.Item> discountItems { get; set; } = null!;
+        public DbSet<Tables.Table> tables { get; set; } = null!;
         public ApplicationContext(DbContextOptions<ApplicationContext> options)
             : base(options)
         {

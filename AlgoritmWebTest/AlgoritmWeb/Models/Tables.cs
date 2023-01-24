@@ -80,6 +80,7 @@
             public int seatingCapacity { get; set; }
             public string revision { get; set; }
             public bool isDeleted { get; set; }
+            public string tID { get; set; }
         }
         public class TableElement
         {

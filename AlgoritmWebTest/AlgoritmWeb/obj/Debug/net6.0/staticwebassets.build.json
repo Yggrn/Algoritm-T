@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "RjeUJ31QFSvkyIXtrPZsFFNn1R1ei2fAUQr4chd4sH4=",
+  "Hash": "C7tY3qZ1njh8WRBM/jMi/IJTXtquZQBZrTNLpMOt4Dk=",
   "Source": "AlgoritmWeb",
   "BasePath": "_content/AlgoritmWeb",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "AlgoritmWeb\\wwwroot",
       "Source": "AlgoritmWeb",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
       "BasePath": "_content/AlgoritmWeb",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\obj\\Debug\\net6.0\\scopedcss\\bundle\\AlgoritmWeb.styles.css",
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\obj\\Debug\\net6.0\\scopedcss\\bundle\\AlgoritmWeb.styles.css",
       "SourceId": "AlgoritmWeb",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/AlgoritmWeb",
       "RelativePath": "AlgoritmWeb.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\obj\\Debug\\net6.0\\scopedcss\\bundle\\AlgoritmWeb.styles.css"
+      "OriginalItemSpec": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\obj\\Debug\\net6.0\\scopedcss\\bundle\\AlgoritmWeb.styles.css"
     },
     {
-      "Identity": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\AlgoritmWeb.bundle.scp.css",
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\AlgoritmWeb.bundle.scp.css",
       "SourceId": "AlgoritmWeb",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/AlgoritmWeb",
       "RelativePath": "AlgoritmWeb.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\AlgoritmWeb.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\AlgoritmWeb.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\22.png",
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\22.png",
       "SourceId": "AlgoritmWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
       "BasePath": "_content/AlgoritmWeb",
       "RelativePath": "22.png",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\22.png"
     },
     {
-      "Identity": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\897770.png",
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\897770.png",
       "SourceId": "AlgoritmWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
       "BasePath": "_content/AlgoritmWeb",
       "RelativePath": "897770.png",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\897770.png"
     },
     {
-      "Identity": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\css\\site.css",
       "SourceId": "AlgoritmWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
       "BasePath": "_content/AlgoritmWeb",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\favicon.ico",
       "SourceId": "AlgoritmWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
       "BasePath": "_content/AlgoritmWeb",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\js\\site.js",
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\js\\site.js",
       "SourceId": "AlgoritmWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
       "BasePath": "_content/AlgoritmWeb",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "AlgoritmWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
       "BasePath": "_content/AlgoritmWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "AlgoritmWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
       "BasePath": "_content/AlgoritmWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "AlgoritmWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
       "BasePath": "_content/AlgoritmWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "AlgoritmWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
       "BasePath": "_content/AlgoritmWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "AlgoritmWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
       "BasePath": "_content/AlgoritmWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "AlgoritmWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
       "BasePath": "_content/AlgoritmWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "AlgoritmWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
       "BasePath": "_content/AlgoritmWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "AlgoritmWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
       "BasePath": "_content/AlgoritmWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -272,10 +272,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "AlgoritmWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
       "BasePath": "_content/AlgoritmWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -289,10 +289,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "AlgoritmWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
       "BasePath": "_content/AlgoritmWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -306,10 +306,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "AlgoritmWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
       "BasePath": "_content/AlgoritmWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -323,10 +323,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "AlgoritmWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
       "BasePath": "_content/AlgoritmWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "AlgoritmWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
       "BasePath": "_content/AlgoritmWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -357,10 +357,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "AlgoritmWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
       "BasePath": "_content/AlgoritmWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -374,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "AlgoritmWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
       "BasePath": "_content/AlgoritmWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -391,10 +391,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "AlgoritmWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
       "BasePath": "_content/AlgoritmWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -408,10 +408,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "AlgoritmWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
       "BasePath": "_content/AlgoritmWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -425,10 +425,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "AlgoritmWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
       "BasePath": "_content/AlgoritmWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -442,10 +442,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "AlgoritmWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
       "BasePath": "_content/AlgoritmWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -459,10 +459,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "AlgoritmWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
       "BasePath": "_content/AlgoritmWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -476,10 +476,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "AlgoritmWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
       "BasePath": "_content/AlgoritmWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -493,10 +493,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "AlgoritmWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
       "BasePath": "_content/AlgoritmWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -510,10 +510,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "AlgoritmWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
       "BasePath": "_content/AlgoritmWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -527,10 +527,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "AlgoritmWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
       "BasePath": "_content/AlgoritmWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -544,10 +544,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "AlgoritmWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
       "BasePath": "_content/AlgoritmWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -561,10 +561,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "AlgoritmWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
       "BasePath": "_content/AlgoritmWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -578,10 +578,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "AlgoritmWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
       "BasePath": "_content/AlgoritmWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -595,10 +595,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "AlgoritmWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
       "BasePath": "_content/AlgoritmWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -612,10 +612,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "AlgoritmWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
       "BasePath": "_content/AlgoritmWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -629,10 +629,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "AlgoritmWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
       "BasePath": "_content/AlgoritmWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -646,10 +646,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "AlgoritmWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
       "BasePath": "_content/AlgoritmWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -663,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "AlgoritmWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
       "BasePath": "_content/AlgoritmWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -680,10 +680,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "AlgoritmWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
       "BasePath": "_content/AlgoritmWeb",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -697,10 +697,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "AlgoritmWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
       "BasePath": "_content/AlgoritmWeb",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -714,10 +714,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "AlgoritmWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
       "BasePath": "_content/AlgoritmWeb",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -731,10 +731,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "AlgoritmWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
       "BasePath": "_content/AlgoritmWeb",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -748,10 +748,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "AlgoritmWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
       "BasePath": "_content/AlgoritmWeb",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -765,10 +765,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "AlgoritmWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
       "BasePath": "_content/AlgoritmWeb",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -782,10 +782,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "AlgoritmWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
       "BasePath": "_content/AlgoritmWeb",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -799,10 +799,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "AlgoritmWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
       "BasePath": "_content/AlgoritmWeb",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -816,10 +816,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "AlgoritmWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
       "BasePath": "_content/AlgoritmWeb",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -833,10 +833,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "AlgoritmWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
       "BasePath": "_content/AlgoritmWeb",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -850,10 +850,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "AlgoritmWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
       "BasePath": "_content/AlgoritmWeb",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -867,10 +867,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "AlgoritmWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
       "BasePath": "_content/AlgoritmWeb",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -884,10 +884,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "AlgoritmWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
       "BasePath": "_content/AlgoritmWeb",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -901,10 +901,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "AlgoritmWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
       "BasePath": "_content/AlgoritmWeb",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -918,10 +918,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "AlgoritmWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
       "BasePath": "_content/AlgoritmWeb",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -935,10 +935,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "AlgoritmWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
       "BasePath": "_content/AlgoritmWeb",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -952,10 +952,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "AlgoritmWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
       "BasePath": "_content/AlgoritmWeb",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -969,10 +969,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "AlgoritmWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
       "BasePath": "_content/AlgoritmWeb",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -986,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "AlgoritmWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
       "BasePath": "_content/AlgoritmWeb",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -1003,10 +1003,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "AlgoritmWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
       "BasePath": "_content/AlgoritmWeb",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -1020,10 +1020,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "AlgoritmWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
       "BasePath": "_content/AlgoritmWeb",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -1037,10 +1037,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "AlgoritmWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
       "BasePath": "_content/AlgoritmWeb",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -1054,10 +1054,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "AlgoritmWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
       "BasePath": "_content/AlgoritmWeb",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -1071,10 +1071,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "AlgoritmWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
       "BasePath": "_content/AlgoritmWeb",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -1088,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "AlgoritmWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
       "BasePath": "_content/AlgoritmWeb",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -1105,10 +1105,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\.gitignore",
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\.gitignore",
       "SourceId": "AlgoritmWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
       "BasePath": "_content/AlgoritmWeb",
       "RelativePath": "lib/jsTree/.gitignore",
       "AssetKind": "All",
@@ -1122,10 +1122,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jsTree\\.gitignore"
     },
     {
-      "Identity": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\bower.json",
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\bower.json",
       "SourceId": "AlgoritmWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
       "BasePath": "_content/AlgoritmWeb",
       "RelativePath": "lib/jsTree/bower.json",
       "AssetKind": "All",
@@ -1139,10 +1139,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jsTree\\bower.json"
     },
     {
-      "Identity": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\component.json",
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\component.json",
       "SourceId": "AlgoritmWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
       "BasePath": "_content/AlgoritmWeb",
       "RelativePath": "lib/jsTree/component.json",
       "AssetKind": "All",
@@ -1156,10 +1156,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jsTree\\component.json"
     },
     {
-      "Identity": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\composer.json",
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\composer.json",
       "SourceId": "AlgoritmWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
       "BasePath": "_content/AlgoritmWeb",
       "RelativePath": "lib/jsTree/composer.json",
       "AssetKind": "All",
@@ -1173,10 +1173,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jsTree\\composer.json"
     },
     {
-      "Identity": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\demo\\basic\\index.html",
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\demo\\basic\\index.html",
       "SourceId": "AlgoritmWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
       "BasePath": "_content/AlgoritmWeb",
       "RelativePath": "lib/jsTree/demo/basic/index.html",
       "AssetKind": "All",
@@ -1190,10 +1190,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jsTree\\demo\\basic\\index.html"
     },
     {
-      "Identity": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\demo\\basic\\root.json",
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\demo\\basic\\root.json",
       "SourceId": "AlgoritmWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
       "BasePath": "_content/AlgoritmWeb",
       "RelativePath": "lib/jsTree/demo/basic/root.json",
       "AssetKind": "All",
@@ -1207,10 +1207,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jsTree\\demo\\basic\\root.json"
     },
     {
-      "Identity": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\demo\\README.md",
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\demo\\README.md",
       "SourceId": "AlgoritmWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
       "BasePath": "_content/AlgoritmWeb",
       "RelativePath": "lib/jsTree/demo/README.md",
       "AssetKind": "All",
@@ -1224,10 +1224,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jsTree\\demo\\README.md"
     },
     {
-      "Identity": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\dist\\jstree.js",
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\dist\\jstree.js",
       "SourceId": "AlgoritmWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
       "BasePath": "_content/AlgoritmWeb",
       "RelativePath": "lib/jsTree/dist/jstree.js",
       "AssetKind": "All",
@@ -1241,10 +1241,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jsTree\\dist\\jstree.js"
     },
     {
-      "Identity": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\dist\\jstree.min.js",
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\dist\\jstree.min.js",
       "SourceId": "AlgoritmWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
       "BasePath": "_content/AlgoritmWeb",
       "RelativePath": "lib/jsTree/dist/jstree.min.js",
       "AssetKind": "All",
@@ -1258,10 +1258,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jsTree\\dist\\jstree.min.js"
     },
     {
-      "Identity": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\dist\\themes\\default\\32px.png",
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\dist\\themes\\default\\32px.png",
       "SourceId": "AlgoritmWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
       "BasePath": "_content/AlgoritmWeb",
       "RelativePath": "lib/jsTree/dist/themes/default/32px.png",
       "AssetKind": "All",
@@ -1275,10 +1275,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jsTree\\dist\\themes\\default\\32px.png"
     },
     {
-      "Identity": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\dist\\themes\\default\\40px.png",
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\dist\\themes\\default\\40px.png",
       "SourceId": "AlgoritmWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
       "BasePath": "_content/AlgoritmWeb",
       "RelativePath": "lib/jsTree/dist/themes/default/40px.png",
       "AssetKind": "All",
@@ -1292,10 +1292,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jsTree\\dist\\themes\\default\\40px.png"
     },
     {
-      "Identity": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\dist\\themes\\default\\style.css",
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\dist\\themes\\default\\style.css",
       "SourceId": "AlgoritmWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
       "BasePath": "_content/AlgoritmWeb",
       "RelativePath": "lib/jsTree/dist/themes/default/style.css",
       "AssetKind": "All",
@@ -1309,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jsTree\\dist\\themes\\default\\style.css"
     },
     {
-      "Identity": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\dist\\themes\\default\\style.min.css",
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\dist\\themes\\default\\style.min.css",
       "SourceId": "AlgoritmWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
       "BasePath": "_content/AlgoritmWeb",
       "RelativePath": "lib/jsTree/dist/themes/default/style.min.css",
       "AssetKind": "All",
@@ -1326,10 +1326,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jsTree\\dist\\themes\\default\\style.min.css"
     },
     {
-      "Identity": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\dist\\themes\\default\\throbber.gif",
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\dist\\themes\\default\\throbber.gif",
       "SourceId": "AlgoritmWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
       "BasePath": "_content/AlgoritmWeb",
       "RelativePath": "lib/jsTree/dist/themes/default/throbber.gif",
       "AssetKind": "All",
@@ -1343,10 +1343,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jsTree\\dist\\themes\\default\\throbber.gif"
     },
     {
-      "Identity": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\dist\\themes\\default-dark\\32px.png",
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\dist\\themes\\default-dark\\32px.png",
       "SourceId": "AlgoritmWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
       "BasePath": "_content/AlgoritmWeb",
       "RelativePath": "lib/jsTree/dist/themes/default-dark/32px.png",
       "AssetKind": "All",
@@ -1360,10 +1360,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jsTree\\dist\\themes\\default-dark\\32px.png"
     },
     {
-      "Identity": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\dist\\themes\\default-dark\\40px.png",
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\dist\\themes\\default-dark\\40px.png",
       "SourceId": "AlgoritmWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
       "BasePath": "_content/AlgoritmWeb",
       "RelativePath": "lib/jsTree/dist/themes/default-dark/40px.png",
       "AssetKind": "All",
@@ -1377,10 +1377,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jsTree\\dist\\themes\\default-dark\\40px.png"
     },
     {
-      "Identity": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\dist\\themes\\default-dark\\style.css",
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\dist\\themes\\default-dark\\style.css",
       "SourceId": "AlgoritmWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
       "BasePath": "_content/AlgoritmWeb",
       "RelativePath": "lib/jsTree/dist/themes/default-dark/style.css",
       "AssetKind": "All",
@@ -1394,10 +1394,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jsTree\\dist\\themes\\default-dark\\style.css"
     },
     {
-      "Identity": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\dist\\themes\\default-dark\\style.min.css",
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\dist\\themes\\default-dark\\style.min.css",
       "SourceId": "AlgoritmWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
       "BasePath": "_content/AlgoritmWeb",
       "RelativePath": "lib/jsTree/dist/themes/default-dark/style.min.css",
       "AssetKind": "All",
@@ -1411,10 +1411,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jsTree\\dist\\themes\\default-dark\\style.min.css"
     },
     {
-      "Identity": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\dist\\themes\\default-dark\\throbber.gif",
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\dist\\themes\\default-dark\\throbber.gif",
       "SourceId": "AlgoritmWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
       "BasePath": "_content/AlgoritmWeb",
       "RelativePath": "lib/jsTree/dist/themes/default-dark/throbber.gif",
       "AssetKind": "All",
@@ -1428,10 +1428,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jsTree\\dist\\themes\\default-dark\\throbber.gif"
     },
     {
-      "Identity": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\gruntfile.js",
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\gruntfile.js",
       "SourceId": "AlgoritmWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
       "BasePath": "_content/AlgoritmWeb",
       "RelativePath": "lib/jsTree/gruntfile.js",
       "AssetKind": "All",
@@ -1445,10 +1445,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jsTree\\gruntfile.js"
     },
     {
-      "Identity": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\jstree.jquery.json",
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\jstree.jquery.json",
       "SourceId": "AlgoritmWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
       "BasePath": "_content/AlgoritmWeb",
       "RelativePath": "lib/jsTree/jstree.jquery.json",
       "AssetKind": "All",
@@ -1462,10 +1462,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jsTree\\jstree.jquery.json"
     },
     {
-      "Identity": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\LICENSE-MIT",
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\LICENSE-MIT",
       "SourceId": "AlgoritmWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
       "BasePath": "_content/AlgoritmWeb",
       "RelativePath": "lib/jsTree/LICENSE-MIT",
       "AssetKind": "All",
@@ -1479,10 +1479,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jsTree\\LICENSE-MIT"
     },
     {
-      "Identity": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\package.json",
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\package.json",
       "SourceId": "AlgoritmWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
       "BasePath": "_content/AlgoritmWeb",
       "RelativePath": "lib/jsTree/package.json",
       "AssetKind": "All",
@@ -1496,10 +1496,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jsTree\\package.json"
     },
     {
-      "Identity": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\README.md",
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\README.md",
       "SourceId": "AlgoritmWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
       "BasePath": "_content/AlgoritmWeb",
       "RelativePath": "lib/jsTree/README.md",
       "AssetKind": "All",
@@ -1513,10 +1513,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jsTree\\README.md"
     },
     {
-      "Identity": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\src\\intro.js",
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\src\\intro.js",
       "SourceId": "AlgoritmWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
       "BasePath": "_content/AlgoritmWeb",
       "RelativePath": "lib/jsTree/src/intro.js",
       "AssetKind": "All",
@@ -1530,10 +1530,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jsTree\\src\\intro.js"
     },
     {
-      "Identity": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\src\\jstree.changed.js",
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\src\\jstree.changed.js",
       "SourceId": "AlgoritmWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
       "BasePath": "_content/AlgoritmWeb",
       "RelativePath": "lib/jsTree/src/jstree.changed.js",
       "AssetKind": "All",
@@ -1547,10 +1547,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jsTree\\src\\jstree.changed.js"
     },
     {
-      "Identity": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\src\\jstree.checkbox.js",
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\src\\jstree.checkbox.js",
       "SourceId": "AlgoritmWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
       "BasePath": "_content/AlgoritmWeb",
       "RelativePath": "lib/jsTree/src/jstree.checkbox.js",
       "AssetKind": "All",
@@ -1564,10 +1564,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jsTree\\src\\jstree.checkbox.js"
     },
     {
-      "Identity": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\src\\jstree.conditionalselect.js",
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\src\\jstree.conditionalselect.js",
       "SourceId": "AlgoritmWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
       "BasePath": "_content/AlgoritmWeb",
       "RelativePath": "lib/jsTree/src/jstree.conditionalselect.js",
       "AssetKind": "All",
@@ -1581,10 +1581,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jsTree\\src\\jstree.conditionalselect.js"
     },
     {
-      "Identity": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\src\\jstree.contextmenu.js",
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\src\\jstree.contextmenu.js",
       "SourceId": "AlgoritmWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
       "BasePath": "_content/AlgoritmWeb",
       "RelativePath": "lib/jsTree/src/jstree.contextmenu.js",
       "AssetKind": "All",
@@ -1598,10 +1598,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jsTree\\src\\jstree.contextmenu.js"
     },
     {
-      "Identity": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\src\\jstree.dnd.js",
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\src\\jstree.dnd.js",
       "SourceId": "AlgoritmWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
       "BasePath": "_content/AlgoritmWeb",
       "RelativePath": "lib/jsTree/src/jstree.dnd.js",
       "AssetKind": "All",
@@ -1615,10 +1615,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jsTree\\src\\jstree.dnd.js"
     },
     {
-      "Identity": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\src\\jstree.js",
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\src\\jstree.js",
       "SourceId": "AlgoritmWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
       "BasePath": "_content/AlgoritmWeb",
       "RelativePath": "lib/jsTree/src/jstree.js",
       "AssetKind": "All",
@@ -1632,10 +1632,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jsTree\\src\\jstree.js"
     },
     {
-      "Identity": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\src\\jstree.massload.js",
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\src\\jstree.massload.js",
       "SourceId": "AlgoritmWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
       "BasePath": "_content/AlgoritmWeb",
       "RelativePath": "lib/jsTree/src/jstree.massload.js",
       "AssetKind": "All",
@@ -1649,10 +1649,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jsTree\\src\\jstree.massload.js"
     },
     {
-      "Identity": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\src\\jstree.search.js",
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\src\\jstree.search.js",
       "SourceId": "AlgoritmWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
       "BasePath": "_content/AlgoritmWeb",
       "RelativePath": "lib/jsTree/src/jstree.search.js",
       "AssetKind": "All",
@@ -1666,10 +1666,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jsTree\\src\\jstree.search.js"
     },
     {
-      "Identity": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\src\\jstree.sort.js",
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\src\\jstree.sort.js",
       "SourceId": "AlgoritmWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
       "BasePath": "_content/AlgoritmWeb",
       "RelativePath": "lib/jsTree/src/jstree.sort.js",
       "AssetKind": "All",
@@ -1683,10 +1683,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jsTree\\src\\jstree.sort.js"
     },
     {
-      "Identity": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\src\\jstree.state.js",
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\src\\jstree.state.js",
       "SourceId": "AlgoritmWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
       "BasePath": "_content/AlgoritmWeb",
       "RelativePath": "lib/jsTree/src/jstree.state.js",
       "AssetKind": "All",
@@ -1700,10 +1700,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jsTree\\src\\jstree.state.js"
     },
     {
-      "Identity": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\src\\jstree.types.js",
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\src\\jstree.types.js",
       "SourceId": "AlgoritmWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
       "BasePath": "_content/AlgoritmWeb",
       "RelativePath": "lib/jsTree/src/jstree.types.js",
       "AssetKind": "All",
@@ -1717,10 +1717,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jsTree\\src\\jstree.types.js"
     },
     {
-      "Identity": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\src\\jstree.unique.js",
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\src\\jstree.unique.js",
       "SourceId": "AlgoritmWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
       "BasePath": "_content/AlgoritmWeb",
       "RelativePath": "lib/jsTree/src/jstree.unique.js",
       "AssetKind": "All",
@@ -1734,10 +1734,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jsTree\\src\\jstree.unique.js"
     },
     {
-      "Identity": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\src\\jstree.wholerow.js",
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\src\\jstree.wholerow.js",
       "SourceId": "AlgoritmWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
       "BasePath": "_content/AlgoritmWeb",
       "RelativePath": "lib/jsTree/src/jstree.wholerow.js",
       "AssetKind": "All",
@@ -1751,10 +1751,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jsTree\\src\\jstree.wholerow.js"
     },
     {
-      "Identity": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\src\\misc.js",
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\src\\misc.js",
       "SourceId": "AlgoritmWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
       "BasePath": "_content/AlgoritmWeb",
       "RelativePath": "lib/jsTree/src/misc.js",
       "AssetKind": "All",
@@ -1768,10 +1768,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jsTree\\src\\misc.js"
     },
     {
-      "Identity": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\src\\outro.js",
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\src\\outro.js",
       "SourceId": "AlgoritmWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
       "BasePath": "_content/AlgoritmWeb",
       "RelativePath": "lib/jsTree/src/outro.js",
       "AssetKind": "All",
@@ -1785,10 +1785,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jsTree\\src\\outro.js"
     },
     {
-      "Identity": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\src\\sample.js",
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\src\\sample.js",
       "SourceId": "AlgoritmWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
       "BasePath": "_content/AlgoritmWeb",
       "RelativePath": "lib/jsTree/src/sample.js",
       "AssetKind": "All",
@@ -1802,10 +1802,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jsTree\\src\\sample.js"
     },
     {
-      "Identity": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\src\\themes\\base.less",
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\src\\themes\\base.less",
       "SourceId": "AlgoritmWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
       "BasePath": "_content/AlgoritmWeb",
       "RelativePath": "lib/jsTree/src/themes/base.less",
       "AssetKind": "All",
@@ -1819,10 +1819,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jsTree\\src\\themes\\base.less"
     },
     {
-      "Identity": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\src\\themes\\default\\32px.png",
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\src\\themes\\default\\32px.png",
       "SourceId": "AlgoritmWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
       "BasePath": "_content/AlgoritmWeb",
       "RelativePath": "lib/jsTree/src/themes/default/32px.png",
       "AssetKind": "All",
@@ -1836,10 +1836,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jsTree\\src\\themes\\default\\32px.png"
     },
     {
-      "Identity": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\src\\themes\\default\\40px.png",
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\src\\themes\\default\\40px.png",
       "SourceId": "AlgoritmWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
       "BasePath": "_content/AlgoritmWeb",
       "RelativePath": "lib/jsTree/src/themes/default/40px.png",
       "AssetKind": "All",
@@ -1853,10 +1853,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jsTree\\src\\themes\\default\\40px.png"
     },
     {
-      "Identity": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\src\\themes\\default\\style.css",
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\src\\themes\\default\\style.css",
       "SourceId": "AlgoritmWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
       "BasePath": "_content/AlgoritmWeb",
       "RelativePath": "lib/jsTree/src/themes/default/style.css",
       "AssetKind": "All",
@@ -1870,10 +1870,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jsTree\\src\\themes\\default\\style.css"
     },
     {
-      "Identity": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\src\\themes\\default\\style.less",
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\src\\themes\\default\\style.less",
       "SourceId": "AlgoritmWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
       "BasePath": "_content/AlgoritmWeb",
       "RelativePath": "lib/jsTree/src/themes/default/style.less",
       "AssetKind": "All",
@@ -1887,10 +1887,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jsTree\\src\\themes\\default\\style.less"
     },
     {
-      "Identity": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\src\\themes\\default\\throbber.gif",
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\src\\themes\\default\\throbber.gif",
       "SourceId": "AlgoritmWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
       "BasePath": "_content/AlgoritmWeb",
       "RelativePath": "lib/jsTree/src/themes/default/throbber.gif",
       "AssetKind": "All",
@@ -1904,10 +1904,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jsTree\\src\\themes\\default\\throbber.gif"
     },
     {
-      "Identity": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\src\\themes\\default-dark\\32px.png",
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\src\\themes\\default-dark\\32px.png",
       "SourceId": "AlgoritmWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
       "BasePath": "_content/AlgoritmWeb",
       "RelativePath": "lib/jsTree/src/themes/default-dark/32px.png",
       "AssetKind": "All",
@@ -1921,10 +1921,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jsTree\\src\\themes\\default-dark\\32px.png"
     },
     {
-      "Identity": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\src\\themes\\default-dark\\40px.png",
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\src\\themes\\default-dark\\40px.png",
       "SourceId": "AlgoritmWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
       "BasePath": "_content/AlgoritmWeb",
       "RelativePath": "lib/jsTree/src/themes/default-dark/40px.png",
       "AssetKind": "All",
@@ -1938,10 +1938,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jsTree\\src\\themes\\default-dark\\40px.png"
     },
     {
-      "Identity": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\src\\themes\\default-dark\\style.css",
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\src\\themes\\default-dark\\style.css",
       "SourceId": "AlgoritmWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
       "BasePath": "_content/AlgoritmWeb",
       "RelativePath": "lib/jsTree/src/themes/default-dark/style.css",
       "AssetKind": "All",
@@ -1955,10 +1955,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jsTree\\src\\themes\\default-dark\\style.css"
     },
     {
-      "Identity": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\src\\themes\\default-dark\\style.less",
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\src\\themes\\default-dark\\style.less",
       "SourceId": "AlgoritmWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
       "BasePath": "_content/AlgoritmWeb",
       "RelativePath": "lib/jsTree/src/themes/default-dark/style.less",
       "AssetKind": "All",
@@ -1972,10 +1972,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jsTree\\src\\themes\\default-dark\\style.less"
     },
     {
-      "Identity": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\src\\themes\\default-dark\\throbber.gif",
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\src\\themes\\default-dark\\throbber.gif",
       "SourceId": "AlgoritmWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
       "BasePath": "_content/AlgoritmWeb",
       "RelativePath": "lib/jsTree/src/themes/default-dark/throbber.gif",
       "AssetKind": "All",
@@ -1989,10 +1989,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jsTree\\src\\themes\\default-dark\\throbber.gif"
     },
     {
-      "Identity": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\src\\themes\\main.less",
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\src\\themes\\main.less",
       "SourceId": "AlgoritmWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
       "BasePath": "_content/AlgoritmWeb",
       "RelativePath": "lib/jsTree/src/themes/main.less",
       "AssetKind": "All",
@@ -2006,10 +2006,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jsTree\\src\\themes\\main.less"
     },
     {
-      "Identity": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\src\\themes\\mixins.less",
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\src\\themes\\mixins.less",
       "SourceId": "AlgoritmWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
       "BasePath": "_content/AlgoritmWeb",
       "RelativePath": "lib/jsTree/src/themes/mixins.less",
       "AssetKind": "All",
@@ -2023,10 +2023,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jsTree\\src\\themes\\mixins.less"
     },
     {
-      "Identity": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\src\\themes\\responsive.less",
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\src\\themes\\responsive.less",
       "SourceId": "AlgoritmWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
       "BasePath": "_content/AlgoritmWeb",
       "RelativePath": "lib/jsTree/src/themes/responsive.less",
       "AssetKind": "All",
@@ -2040,10 +2040,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jsTree\\src\\themes\\responsive.less"
     },
     {
-      "Identity": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\src\\vakata-jstree.js",
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\src\\vakata-jstree.js",
       "SourceId": "AlgoritmWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
       "BasePath": "_content/AlgoritmWeb",
       "RelativePath": "lib/jsTree/src/vakata-jstree.js",
       "AssetKind": "All",
@@ -2057,10 +2057,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jsTree\\src\\vakata-jstree.js"
     },
     {
-      "Identity": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\test\\unit\\index.html",
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\test\\unit\\index.html",
       "SourceId": "AlgoritmWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
       "BasePath": "_content/AlgoritmWeb",
       "RelativePath": "lib/jsTree/test/unit/index.html",
       "AssetKind": "All",
@@ -2074,10 +2074,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jsTree\\test\\unit\\index.html"
     },
     {
-      "Identity": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\test\\unit\\libs\\qunit.css",
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\test\\unit\\libs\\qunit.css",
       "SourceId": "AlgoritmWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
       "BasePath": "_content/AlgoritmWeb",
       "RelativePath": "lib/jsTree/test/unit/libs/qunit.css",
       "AssetKind": "All",
@@ -2091,10 +2091,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jsTree\\test\\unit\\libs\\qunit.css"
     },
     {
-      "Identity": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\test\\unit\\libs\\qunit.js",
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\test\\unit\\libs\\qunit.js",
       "SourceId": "AlgoritmWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
       "BasePath": "_content/AlgoritmWeb",
       "RelativePath": "lib/jsTree/test/unit/libs/qunit.js",
       "AssetKind": "All",
@@ -2108,10 +2108,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jsTree\\test\\unit\\libs\\qunit.js"
     },
     {
-      "Identity": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\test\\unit\\test.js",
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\test\\unit\\test.js",
       "SourceId": "AlgoritmWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
       "BasePath": "_content/AlgoritmWeb",
       "RelativePath": "lib/jsTree/test/unit/test.js",
       "AssetKind": "All",
@@ -2125,10 +2125,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jsTree\\test\\unit\\test.js"
     },
     {
-      "Identity": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\test\\visual\\desktop\\index.html",
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\test\\visual\\desktop\\index.html",
       "SourceId": "AlgoritmWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
       "BasePath": "_content/AlgoritmWeb",
       "RelativePath": "lib/jsTree/test/visual/desktop/index.html",
       "AssetKind": "All",
@@ -2142,10 +2142,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jsTree\\test\\visual\\desktop\\index.html"
     },
     {
-      "Identity": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\test\\visual\\mobile\\index.html",
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\test\\visual\\mobile\\index.html",
       "SourceId": "AlgoritmWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
       "BasePath": "_content/AlgoritmWeb",
       "RelativePath": "lib/jsTree/test/visual/mobile/index.html",
       "AssetKind": "All",
@@ -2159,10 +2159,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jsTree\\test\\visual\\mobile\\index.html"
     },
     {
-      "Identity": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\test\\visual\\screenshots\\desktop\\.png",
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\test\\visual\\screenshots\\desktop\\.png",
       "SourceId": "AlgoritmWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
       "BasePath": "_content/AlgoritmWeb",
       "RelativePath": "lib/jsTree/test/visual/screenshots/desktop/.png",
       "AssetKind": "All",
@@ -2176,10 +2176,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jsTree\\test\\visual\\screenshots\\desktop\\.png"
     },
     {
-      "Identity": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\test\\visual\\screenshots\\desktop\\desktop.png",
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\test\\visual\\screenshots\\desktop\\desktop.png",
       "SourceId": "AlgoritmWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
       "BasePath": "_content/AlgoritmWeb",
       "RelativePath": "lib/jsTree/test/visual/screenshots/desktop/desktop.png",
       "AssetKind": "All",
@@ -2193,10 +2193,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jsTree\\test\\visual\\screenshots\\desktop\\desktop.png"
     },
     {
-      "Identity": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\test\\visual\\screenshots\\desktop\\home.png",
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\test\\visual\\screenshots\\desktop\\home.png",
       "SourceId": "AlgoritmWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
       "BasePath": "_content/AlgoritmWeb",
       "RelativePath": "lib/jsTree/test/visual/screenshots/desktop/home.png",
       "AssetKind": "All",
@@ -2210,10 +2210,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jsTree\\test\\visual\\screenshots\\desktop\\home.png"
     },
     {
-      "Identity": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\test\\visual\\screenshots\\mobile\\.png",
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\test\\visual\\screenshots\\mobile\\.png",
       "SourceId": "AlgoritmWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
       "BasePath": "_content/AlgoritmWeb",
       "RelativePath": "lib/jsTree/test/visual/screenshots/mobile/.png",
       "AssetKind": "All",
@@ -2227,10 +2227,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jsTree\\test\\visual\\screenshots\\mobile\\.png"
     },
     {
-      "Identity": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\test\\visual\\screenshots\\mobile\\home.png",
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\test\\visual\\screenshots\\mobile\\home.png",
       "SourceId": "AlgoritmWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
       "BasePath": "_content/AlgoritmWeb",
       "RelativePath": "lib/jsTree/test/visual/screenshots/mobile/home.png",
       "AssetKind": "All",
@@ -2244,10 +2244,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jsTree\\test\\visual\\screenshots\\mobile\\home.png"
     },
     {
-      "Identity": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\test\\visual\\screenshots\\mobile\\mobile.png",
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\lib\\jsTree\\test\\visual\\screenshots\\mobile\\mobile.png",
       "SourceId": "AlgoritmWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
       "BasePath": "_content/AlgoritmWeb",
       "RelativePath": "lib/jsTree/test/visual/screenshots/mobile/mobile.png",
       "AssetKind": "All",
@@ -2261,10 +2261,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jsTree\\test\\visual\\screenshots\\mobile\\mobile.png"
     },
     {
-      "Identity": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\png-transparent-comput.png",
+      "Identity": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\png-transparent-comput.png",
       "SourceId": "AlgoritmWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\home\\Source\\Repos\\Algoritm-T\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\New\\source\\repos\\Algoritm-T\\AT\\AlgoritmWebTest\\AlgoritmWeb\\wwwroot\\",
       "BasePath": "_content/AlgoritmWeb",
       "RelativePath": "png-transparent-comput.png",
       "AssetKind": "All",
