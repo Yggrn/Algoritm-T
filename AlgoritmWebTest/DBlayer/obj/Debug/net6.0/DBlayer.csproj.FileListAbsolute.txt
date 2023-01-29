@@ -1,0 +1,12 @@
+C:\Users\home\Source\Repos\Algoritm-T\AlgoritmWebTest\DBlayer\obj\Debug\net6.0\DBlayer.csproj.AssemblyReference.cache
+C:\Users\home\Source\Repos\Algoritm-T\AlgoritmWebTest\DBlayer\obj\Debug\net6.0\DBlayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\home\Source\Repos\Algoritm-T\AlgoritmWebTest\DBlayer\obj\Debug\net6.0\DBlayer.AssemblyInfoInputs.cache
+C:\Users\home\Source\Repos\Algoritm-T\AlgoritmWebTest\DBlayer\obj\Debug\net6.0\DBlayer.AssemblyInfo.cs
+C:\Users\home\Source\Repos\Algoritm-T\AlgoritmWebTest\DBlayer\obj\Debug\net6.0\DBlayer.csproj.CoreCompileInputs.cache
+C:\Users\home\Source\Repos\Algoritm-T\AlgoritmWebTest\DBlayer\bin\Debug\net6.0\DBlayer.deps.json
+C:\Users\home\Source\Repos\Algoritm-T\AlgoritmWebTest\DBlayer\bin\Debug\net6.0\DBlayer.dll
+C:\Users\home\Source\Repos\Algoritm-T\AlgoritmWebTest\DBlayer\bin\Debug\net6.0\DBlayer.pdb
+C:\Users\home\Source\Repos\Algoritm-T\AlgoritmWebTest\DBlayer\obj\Debug\net6.0\DBlayer.dll
+C:\Users\home\Source\Repos\Algoritm-T\AlgoritmWebTest\DBlayer\obj\Debug\net6.0\refint\DBlayer.dll
+C:\Users\home\Source\Repos\Algoritm-T\AlgoritmWebTest\DBlayer\obj\Debug\net6.0\DBlayer.pdb
+C:\Users\home\Source\Repos\Algoritm-T\AlgoritmWebTest\DBlayer\obj\Debug\net6.0\ref\DBlayer.dll

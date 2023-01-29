@@ -1,0 +1,15 @@
+C:\Users\home\Source\Repos\Algoritm-T\AlgoritmWebTest\AlgoritmWeb.Services\obj\Debug\net6.0\AlgoritmWeb.Services.csproj.AssemblyReference.cache
+C:\Users\home\Source\Repos\Algoritm-T\AlgoritmWebTest\AlgoritmWeb.Services\obj\Debug\net6.0\AlgoritmWeb.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\home\Source\Repos\Algoritm-T\AlgoritmWebTest\AlgoritmWeb.Services\obj\Debug\net6.0\AlgoritmWeb.Services.AssemblyInfoInputs.cache
+C:\Users\home\Source\Repos\Algoritm-T\AlgoritmWebTest\AlgoritmWeb.Services\obj\Debug\net6.0\AlgoritmWeb.Services.AssemblyInfo.cs
+C:\Users\home\Source\Repos\Algoritm-T\AlgoritmWebTest\AlgoritmWeb.Services\obj\Debug\net6.0\AlgoritmWeb.Services.csproj.CoreCompileInputs.cache
+C:\Users\home\Source\Repos\Algoritm-T\AlgoritmWebTest\AlgoritmWeb.Services\bin\Debug\net6.0\AlgoritmWeb.Services.deps.json
+C:\Users\home\Source\Repos\Algoritm-T\AlgoritmWebTest\AlgoritmWeb.Services\bin\Debug\net6.0\AlgoritmWeb.Services.dll
+C:\Users\home\Source\Repos\Algoritm-T\AlgoritmWebTest\AlgoritmWeb.Services\bin\Debug\net6.0\AlgoritmWeb.Services.pdb
+C:\Users\home\Source\Repos\Algoritm-T\AlgoritmWebTest\AlgoritmWeb.Services\bin\Debug\net6.0\AlgoritmWeb.DBlayer.dll
+C:\Users\home\Source\Repos\Algoritm-T\AlgoritmWebTest\AlgoritmWeb.Services\bin\Debug\net6.0\AlgoritmWeb.DBlayer.pdb
+C:\Users\home\Source\Repos\Algoritm-T\AlgoritmWebTest\AlgoritmWeb.Services\obj\Debug\net6.0\AlgoritmWeb.Services.csproj.CopyComplete
+C:\Users\home\Source\Repos\Algoritm-T\AlgoritmWebTest\AlgoritmWeb.Services\obj\Debug\net6.0\AlgoritmWeb.Services.dll
+C:\Users\home\Source\Repos\Algoritm-T\AlgoritmWebTest\AlgoritmWeb.Services\obj\Debug\net6.0\refint\AlgoritmWeb.Services.dll
+C:\Users\home\Source\Repos\Algoritm-T\AlgoritmWebTest\AlgoritmWeb.Services\obj\Debug\net6.0\AlgoritmWeb.Services.pdb
+C:\Users\home\Source\Repos\Algoritm-T\AlgoritmWebTest\AlgoritmWeb.Services\obj\Debug\net6.0\ref\AlgoritmWeb.Services.dll

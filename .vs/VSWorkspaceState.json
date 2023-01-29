@@ -1,10 +1,7 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\AlgoritmWebTest",
-    "\\AlgoritmWebTest\\AlgoritmWeb",
-    "\\AlgoritmWebTest\\AlgoritmWeb\\Controllers"
+    ""
   ],
-  "SelectedNode": "\\AlgoritmWebTest\\AlgoritmWeb\\Controllers\\AddOrganization.cs",
+  "SelectedNode": "\\AlgoritmWeb.sln (AlgoritmWebTest\\AlgoritmWeb.sln)",
   "PreviewInSolutionExplorer": false
 }
