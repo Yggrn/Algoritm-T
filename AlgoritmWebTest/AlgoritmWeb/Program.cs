@@ -1,4 +1,4 @@
-using AlgoritmWeb.Models;
+using DBLayer;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -7,7 +7,7 @@ string? connection = builder.Configuration.GetConnectionString("WebApiDatabase")
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-builder.Services.AddDbContext<ApplicationContext>(o => o.UseSqlServer(connection));
+builder.Services.AddDbContext<ApplicationDbContext>(o => o.UseSqlServer(connection));
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

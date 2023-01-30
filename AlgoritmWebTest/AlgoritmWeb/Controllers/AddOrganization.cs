@@ -49,7 +49,6 @@ namespace AlgoritmWeb.Controllers
                     for (int j = 0; j < _tab.restaurantSections[i].tables.Count; j++)
                     {
 
-
                         if (db.tables.Any(x => x.id == _tab.restaurantSections[i].tables[j].id && x.tID == _tab.restaurantSections[i].terminalGroupId.ToString()))
                         {
                             db.tables.Where(x => x.id == _tab.restaurantSections[i].tables[j].id && x.tID == _tab.restaurantSections[i].terminalGroupId.ToString()).ToList().ForEach(x =>

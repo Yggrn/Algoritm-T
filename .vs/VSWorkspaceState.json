@@ -3,7 +3,8 @@
     "",
     "\\AlgoritmWebTest",
     "\\AlgoritmWebTest\\AlgoritmWeb",
-    "\\AlgoritmWebTest\\AlgoritmWeb\\Controllers"
+    "\\AlgoritmWebTest\\AlgoritmWeb\\Controllers",
+    "\\APIcloud\\Classes"
   ],
   "SelectedNode": "\\AlgoritmWebTest\\AlgoritmWeb\\Controllers\\AddOrganization.cs",
   "PreviewInSolutionExplorer": false
