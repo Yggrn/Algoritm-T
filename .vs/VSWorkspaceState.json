@@ -4,8 +4,9 @@
     "\\AlgoritmWebTest",
     "\\AlgoritmWebTest\\AlgoritmWeb",
     "\\AlgoritmWebTest\\AlgoritmWeb\\Controllers",
-    "\\APIcloud\\Classes"
+    "\\AlgoritmWebTest\\DBLayer",
+    "\\AlgoritmWebTest\\DBLayer\\Entities"
   ],
-  "SelectedNode": "\\AlgoritmWebTest\\AlgoritmWeb\\Controllers\\AddOrganization.cs",
+  "SelectedNode": "\\AlgoritmWebTest\\DBLayer\\Entities\\TokenKey.cs",
   "PreviewInSolutionExplorer": false
 }
